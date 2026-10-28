@@ -1,0 +1,998 @@
+{
+  "success": true,
+  "result": {
+    "boards": [
+      {
+        "pcb": {
+          "itemType": "PCB",
+          "uuid": "a456c9db5ecb73a6",
+          "name": "PCB1",
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Tag"
+        },
+        "uuid": "7e4e5a7583645aed",
+        "name": "Tag",
+        "zIndex": 1,
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "d17e44ae3e07a7d0",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "9964ccdae00bdeb6",
+              "name": "p1",
+              "parentSchematicUuid": "d17e44ae3e07a7d0",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Tag",
+          "name": "schematic1"
+        },
+        "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+      },
+      {
+        "pcb": {
+          "itemType": "PCB",
+          "uuid": "4073973915e05746",
+          "name": "PCB2",
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Anchor"
+        },
+        "uuid": "972ce89fb0e827ad",
+        "name": "Anchor",
+        "zIndex": 3,
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "fff8ecc88c1d6f03",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "a2ae37ea91715ac4",
+              "name": "p1",
+              "parentSchematicUuid": "fff8ecc88c1d6f03",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Anchor",
+          "name": "schematic2"
+        },
+        "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+      }
+    ],
+    "document": {
+      "documentType": 1,
+      "uuid": "a2ae37ea91715ac4",
+      "tabId": "a2ae37ea91715ac4@2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+    },
+    "purpose": "read_only_context_identification",
+    "version": "3.2.149.88089769",
+    "project": {
+      "itemType": "Project",
+      "uuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+      "friendlyName": "UWB",
+      "name": "27eda/UWB",
+      "teamUuid": "df0ae4fc329a443c9b787a985dd04348",
+      "description": "",
+      "data": [
+        {
+          "itemType": "Board",
+          "name": "Tag",
+          "schematic": {
+            "itemType": "Schematic",
+            "uuid": "d17e44ae3e07a7d0",
+            "name": "Schematic1",
+            "page": [
+              {
+                "itemType": "Schematic Page",
+                "uuid": "9964ccdae00bdeb6",
+                "name": "P1",
+                "parentSchematicUuid": "d17e44ae3e07a7d0",
+                "showTitleBlock": true,
+                "titleBlockData": {
+                  "Symbol": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "Company": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "嘉立创EDA"
+                  },
+                  "Drawed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Reviewed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Part Number": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Version": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "V1.0"
+                  },
+                  "Page Size": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "A4"
+                  },
+                  "@Project Name": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "UWB"
+                  },
+                  "@Update Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-10-28"
+                  },
+                  "@Create Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-10-26"
+                  },
+                  "Device": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "@Board Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Tag"
+                  },
+                  "@Page Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "P1"
+                  },
+                  "@Create Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "17:36:00"
+                  },
+                  "@Page Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Page No": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Schematic Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Schematic1"
+                  },
+                  "@Update Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "00:01:25"
+                  },
+                  "@Assembly Variant": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Basic"
+                  },
+                  "Border": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "Title Block Position": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "3"
+                  },
+                  "Size": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "A4"
+                  },
+                  "Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1170"
+                  },
+                  "Height": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "825"
+                  },
+                  "Region Start": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "X Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "6"
+                  },
+                  "Y Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "4"
+                  },
+                  "Blade Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "10"
+                  },
+                  "Color": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Title Block": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Description": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "ID": {}
+                }
+              }
+            ],
+            "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+            "parentBoardName": "Tag"
+          },
+          "pcb": {
+            "itemType": "PCB",
+            "name": "PCB1",
+            "uuid": "a456c9db5ecb73a6",
+            "parentBoardName": "Tag",
+            "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+          },
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+        },
+        {
+          "itemType": "Board",
+          "name": "Anchor",
+          "schematic": {
+            "itemType": "Schematic",
+            "uuid": "fff8ecc88c1d6f03",
+            "name": "Schematic2",
+            "page": [
+              {
+                "itemType": "Schematic Page",
+                "uuid": "a2ae37ea91715ac4",
+                "name": "P1",
+                "parentSchematicUuid": "fff8ecc88c1d6f03",
+                "showTitleBlock": true,
+                "titleBlockData": {
+                  "Symbol": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "Company": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "嘉立创EDA"
+                  },
+                  "Drawed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Reviewed": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Part Number": {
+                    "showTitle": false,
+                    "showValue": true,
+                    "value": ""
+                  },
+                  "Version": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "V1.0"
+                  },
+                  "Page Size": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "A4"
+                  },
+                  "@Project Name": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "UWB"
+                  },
+                  "@Update Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-10-28"
+                  },
+                  "@Create Date": {
+                    "showTitle": false,
+                    "showValue": false,
+                    "value": "2026-10-28"
+                  },
+                  "Device": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Drawing-Symbol_A4"
+                  },
+                  "@Board Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Anchor"
+                  },
+                  "@Page Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "P1"
+                  },
+                  "@Create Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "16:05:34"
+                  },
+                  "@Page Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Page No": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": 1
+                  },
+                  "@Schematic Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Schematic2"
+                  },
+                  "@Update Time": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "16:05:34"
+                  },
+                  "@Assembly Variant": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "Basic"
+                  },
+                  "Border": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "Title Block Position": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "3"
+                  },
+                  "Size": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "A4"
+                  },
+                  "Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1655"
+                  },
+                  "Height": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1170"
+                  },
+                  "Region Start": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "X Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "6"
+                  },
+                  "Y Region Count": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "4"
+                  },
+                  "Blade Width": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "10"
+                  },
+                  "Color": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Title Block": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": "1"
+                  },
+                  "Name": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "Description": {
+                    "showTitle": null,
+                    "showValue": null,
+                    "value": ""
+                  },
+                  "ID": {}
+                }
+              }
+            ],
+            "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+            "parentBoardName": "Anchor"
+          },
+          "pcb": {
+            "itemType": "PCB",
+            "name": "PCB2",
+            "uuid": "4073973915e05746",
+            "parentBoardName": "Anchor",
+            "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+          },
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+        },
+        {
+          "itemType": "Panel",
+          "uuid": "8b0c8d8f794f12f1",
+          "name": "Panel1",
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+        }
+      ]
+    },
+    "schematic": {
+      "itemType": "Schematic",
+      "uuid": "fff8ecc88c1d6f03",
+      "page": [
+        {
+          "titleBlockData": {
+            "Symbol": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "Drawing-Symbol_A4"
+            },
+            "Company": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "嘉立创EDA"
+            },
+            "Drawed": {
+              "showTitle": false,
+              "showValue": true,
+              "value": ""
+            },
+            "Reviewed": {
+              "showTitle": false,
+              "showValue": true,
+              "value": ""
+            },
+            "Part Number": {
+              "showTitle": false,
+              "showValue": true,
+              "value": ""
+            },
+            "Version": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "V1.0"
+            },
+            "Page Size": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "A4"
+            },
+            "@Project Name": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "UWB"
+            },
+            "@Update Date": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "2026-10-28"
+            },
+            "@Create Date": {
+              "showTitle": false,
+              "showValue": false,
+              "value": "2026-10-28"
+            },
+            "Device": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "Drawing-Symbol_A4"
+            },
+            "@Board Name": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "Anchor"
+            },
+            "@Page Name": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "P1"
+            },
+            "@Create Time": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "16:05:34"
+            },
+            "@Page Count": {
+              "showTitle": null,
+              "showValue": null,
+              "value": 1
+            },
+            "@Page No": {
+              "showTitle": null,
+              "showValue": null,
+              "value": 1
+            },
+            "@Schematic Name": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "Schematic2"
+            },
+            "@Update Time": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "16:05:34"
+            },
+            "@Assembly Variant": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "Basic"
+            },
+            "Border": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "1"
+            },
+            "Title Block Position": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "3"
+            },
+            "Size": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "A4"
+            },
+            "Width": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "1655"
+            },
+            "Height": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "1170"
+            },
+            "Region Start": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "1"
+            },
+            "X Region Count": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "6"
+            },
+            "Y Region Count": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "4"
+            },
+            "Blade Width": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "10"
+            },
+            "Color": {
+              "showTitle": null,
+              "showValue": null,
+              "value": ""
+            },
+            "Title Block": {
+              "showTitle": null,
+              "showValue": null,
+              "value": "1"
+            },
+            "Name": {
+              "showTitle": null,
+              "showValue": null,
+              "value": ""
+            },
+            "Description": {
+              "showTitle": null,
+              "showValue": null,
+              "value": ""
+            },
+            "ID": {}
+          },
+          "showTitleBlock": true,
+          "itemType": "Schematic Page",
+          "uuid": "a2ae37ea91715ac4",
+          "name": "p1",
+          "parentSchematicUuid": "fff8ecc88c1d6f03"
+        }
+      ],
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentBoardName": "Anchor",
+      "name": "Schematic2"
+    },
+    "page": {
+      "name": "P1",
+      "itemType": "Schematic Page",
+      "uuid": "a2ae37ea91715ac4",
+      "parentSchematicUuid": "fff8ecc88c1d6f03",
+      "parentSchematicName": "Schematic2",
+      "showTitleBlock": true,
+      "titleBlockData": {
+        "Symbol": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "Drawing-Symbol_A4"
+        },
+        "Company": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "嘉立创EDA"
+        },
+        "Drawed": {
+          "showTitle": false,
+          "showValue": true,
+          "value": ""
+        },
+        "Reviewed": {
+          "showTitle": false,
+          "showValue": true,
+          "value": ""
+        },
+        "Part Number": {
+          "showTitle": false,
+          "showValue": true,
+          "value": ""
+        },
+        "Version": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "V1.0"
+        },
+        "Page Size": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "A4"
+        },
+        "@Project Name": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "UWB"
+        },
+        "@Update Date": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "2026-10-28"
+        },
+        "@Create Date": {
+          "showTitle": false,
+          "showValue": false,
+          "value": "2026-10-28"
+        },
+        "Device": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "Drawing-Symbol_A4"
+        },
+        "@Board Name": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "Anchor"
+        },
+        "@Page Name": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "P1"
+        },
+        "@Create Time": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "16:05:34"
+        },
+        "@Page Count": {
+          "showTitle": null,
+          "showValue": null,
+          "value": 1
+        },
+        "@Page No": {
+          "showTitle": null,
+          "showValue": null,
+          "value": 1
+        },
+        "@Schematic Name": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "Schematic2"
+        },
+        "@Update Time": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "16:05:34"
+        },
+        "@Assembly Variant": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "Basic"
+        },
+        "Border": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "1"
+        },
+        "Title Block Position": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "3"
+        },
+        "Size": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "A4"
+        },
+        "Width": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "1655"
+        },
+        "Height": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "1170"
+        },
+        "Region Start": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "1"
+        },
+        "X Region Count": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "6"
+        },
+        "Y Region Count": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "4"
+        },
+        "Blade Width": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "10"
+        },
+        "Color": {
+          "showTitle": null,
+          "showValue": null,
+          "value": ""
+        },
+        "Title Block": {
+          "showTitle": null,
+          "showValue": null,
+          "value": "1"
+        },
+        "Name": {
+          "showTitle": null,
+          "showValue": null,
+          "value": ""
+        },
+        "Description": {
+          "showTitle": null,
+          "showValue": null,
+          "value": ""
+        },
+        "ID": {}
+      }
+    },
+    "pages": [
+      {
+        "titleBlockData": {
+          "Symbol": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "Drawing-Symbol_A4"
+          },
+          "Company": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "嘉立创EDA"
+          },
+          "Drawed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Reviewed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Part Number": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Version": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "V1.0"
+          },
+          "Page Size": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "A4"
+          },
+          "@Project Name": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "UWB"
+          },
+          "@Update Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-28"
+          },
+          "@Create Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-28"
+          },
+          "Device": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Drawing-Symbol_A4"
+          },
+          "@Board Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Anchor"
+          },
+          "@Page Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "P1"
+          },
+          "@Create Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "16:05:34"
+          },
+          "@Page Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1
+          },
+          "@Page No": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1
+          },
+          "@Schematic Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Schematic2"
+          },
+          "@Update Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "16:05:34"
+          },
+          "@Assembly Variant": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Basic"
+          },
+          "Border": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "Title Block Position": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "3"
+          },
+          "Size": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "A4"
+          },
+          "Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1655"
+          },
+          "Height": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1170"
+          },
+          "Region Start": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "X Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "6"
+          },
+          "Y Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "4"
+          },
+          "Blade Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "10"
+          },
+          "Color": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Title Block": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Description": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "ID": {}
+        },
+        "showTitleBlock": true,
+        "itemType": "Schematic Page",
+        "uuid": "a2ae37ea91715ac4",
+        "name": "p1",
+        "parentSchematicUuid": "fff8ecc88c1d6f03"
+      }
+    ],
+    "schematicCreatedByThisScript": false,
+    "designChecksRunByThisScript": false
+  },
+  "windowId": "ca58128e-1ffd-4a8d-9b3e-d3adf1981a87"
+}

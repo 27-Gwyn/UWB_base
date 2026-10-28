@@ -1,0 +1,52 @@
+[
+  {
+    "part": "ESP",
+    "kind": "SYMBOL",
+    "unchanged": true
+  },
+  {
+    "part": "ESP",
+    "kind": "FOOTPRINT",
+    "unchanged": true
+  },
+  {
+    "part": "DW",
+    "kind": "SYMBOL",
+    "unchanged": true
+  },
+  {
+    "part": "DW",
+    "kind": "FOOTPRINT",
+    "unchanged": true
+  },
+  {
+    "part": "AMS",
+    "kind": "SYMBOL",
+    "unchanged": true
+  },
+  {
+    "part": "AMS",
+    "kind": "FOOTPRINT",
+    "unchanged": true
+  },
+  {
+    "part": "ESD",
+    "kind": "SYMBOL",
+    "unchanged": true
+  },
+  {
+    "part": "ESD",
+    "kind": "FOOTPRINT",
+    "unchanged": true
+  },
+  {
+    "part": "USB",
+    "kind": "SYMBOL",
+    "unchanged": true
+  },
+  {
+    "part": "USB",
+    "kind": "FOOTPRINT",
+    "unchanged": true
+  }
+]

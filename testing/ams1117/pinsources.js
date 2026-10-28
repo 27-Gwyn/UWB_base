@@ -1,0 +1,1 @@
+return {candidates:(await eda.lib_Device.search('AMS1117-3.3',undefined,undefined,undefined,30,1)).map(d=>({uuid:d.uuid,libraryUuid:d.libraryUuid,manufacturer:d.manufacturer,manufacturerId:d.manufacturerId,supplierId:d.supplierId,symbolUuid:d.symbolUuid,symbolName:d.symbolName,footprint:d.footprintName})),footprints:await eda.sys_FileManager.getDocumentFootprintSources()};

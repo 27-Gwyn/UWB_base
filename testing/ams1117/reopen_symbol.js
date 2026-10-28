@@ -1,0 +1,1 @@
+return {doc:await eda.dmt_SelectControl.getCurrentDocumentInfo(),t:await eda.lib_Symbol.openInEditor('dff4243c09a73712','37791cbda72543b4bd558b7340ee1b6c')};

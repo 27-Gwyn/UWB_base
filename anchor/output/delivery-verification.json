@@ -1,0 +1,20 @@
+{
+  "actual_components": 50,
+  "actual_pins": 204,
+  "nc_marks": 31,
+  "connection_and_library_result": "PASS",
+  "issues": [],
+  "drc_boolean": false,
+  "drc_summary": [
+    {
+      "type": "warn",
+      "count": 3
+    }
+  ],
+  "render_status": "FILES_VALID",
+  "render_pixels": [
+    4965,
+    3510
+  ],
+  "pdf_pages": 1
+}

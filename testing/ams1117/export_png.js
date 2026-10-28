@@ -1,0 +1,1 @@
+const f=await eda.sch_ManufactureData.getExportDocumentFile('AMS1117_5V_to_3V3','PNG',{theme:'Default',lineWidth:'Follow the Zoom Change'},'Current Schematic Page');if(!f)return {error:'undefined'};const a=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<a.length;i+=8192)s+=String.fromCharCode(...a.slice(i,i+8192));return {name:f.name,size:f.size,data:btoa(s)};

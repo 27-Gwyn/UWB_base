@@ -1,0 +1,45 @@
+{
+  "schema": "anchor-visual-audit-v1",
+  "status": "PASS_FOR_DRAFT_PRESENTATION",
+  "page_count": 1,
+  "format": "A3 landscape",
+  "pixels": [
+    4965,
+    3510
+  ],
+  "method": "24 real native EDA canvas captures, center-cropped and stitched. No schematic redrawing. Raster PDF rendered again with PDFium and inspected.",
+  "inspected": [
+    "final full canvas",
+    "power",
+    "MCU and unused-pin NC marks",
+    "USB connector/CC/ESD",
+    "DW3220 pins, supplies, oscillator and RF",
+    "UART/BOOT/RESET/test points",
+    "A3 PNG page boundary and tile seams",
+    "rendered one-page PDF"
+  ],
+  "corrections": [
+    "Moved oscillator to free bottom-center area and separated ground branches",
+    "Moved MCU names and switch labels clear of wires",
+    "Moved UWB_IRQ label below USB port and decoupling heading above supply leads",
+    "Removed overlapping duplicate wire text",
+    "Recaptured tile 1_0 after detecting native viewport scale change; recaptured two label tiles after final text edits"
+  ],
+  "electrical_validation": "204 actual exported pins compared separately; NC and source libraries checked independently",
+  "limitations": [
+    "PDF is a raster review copy, not native vector PDF. Native epro2 remains editable.",
+    "DRAFT antenna entities and qualified crystal are intentionally absent/DNP. Visual PASS does not approve the circuit for fabrication."
+  ],
+  "files": {
+    "Anchor_DRAFT_A3.png": "5878e4bec4cd40e6941c7328e3824c0275100e0eeced5e271bca00532818d0ae",
+    "Anchor_DRAFT_A3.pdf": "c11ea1f6a4d84ed86df88c2de1f110d76546befe312ce8a8f9c20b38c044429a",
+    "Anchor_preview.png": "a4ad854d66209786fc97888f94cdc71f4778d1cdf092230a329d5de1a9e58861",
+    "PDF-render-check.png": "dbeccd8d0f0a0035e00684c79162d5417ce1d86b4ef8c9d8c8b0797fb57cad57",
+    "final-full.png": "3efd64b6afcf036bc9e8c255e6979f694ef998d474dad9a598f7c58cbc24e349",
+    "power-dense.png": "e68d3288fe916a6421d870091ce5d58469b7393587f5f89453a8cd08539d0ad2",
+    "mcu-dense.png": "174b3dda4ee1381290d81d766f2a7fcd11357849ceeea000cc2c3464a2afef55",
+    "usb-dense.png": "d74a884f182f0d0477a164bc72dd11c0105be7cc8aa88b4fc820cc31d10c4489",
+    "dw_rf-dense.png": "144b5fa7fd468bbf14f57d9ab90fa8d06ec187f24234796564622cd588d13109",
+    "debug-dense.png": "4dbb3d565a573fc03e5d4370e24762979d3556adfc90777e08c8c1b7e264fae3"
+  }
+}

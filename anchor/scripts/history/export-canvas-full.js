@@ -1,0 +1,2 @@
+await eda.dmt_EditorControl.zoomToRegion(0,1655,1170,0);await new Promise(r=>setTimeout(r,700));
+const f=await eda.dmt_EditorControl.getCurrentRenderedAreaImage();const a=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<a.length;i+=8192)s+=String.fromCharCode(...a.slice(i,i+8192));return {data:btoa(s),mime:f.type,source:await eda.sys_FileManager.getDocumentSource(),drc_boolean:await eda.sch_Drc.check(true,false,false),drc_details:await eda.sch_Drc.check(true,false,true)};

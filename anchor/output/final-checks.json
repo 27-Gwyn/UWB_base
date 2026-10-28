@@ -1,0 +1,86 @@
+{
+  "schema": "anchor-final-checks-v1",
+  "identity": {
+    "project_uuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+    "board_uuid": "972ce89fb0e827ad",
+    "schematic_uuid": "fff8ecc88c1d6f03",
+    "page_uuid": "a2ae37ea91715ac4"
+  },
+  "single_page": true,
+  "reopened_same_page": true,
+  "reopen_all_records_semantically_equal": true,
+  "rounding_digits": 8,
+  "floating_serialization_differences": 5,
+  "export_matches_reopened_source_data_and_geometry": true,
+  "export_normalization": {
+    "ignored": "META/ELE_PLACEHOLDER, serializer zIndex and omitted strikeout=false; 8-decimal numeric rounding",
+    "unreferenced_deleted_wire_child_lines": [
+      "23e7638cfd320de9",
+      "1807cd796a0a119a"
+    ],
+    "note": "Native archive is unmodified; deleted document and primitive tombstones retained."
+  },
+  "nc_marks_in_native_package": 31,
+  "connections": {
+    "schema": "anchor-pin-comparison-v1",
+    "actual_source": "actual-netlist-final.json",
+    "expected_pins": 204,
+    "expected_components": 50,
+    "actual_components": 50,
+    "differences": [],
+    "result": "PASS",
+    "limitations": [
+      "NC verified separately from saved instance pin states; blank export alone is insufficient.",
+      "No populated multipart devices; no hidden symbol pins among selected parts, verified from library records.",
+      "Only Basic assembly variant is used. Y1 is excluded from assembly BOM pending crystal qualification.",
+      "Repeated footprint pad numbers are reconciled separately against embedded native library records."
+    ]
+  },
+  "library_checks_pass": true,
+  "drc": {
+    "fatal": 0,
+    "error": 0,
+    "warning": 3,
+    "info": 0,
+    "boolean": false,
+    "source": "Native EDA DRC panel accessibility text, 2026-10-28 18:28:55–18:28:56; later guarded API summary also 3 warnings",
+    "warnings": [
+      "ANT1_FEED_TBD single pin network",
+      "ANT2_FEED_TBD single pin network",
+      "component attributes differ from supplier database"
+    ],
+    "supplier_affected_references": [
+      "R1",
+      "SW1",
+      "SW2",
+      "SW3",
+      "D1",
+      "U1",
+      "C2",
+      "J1",
+      "U4",
+      "J2",
+      "J3",
+      "TP1",
+      "TP2",
+      "TP3",
+      "U3",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R34",
+      "FB1",
+      "C31",
+      "C32"
+    ]
+  },
+  "artifacts": {
+    "UWB_Anchor_DRAFT.epro2": "cae09d2a9eb4e7a391407e13e624e3ae69c9a2960fb87cc8eab7002418f233bc",
+    "Anchor_DRAFT_A3.png": "5878e4bec4cd40e6941c7328e3824c0275100e0eeced5e271bca00532818d0ae",
+    "Anchor_DRAFT_A3.pdf": "c11ea1f6a4d84ed86df88c2de1f110d76546befe312ce8a8f9c20b38c044429a",
+    "Anchor_actual.csv": "6b4c944c3f78042c6b210304c3690a4f37cbbbc1613cf2f1fdb44f3bbc36940e",
+    "actual-netlist-final.json": "7587e152b14e4c8dca3ef1176539e944c8af69ad80970cb5616e62695e539a01",
+    "drc-ui-tree-final.txt": "95baea19f121e3fa6e43a37e1eb474e03b6af20d92b5c535a6e07dc6945cdfd3"
+  }
+}

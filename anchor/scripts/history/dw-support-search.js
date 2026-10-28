@@ -1,0 +1,1 @@
+const out={};for(const k of ['BLM03PG330SN1D','GRM1555C1H3R3CA01D','GRM155R71C474KA88D','GRM155R71C224KA88D','GRM155R71H472KA01D'])out[k]=await eda.lib_Device.search(k,undefined,undefined,undefined,3,1);return out;

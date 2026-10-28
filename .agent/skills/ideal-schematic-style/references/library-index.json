@@ -1,0 +1,1025 @@
+{
+  "schema": "ideal-schematic-library-v1",
+  "reviewed_on": "2026-10-28",
+  "source_of_prior_index": "output/schematic-learning/reference-index.json",
+  "groups": {
+    "111": "用户自制；整体完成度获用户较高评价，不保证每个细节",
+    "222": "用户自制；与其余组共同学习",
+    "333": "开源下载；不因来源赋予质量优先级"
+  },
+  "evidence_limits": "PDF 图面观察；未核实完整连接、版本等价、原生 EDA 或 ERC",
+  "references": [
+    {
+      "id": "S001",
+      "path": "原理图参考库/111/51单片机核心板_参考资料.pdf",
+      "group": "111",
+      "sha256": "7c72b7560d70a28853d5bdedf7fcf2227f5187167e9cbe134cae7261aba13f28",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S001-p01.txt",
+          "text_sha256": "8f7c5549f181398bf68a8cab43391837831ce13ed7b2deff86ed3b3825cca3a0",
+          "render_file": "tmp/schematic-learning/render/S001-1.png",
+          "render_sha256": "b9ab857d340fdbc1d430ef31b38831777dfdcdf0e577286b33a3bef84c4ad260",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "供电/晶振/复位/核心/接口拼接；标题多在区块右下。"
+    },
+    {
+      "id": "S002",
+      "path": "原理图参考库/111/Critical Skill Project QTF_v1.1.pdf",
+      "group": "111",
+      "sha256": "748f13fec54365d57ae5e42b60def072f0bfe9f5cf807ea46e2fe789525b406e",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S002-p01.txt",
+          "text_sha256": "50d388198d9e4791ea02bd2559bc49c02b5c255d5286e8e18556f5806bd62da4",
+          "render_file": "tmp/schematic-learning/render/S002-1.png",
+          "render_sha256": "a945b9ff11a34b679f115acdfc449520dc71dc113d6ad9fd22383955f20988bc",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "电源上带与两种振荡区；区内较大留白，不能照抄空白比例。"
+    },
+    {
+      "id": "S003",
+      "path": "原理图参考库/111/Critical Skill Project QTF_v2.0.pdf",
+      "group": "111",
+      "sha256": "64c8feab791c6df8654fe46def3de50f0fa4001fbfb1348d012ee534e6ea7cc8",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S003-p01.txt",
+          "text_sha256": "4fc7387d1da45fb0ffb7b32b1ad70618b19f0f3442f5479e64877648e402366e",
+          "render_file": "tmp/schematic-learning/render/S003-1.png",
+          "render_sha256": "f51fbf78bc3427976fb84202109ecb68af1044815b10a0efb0e1a8205bb58821",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "电源、振荡方案、接口及小外设大小有别地分框。"
+    },
+    {
+      "id": "S004",
+      "path": "原理图参考库/111/DRV8701E_832501225_张东铸.pdf",
+      "group": "111",
+      "sha256": "0b6374cbdcce0dd1885f29f98904aa0606f035a5acce7cb0287afbd494df1409",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S004-p01.txt",
+          "text_sha256": "c0a670c2818cb6dc93726ae3f9a563ebacc81f6604b5f6e10b2247d73a5584d8",
+          "render_file": "tmp/schematic-learning/render/S004-1.png",
+          "render_sha256": "642d5c408f4373f1b8963e06920519229a3d3b0800af839b073dd979fad50ed8",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "Left Driver 自举、驱动与桥臂",
+              "normalized_crop_xyxy": [
+                0.01,
+                0.02,
+                0.4,
+                0.5
+              ],
+              "image": "tmp/schematic-learning/crops/S004-driver.png",
+              "storage": "project"
+            }
+          ]
+        }
+      ],
+      "observation": "双路驱动上下重复；右侧辅助区按职责拼接。"
+    },
+    {
+      "id": "S005",
+      "path": "原理图参考库/111/RoboCup人形竞技主控板v2.0.pdf",
+      "group": "111",
+      "sha256": "9e3c2e0592d62992767b1a341a41040181f095129fa7ebbe57e6bf251a9730cd",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1708.2,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S005-p01.txt",
+          "text_sha256": "6c4489165a153a48cf4545338a238a827f6d0b8baebd3232e3170c567ed7ce97",
+          "render_file": "tmp/schematic-learning/render/S005-1.png",
+          "render_sha256": "52de112b8a0a4514933380e66d7a636c1d991d221f019ec69d62a922ee2a1b5e",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "宽幅主控总览；核心/支持/供电/接口分区，右侧部分在图签框外。"
+    },
+    {
+      "id": "S006",
+      "path": "原理图参考库/111/RoboCup人形竞技拓展板v1.0.pdf",
+      "group": "111",
+      "sha256": "35e55e9790d32273a1536940b69b53b72f2faad7e4884684474d977ac01b594f",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1396.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S006-p01.txt",
+          "text_sha256": "1b99d4092527ce3a2043af41072000de8395c83c8bf809d99a4bec2efb9b7d37",
+          "render_file": "tmp/schematic-learning/render/S006-1.png",
+          "render_sha256": "e2b03d7336d9d5cf73d3cc401a8f47886387859e9ca0831e52c11e18827c5c57",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "扩展接口家族、供电、转换分区；右侧部分在图签框外。"
+    },
+    {
+      "id": "S007",
+      "path": "原理图参考库/111/STC32G144_参考资料.pdf",
+      "group": "111",
+      "sha256": "c17bfc1f06633f246d71c5f9077a1e19026b0a1044895d15611859f0678e304c",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1450.08,
+          "height_pt": 1446.48,
+          "text_file": "tmp/schematic-learning/text/S007-p01.txt",
+          "text_sha256": "b6ec822e86a6ebf986f5ee3cd26696b5fa294a744dac419eb02612f68668c9c5",
+          "render_file": "tmp/schematic-learning/render/S007-1.png",
+          "render_sha256": "8e4ec04bd5e5890732ee0493ebae7d7b6cbe38058a800853aaf823e6300d4268",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "全页更大阅读比例：密集上部与下部留白",
+              "normalized_crop_xyxy": [
+                0,
+                0,
+                1,
+                1
+              ],
+              "image": "tmp/schematic-learning/crops/S007-page.png",
+              "storage": "project"
+            }
+          ]
+        }
+      ],
+      "observation": "近方形页；上部按功能拼接，下方大片留白，非理想密度定额。"
+    },
+    {
+      "id": "S008",
+      "path": "原理图参考库/111/STM32F407核心板.pdf",
+      "group": "111",
+      "sha256": "28075ddb43891e42c0a413a2ee14694efc7a3bdb6cc54130afc5ff6329a1569e",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S008-p01.txt",
+          "text_sha256": "ea593b750ed535599afd1febdf8388131ced1db7c17b02fdcbf62116b32f1148",
+          "render_file": "tmp/schematic-learning/render/S008-1.png",
+          "render_sha256": "b098c31b80e842eebe514280bf6a640f557058c3562c52c854e7c942ea4d39fd",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "电源单元/电容阵列/复位启动/调试",
+              "normalized_crop_xyxy": [
+                0.36,
+                0.3,
+                0.81,
+                0.83
+              ],
+              "image": "tmp/schematic-learning/crops/S008-support.png",
+              "storage": "project"
+            }
+          ]
+        }
+      ],
+      "observation": "核心主区、独立电源单元及电容阵列、支持/排针分区。"
+    },
+    {
+      "id": "S009",
+      "path": "原理图参考库/111/TC264_Main_832501225_张东铸.pdf",
+      "group": "111",
+      "sha256": "5069f74686293c2a316d8fc054172e0c038c5068269e44687bf7d69fc6e92fb4",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1619.28,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S009-p01.txt",
+          "text_sha256": "f94b08d647860460073e684a34868c1b83ea803e248e1e10e7d055992d2f128a",
+          "render_file": "tmp/schematic-learning/render/S009-1.png",
+          "render_sha256": "7c3ebd2bbae01936e90495a407d0e4524a3b35cac1fb47f74a6ceb7df5bcaa9c",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "宽幅核心与接口映射/供电区；右侧内容超出图签框。"
+    },
+    {
+      "id": "S010",
+      "path": "原理图参考库/111/USB3.0拓展坞.pdf",
+      "group": "111",
+      "sha256": "5eb607054ab0ea4385e84c120d4f5dede05fde889feecdbb3523d2f0772dc5bc",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S010-p01.txt",
+          "text_sha256": "4e7b47429ff4eb944a922a2c29b1daebb1bb163cb24749efa012d5896017ad3a",
+          "render_file": "tmp/schematic-learning/render/S010-1.png",
+          "render_sha256": "1696d5f2b060e38e4410b2d00a357c007f4f51692ac6bdcb673a9ff5c80e4468",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "主 IC 全体及右侧密集字段",
+              "normalized_crop_xyxy": [
+                0.02,
+                0.02,
+                0.42,
+                0.49
+              ],
+              "image": "references/figures/S010-dense.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "主 IC/端口重复分区；主 IC 右侧字段/网络名挤压。"
+    },
+    {
+      "id": "S011",
+      "path": "原理图参考库/111/UWB_tag.pdf",
+      "group": "111",
+      "sha256": "c6ed30416ca6d49f9d804c3b9228332822eb06914f1d9c5523e61113f026198c",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S011-p01.txt",
+          "text_sha256": "b9000e7106193fdd9be6fddbb8272dff9eb49c481ab7441d4c9745386a4ee9dc",
+          "render_file": "tmp/schematic-learning/render/S011-1.png",
+          "render_sha256": "f76668af603ba42e91cbfe0ef691daacc9fd3e92235549ea5f156c493111781c",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "USB 串口及机械区邻界",
+              "normalized_crop_xyxy": [
+                0.39,
+                0.37,
+                0.99,
+                0.77
+              ],
+              "image": "references/figures/S011-usb.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "MCU、USB、无线、按键、串口、供电与机械区；局部连线与标签并用。"
+    },
+    {
+      "id": "S012",
+      "path": "原理图参考库/222/5V_BUCK模块.pdf",
+      "group": "222",
+      "sha256": "cabcbf02ac82663e3eeed6b3fb49c265a0a232d41b58d181c7c3950ac8e268b8",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S012-p01.txt",
+          "text_sha256": "d23ba69e42552e219168617653021103d4d375dd524ffe5a593338a40fdb4e9a",
+          "render_file": "tmp/schematic-learning/render/S012-1.png",
+          "render_sha256": "37d81077265f9e167eaf263a459a62fa32252b051425ffad6678e2ad8196088e",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "小 BUCK 位于大页左上，另有连接器；不能把大片空白当风格要求。"
+    },
+    {
+      "id": "S013",
+      "path": "原理图参考库/222/BUCK_TEST.pdf",
+      "group": "222",
+      "sha256": "54241d6086eb3bdda6a0ffdf8abcb7fa1e5344a6230cde77bb9e95006318ed37",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S013-p01.txt",
+          "text_sha256": "48ef11f5dedbe2b03f920de34e3110a72adc6085d50ce622cd46dede3bc01f21",
+          "render_file": "tmp/schematic-learning/render/S013-1.png",
+          "render_sha256": "7208550fa44f5556ab386ad302a23134f88c04e62594a777e5673817074ce5fe",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "与 S012 图面近似但哈希不同；仅图面可比，未证实等价。"
+    },
+    {
+      "id": "S014",
+      "path": "原理图参考库/222/BUCK电源模块设计.pdf",
+      "group": "222",
+      "sha256": "b36bbcf4a98c2ca87b500a0e6fbce761b995e7c79130845e2dedcf28578d5948",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S014-p01.txt",
+          "text_sha256": "7e15f089a3c9d0d2f47ecb0c0e83a3f455923bb6d2d385009b1cfc3837666042",
+          "render_file": "tmp/schematic-learning/render/S014-1.png",
+          "render_sha256": "5076d165f91923a2d8a0433842ec2be921ba7e25d20b811a4354d667c3316a16",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "电感、输出与反馈返回",
+              "normalized_crop_xyxy": [
+                0.22,
+                0.1,
+                0.8,
+                0.44
+              ],
+              "image": "tmp/schematic-learning/crops/S014-feedback.png",
+              "storage": "project"
+            }
+          ]
+        }
+      ],
+      "observation": "小 BUCK 主路径和反馈返回可见，外围接口/机械对象独立。"
+    },
+    {
+      "id": "S015",
+      "path": "原理图参考库/222/Critical Skill Project  QTF_v1.0.pdf",
+      "group": "222",
+      "sha256": "f4c66f13ca9ab5cb21c1f1957fc3ee730e9d857d619b01cb3059e634901d83a4",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S015-p01.txt",
+          "text_sha256": "0ef3949eefc1e283f633e1170995b0c64e5d0eec0534d7b82f5d487a2a516151",
+          "render_file": "tmp/schematic-learning/render/S015-1.png",
+          "render_sha256": "3438eaa9563b8a06e3337e5d18fd32aad347cb6c74aa03cb4099098159e0539f",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "单振荡电路与机械对象；内容少，留白占比大。"
+    },
+    {
+      "id": "S016",
+      "path": "原理图参考库/222/FOC驱动板_DEV8303.pdf",
+      "group": "222",
+      "sha256": "99d02b7b638918a7b8aeecc619ce9f5985f73e0cb5d1e66dc702d3e46189db6d",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S016-p01.txt",
+          "text_sha256": "7e76df6fcd15e3f5c5b853767d122f69ee34a75085813d4e3ee20e00a68e5db3",
+          "render_file": "tmp/schematic-learning/render/S016-1.png",
+          "render_sha256": "4d57d517cbdb426a15ddd1b8f26baa3644fa030dd3231f9c1cbcef5dad7d673e",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "三相桥臂及可见支路差异",
+              "normalized_crop_xyxy": [
+                0.52,
+                0.23,
+                0.99,
+                0.5
+              ],
+              "image": "references/figures/S016-phases.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "驱动 IC、三相开关与控制映射；三相支路有真实可见差异。"
+    },
+    {
+      "id": "S017",
+      "path": "原理图参考库/222/RoboCup人形竞技主控板v1.0.pdf",
+      "group": "222",
+      "sha256": "f849a6802cb502298ab909f6a033d25d96a42f202e00584580bbbd3ce8b428ec",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S017-p01.txt",
+          "text_sha256": "a2650a110a24ee047dee8b33fad962f9fa4a0311711eb624e6f195c1d60b9fe6",
+          "render_file": "tmp/schematic-learning/render/S017-1.png",
+          "render_sha256": "cda4d4fb537694616a2cad0513fd19b75cb1e3d4736cfbfaee63c9a447f5b289",
+          "overview_reviewed": true,
+          "local_reviews": []
+        },
+        {
+          "page": 2,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S017-p02.txt",
+          "text_sha256": "93cabad590ac08ef9c83159764517f5e71afe822196bb7e0384060133d3bfe0c",
+          "render_file": "tmp/schematic-learning/render/S017-2.png",
+          "render_sha256": "62be0c017de472ba02551e7559f9914f70030b21114baa95a9d571fe1a8b420c",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "p1 核心/支持/电源分框；p2 通信与小外设在上带，余部留白。"
+    },
+    {
+      "id": "S018",
+      "path": "原理图参考库/222/RoboCup人形竞技主控板v1.1.pdf",
+      "group": "222",
+      "sha256": "38e1f78659a6dc4484976052be18a672347edb32e3d2d0fe33cc81ae10982712",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S018-p01.txt",
+          "text_sha256": "1819cd05f34c46afc4bd4bde2c7397861f7b8a10bed87bdcb628274089eeebee",
+          "render_file": "tmp/schematic-learning/render/S018-1.png",
+          "render_sha256": "d00c4d78b69c6e0f7798d8a31efadf6db0b231a633087546b573f7cc418b9a76",
+          "overview_reviewed": true,
+          "local_reviews": []
+        },
+        {
+          "page": 2,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S018-p02.txt",
+          "text_sha256": "33492f4a434c4c43fadf5f05e30a558784af73e43b24b220c89c64a89a49072e",
+          "render_file": "tmp/schematic-learning/render/S018-2.png",
+          "render_sha256": "7f9a3477b74c842485b00a828f26ccb2d3897840d15dd14d197fbcc1599f2874",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "p1 核心与支持分区；p2 通信/接口分散，非同页密度模板。"
+    },
+    {
+      "id": "S019",
+      "path": "原理图参考库/222/RoboCup人形竞技分电板.pdf",
+      "group": "222",
+      "sha256": "17cb260889b428e1e3a8d291c4d4aeb998c89e5a7faf4012d4a20ae4fb622813",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S019-p01.txt",
+          "text_sha256": "783e753e278f55d31dd4fe7250cbc07794467d37bd3d2a7a458f58c2507e6746",
+          "render_file": "tmp/schematic-learning/render/S019-1.png",
+          "render_sha256": "9f053d93b37f3567677faf670dfafd00cb1b8f9796d02298bab26ab872ca0a08",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "分电支路局部可见，少量电路位于大页左上。"
+    },
+    {
+      "id": "S020",
+      "path": "原理图参考库/222/RoboCup人形竞技拓展板v2.0.pdf",
+      "group": "222",
+      "sha256": "4b44e32d77506029d7242f7b09d69b2bd77a949375ef65d3a1fe966e55ff583c",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S020-p01.txt",
+          "text_sha256": "0225e71fe51031d8514bd5bd4735be7c29013d85e261903993142ca94a4facc9",
+          "render_file": "tmp/schematic-learning/render/S020-1.png",
+          "render_sha256": "65d5838042da3fa3d4e0133d807c7e64264a98417071ae643f6563ae5e619d69",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "扩展板主要靠留白/标题分组，接口/供电未全部套框。"
+    },
+    {
+      "id": "S021",
+      "path": "原理图参考库/222/基于STM32的多功能简易示波器抄板.pdf",
+      "group": "222",
+      "sha256": "edfed11bb9faefe5d8470f168c176e19b77436528456f5e052cb1061a5cc9034",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1194.48,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S021-p01.txt",
+          "text_sha256": "f7b74be8ab78fb0eea0789a78a0a4db3a95ac524c67fb4895e7a222f2618b22f",
+          "render_file": "tmp/schematic-learning/render/S021-1.png",
+          "render_sha256": "26ad9b4e1cb81f8bea42a080ccd88d3c412d7b7e22e4e0106428f3547c34d25b",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "上部模拟链、反馈及邻近通道",
+              "normalized_crop_xyxy": [
+                0.01,
+                0.01,
+                0.51,
+                0.38
+              ],
+              "image": "references/figures/S021-analog.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "无框模拟调理，连续前向与反馈、对应通道并列。"
+    },
+    {
+      "id": "S022",
+      "path": "原理图参考库/222/板球控制系统_主控板底板_v1.0.pdf",
+      "group": "222",
+      "sha256": "1ca43a026fb2058ca5bce44b1af9056ff87398a8f97e27e3c89ab826aab91d97",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S022-p01.txt",
+          "text_sha256": "6994b4eeea8d40bc4b5512753ec28b5f871ca53b45a2a8287aeaee612883b57d",
+          "render_file": "tmp/schematic-learning/render/S022-1.png",
+          "render_sha256": "556175dda1e80cb83ea979af01e67b8a9e09b36c16f8faf485fc43ef2262a7a8",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "电源支路标签分离及邻界",
+              "normalized_crop_xyxy": [
+                0.62,
+                0.4,
+                0.99,
+                0.72
+              ],
+              "image": "tmp/schematic-learning/crops/S022-feedback.png",
+              "storage": "project"
+            }
+          ]
+        }
+      ],
+      "observation": "接口映射区与电源区；右上大空框，右下支路采用标签分离。"
+    },
+    {
+      "id": "S023",
+      "path": "原理图参考库/222/板球控制系统_主控板底板_v1.1.pdf",
+      "group": "222",
+      "sha256": "4984a0b0a640d7c2e9d20380a8badb231b42f9bcbc0b87431a6207ddd6ded789",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 990.0,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S023-p01.txt",
+          "text_sha256": "d84ef0ec3115b64ff783fb13ab5e8b867babc0fda0ff97b9d32eaa3df41a0643",
+          "render_file": "tmp/schematic-learning/render/S023-1.png",
+          "render_sha256": "571f803025744cfd7c90257723e6d5929f287c73f8d0b7777c028b1ebdd496fb",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "图签右边界及框外 U7",
+              "normalized_crop_xyxy": [
+                0.72,
+                0.08,
+                0.995,
+                0.35
+              ],
+              "image": "references/figures/S023-edge.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "无框分组；右侧有独立 U7 越出图签框，意图未确认。"
+    },
+    {
+      "id": "S024",
+      "path": "原理图参考库/222/焊接练习板.pdf",
+      "group": "222",
+      "sha256": "ec0f4fab13c2a4c96594bdfe4ccf2b0db628dae838e568f5b855fe5f1c10c651",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1735.2,
+          "height_pt": 1167.12,
+          "text_file": "tmp/schematic-learning/text/S024-p01.txt",
+          "text_sha256": "85547de96901968fe640a692e052d180a8c1991839585cc667009fac9f89f51b",
+          "render_file": "tmp/schematic-learning/render/S024-1.png",
+          "render_sha256": "3b9552c37a20ca1773f853c18404a2f37eea52c2d92b89bdde1edf0b9e343166",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "练习板器件阵列/分散对象大量在图签框外；不作为完成构图模板。"
+    },
+    {
+      "id": "S025",
+      "path": "原理图参考库/222/篮球机器人舵轮_CAN分线板.pdf",
+      "group": "222",
+      "sha256": "297daadb6333224a19398e950a5b750307dde249ee59b7e676b5e608894e06e5",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S025-p01.txt",
+          "text_sha256": "a17266aab8b5e7169dcb7ee5c072c93a28007df7d93470c6370969f91a1d550f",
+          "render_file": "tmp/schematic-learning/render/S025-1.png",
+          "render_sha256": "0607b5d0d2fd6ebb2b9d5bd43ae50bd78833dd1a5090c84b3d9e308f5b82e9d3",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "CAN 接口分支局部集中，整页留白较多。"
+    },
+    {
+      "id": "S026",
+      "path": "原理图参考库/222/篮球机器人舵轮_分电板.pdf",
+      "group": "222",
+      "sha256": "1bf46fca0448fe5715aecde8c91096061c79fda50a513ef097656582ae4bfc9d",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1198.08,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S026-p01.txt",
+          "text_sha256": "a4f21a41093f6735c6280580b5cd9e1e6d12241889f06e5a8d4301c0d752e9fb",
+          "render_file": "tmp/schematic-learning/render/S026-1.png",
+          "render_sha256": "a09b11932bdb8515bf30da0801575d5cd02e22b19b7a9540c95e69d724256fcd",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "电源接口规则分配，少量内容在左上；不规定最少填充率。"
+    },
+    {
+      "id": "S027",
+      "path": "原理图参考库/222/纯硬件循迹小车.pdf",
+      "group": "222",
+      "sha256": "e6c1bc0c58ff2dd41a5378e5b8f41953a282b3deb42529f97332048f1c0dc5cc",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S027-p01.txt",
+          "text_sha256": "c71b6b230a4e531bcf6734e7fb2eddd1de0ccd5455aee492dc13ef40982a6716",
+          "render_file": "tmp/schematic-learning/render/S027-1.png",
+          "render_sha256": "42c3066b6f9bfdda320eb1a4b9d53d37b75ec506b98a7193167e2718cd322e7d",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "左右负载完整重复单元",
+              "normalized_crop_xyxy": [
+                0.01,
+                0.1,
+                0.55,
+                0.45
+              ],
+              "image": "references/figures/S027-pair.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "左右负载单元对齐，控制/检测与供电在周围；完整单元重复。"
+    },
+    {
+      "id": "S028",
+      "path": "原理图参考库/333/LM5069热插拔保护模块.pdf",
+      "group": "333",
+      "sha256": "fce433a2dee5ff5fa9b97b98ea2aed7a5d48f7d95feb6c1de9376f18949f8eb7",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 848.88,
+          "height_pt": 600.48,
+          "text_file": "tmp/schematic-learning/text/S028-p01.txt",
+          "text_sha256": "b9cc8935f98b2cdd43c02bae5eda0e0f6d3e2fc92e3fca92ff08efeb7bc56717",
+          "render_file": "tmp/schematic-learning/render/S028-1.png",
+          "render_sha256": "ab4de9351db65d8346ddfb0612de6b8fe4acdd6fda40bd513af46b28d52ec895",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "功率主路及控制/检测支路",
+              "normalized_crop_xyxy": [
+                0.21,
+                0.13,
+                0.85,
+                0.6
+              ],
+              "image": "references/figures/S028-power.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "上方功率直通，控制/检测支路下展，无模块框仍可追踪。"
+    },
+    {
+      "id": "S029",
+      "path": "原理图参考库/333/SCH_F407V_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "cfdaa268e6e399a1d42a00a5cef7ee6a8a9f263ce0e319a9360bb2a01d5003e3",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1460.16,
+          "height_pt": 848.88,
+          "text_file": "tmp/schematic-learning/text/S029-p01.txt",
+          "text_sha256": "cde910dbc0c1f42affd2814b21984913c4e3d4eb4532485768dc0e38612cf801",
+          "render_file": "tmp/schematic-learning/render/S029-1.png",
+          "render_sha256": "0ebe74e44661760109fcf5499fb09c3ff5b1a6486adf4de0714bdd0fff449cf5",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "核心/外设用文字及留白组织；右侧接口在图签框外。"
+    },
+    {
+      "id": "S030",
+      "path": "原理图参考库/333/SCH_RM2024_G473_MCB_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "d6ecd28c2787024031336d27d0d09e2694e8cf73a138aeeb87a9f70b21b173b4",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1140.34,
+          "height_pt": 791.68,
+          "text_file": "tmp/schematic-learning/text/S030-p01.txt",
+          "text_sha256": "02932d90546c8de495313a50ac9ec6fbad2448d78155ad80228a4136a64c4e15",
+          "render_file": "tmp/schematic-learning/render/S030-1.png",
+          "render_sha256": "80e6d498691987cab04df390ee4e4cf4ca45fd3a08426239af31114e9f5051cd",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "Transceivers 的 CAN/RS485 重复与映射",
+              "normalized_crop_xyxy": [
+                0.25,
+                0.02,
+                0.48,
+                0.6
+              ],
+              "image": "references/figures/S030-transceivers.png",
+              "storage": "skill"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "width_pt": 791.68,
+          "height_pt": 545.06,
+          "text_file": "tmp/schematic-learning/text/S030-p02.txt",
+          "text_sha256": "801cf756890d5827d92c78945d7786ff658518f7b6f05879200510308004149f",
+          "render_file": "tmp/schematic-learning/render/S030-2.png",
+          "render_sha256": "7b8970f7a7f320fe87390f12dbe379d323fa1461d852419ab87e56a028bef1f8",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "p1 高密度职责分框与收发器重复；p2 独立电源链。"
+    },
+    {
+      "id": "S031",
+      "path": "原理图参考库/333/SCH_RM2024_G473_MCB_Debugger_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "4ec397d4b4d98c36b91f3c41494fe79aab3288639b0a0d1ecfe811f4191c7ca3",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 791.68,
+          "height_pt": 545.06,
+          "text_file": "tmp/schematic-learning/text/S031-p01.txt",
+          "text_sha256": "57c5657aaf05cb9c0cd7a363ea740e0db1d4c1716291d16ef0ecbfbeec51d957",
+          "render_file": "tmp/schematic-learning/render/S031-1.png",
+          "render_sha256": "eb8b41e35bd726bb0bfc845a758d8417128b20a67ed510eb942506cb2450be9a",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "调试/显示与接口局部散布，不能由空白判定应合页。"
+    },
+    {
+      "id": "S032",
+      "path": "原理图参考库/333/SCH_RM2024_G473_MCB_EngExtend_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "16b727bd87b253fa2a23ed5c447c07711d693004b64a12de4093d468daacf7b7",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1140.34,
+          "height_pt": 791.68,
+          "text_file": "tmp/schematic-learning/text/S032-p01.txt",
+          "text_sha256": "89c8a778ead214bd2ad18dbc38395cd14334e8eeb3571858ca65be8c23a8f415",
+          "render_file": "tmp/schematic-learning/render/S032-1.png",
+          "render_sha256": "42d5c3edb17e982440f5a85d049a75c4868ee9fcf6aa7b9ffe16dfab192a7bc3",
+          "overview_reviewed": true,
+          "local_reviews": []
+        },
+        {
+          "page": 2,
+          "width_pt": 791.68,
+          "height_pt": 545.06,
+          "text_file": "tmp/schematic-learning/text/S032-p02.txt",
+          "text_sha256": "4d76ee3bdf3a6d50ae1dff0c72529c89b8a28698a12de3637e644904358db6d4",
+          "render_file": "tmp/schematic-learning/render/S032-2.png",
+          "render_sha256": "2f02794515b38b3f29627ef24c716865de1c088ef9de598cba9ac2d95528e613",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "桥式传感器与多路调理",
+              "normalized_crop_xyxy": [
+                0.01,
+                0.04,
+                0.89,
+                0.75
+              ],
+              "image": "tmp/schematic-learning/crops/S032-bridge.png",
+              "storage": "project"
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "width_pt": 791.68,
+          "height_pt": 545.06,
+          "text_file": "tmp/schematic-learning/text/S032-p03.txt",
+          "text_sha256": "65d68ef2b23e14e25dea74f6205f69b9324efa5a2212b7650281995c66610b1b",
+          "render_file": "tmp/schematic-learning/render/S032-3.png",
+          "render_sha256": "30155533528df3d9a67d8bd38043828b8afce11346802a4045fc7c076ff63d79",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "p1 扩展执行器/接口；p2 桥式传感器与调理；p3 功率及接口。"
+    },
+    {
+      "id": "S033",
+      "path": "原理图参考库/333/SCH_RM2024_G473_MCB_StdExtend_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "49dd8c1903d841b1ddbadecc44257b9d2c9225e313c644ae53a6b83f9aa9ed02",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1140.34,
+          "height_pt": 791.68,
+          "text_file": "tmp/schematic-learning/text/S033-p01.txt",
+          "text_sha256": "f8c45771af66e06e6a49260f563eaac29fe5cbeef0f6deb9ee8339b7ec51fab5",
+          "render_file": "tmp/schematic-learning/render/S033-1.png",
+          "render_sha256": "6821370faafaae9d25d30c90e50d1c8b611b07e89a93a57cc0b4ba2120f02f3a",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "扩展执行器/接口组靠留白组织，局部重复单元明显。"
+    },
+    {
+      "id": "S034",
+      "path": "原理图参考库/333/SCH_SuperCap2024V1.2R_Power_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "7924b2dc5ab419676b62bb43ae27f714d8ddb95780acb3bd017216c4b918d422",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 791.68,
+          "height_pt": 545.06,
+          "text_file": "tmp/schematic-learning/text/S034-p01.txt",
+          "text_sha256": "27d9fee484de4107aecff4c507d5e678739b754e3f4cb13021ea1c12d516b0c4",
+          "render_file": "tmp/schematic-learning/render/S034-1.png",
+          "render_sha256": "997ccb2be8fc72fa1f2ba11796ff88c7967bc44a026c108648421b2c5bcbc9d4",
+          "overview_reviewed": true,
+          "local_reviews": [
+            {
+              "region": "POWER 两侧桥臂与中间电感",
+              "normalized_crop_xyxy": [
+                0.33,
+                0.05,
+                0.96,
+                0.59
+              ],
+              "image": "references/figures/S034-power.png",
+              "storage": "skill"
+            }
+          ]
+        }
+      ],
+      "observation": "连接/驱动/功率三职责分框；功率两侧桥臂成对展开。"
+    },
+    {
+      "id": "S035",
+      "path": "原理图参考库/333/SCH_板球系统控制板_2026-10-28.pdf",
+      "group": "333",
+      "sha256": "014d11b2852e0706b81f4d645da36af80170475600c78abd30d9ea7bda920b7b",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 834.48,
+          "height_pt": 553.68,
+          "text_file": "tmp/schematic-learning/text/S035-p01.txt",
+          "text_sha256": "0e0915cdadcdf4976eaef0bdb4db7a302ef8610ab6e2fcd36130c165469fd42c",
+          "render_file": "tmp/schematic-learning/render/S035-1.png",
+          "render_sha256": "bc2f1e2e5191c833a3dec8b7664f4c5f4120cb8c4c84d34fc0ea8af47cb1912a",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "高引脚映射区、接口标题与周边小功能，标题尺度与别图不同。"
+    },
+    {
+      "id": "S036",
+      "path": "原理图参考库/333/STM32F407VET6核心板.pdf",
+      "group": "333",
+      "sha256": "afc9dd54f60462c0cc079f846f7d8d1fa1389c2f9069e3154f5517e9ad4cfaf6",
+      "pages": [
+        {
+          "page": 1,
+          "width_pt": 1014.48,
+          "height_pt": 726.48,
+          "text_file": "tmp/schematic-learning/text/S036-p01.txt",
+          "text_sha256": "20a433466dd17bad5d3bc01f0ce0cce20a14623c2b3cafc8b79b6ff385fcae3a",
+          "render_file": "tmp/schematic-learning/render/S036-1.png",
+          "render_sha256": "e74b2348bcb7ebd3ce2f893005bd558f4050b362fc40a3002b9ef1582b22bde4",
+          "overview_reviewed": true,
+          "local_reviews": []
+        }
+      ],
+      "observation": "核心/接口映射/支持相邻，电源单元与电容阵列分组；以留白为主。"
+    }
+  ],
+  "overview_images": [
+    {
+      "path": "tmp/schematic-learning/render/contact-01.jpg",
+      "sha256": "5cf72cd68db5daf69ed6fc26a5ad5f8144aba9088638451898f1f3fe295d0a6e",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-02.jpg",
+      "sha256": "15195bf96793ddf53d13097e6dbaada5e95f4922ca0209402e458969a2e46c49",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-03.jpg",
+      "sha256": "61fdec85a1978b2957b729f2eba3c13a56a2b4776c2678e0dab901d64291d7bc",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-04.jpg",
+      "sha256": "c7b42e399ec1b7808da2c20e7db519ad41b8f35562e5cdd7475bd524a23f2f47",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-05.jpg",
+      "sha256": "92dd864ed1a94786ae0996b7e1f4ae9b6023bdafb3663fa76241172d2d0a7f42",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-06.jpg",
+      "sha256": "b668fb019ca9891730e108afac6e04a992b9d28b4af7223137d0dcc4f05f1267",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-07.jpg",
+      "sha256": "33e4017ef50378703742294a3b4ccb950b04e758aca852e34441e3786c91829a",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-08.jpg",
+      "sha256": "39edd4246f88f322948933f251553ad1d56217bcb35be91092c06becdd9a09ac",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-09.jpg",
+      "sha256": "87220eb120e562d9533e1fc89e529a4e6cae7af88258cea843624b2638978121",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-10.jpg",
+      "sha256": "1c66c0176a860f46d762a8aa78f6369a7b26ff72ebec6830261bf2ecc8149a06",
+      "reviewed": true
+    },
+    {
+      "path": "tmp/schematic-learning/render/contact-11.jpg",
+      "sha256": "7c5443e08c35719095bf5da57169ec6f750ec728706a81a2f55b6613fab428a5",
+      "reviewed": true
+    }
+  ]
+}

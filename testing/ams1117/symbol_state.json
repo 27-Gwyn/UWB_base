@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "result": {
+    "doc": {
+      "documentType": 2,
+      "uuid": "dff4243c09a73712",
+      "tabId": "dff4243c09a73712@37791cbda72543b4bd558b7340ee1b6c",
+      "parentLibraryUuid": "df0ae4fc329a443c9b787a985dd04348"
+    },
+    "pins": [
+      {
+        "async": true,
+        "primitiveType": "Pin",
+        "x": -45,
+        "y": 10,
+        "pinNumber": "1",
+        "pinName": "GND",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "e2"
+      },
+      {
+        "async": true,
+        "primitiveType": "Pin",
+        "x": -45,
+        "y": 0,
+        "pinNumber": "2",
+        "pinName": "VOUT",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "e6"
+      },
+      {
+        "async": true,
+        "primitiveType": "Pin",
+        "x": -45,
+        "y": -10,
+        "pinNumber": "3",
+        "pinName": "VIN",
+        "rotation": 180,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "e10"
+      },
+      {
+        "async": true,
+        "primitiveType": "Pin",
+        "x": 45,
+        "y": 0,
+        "pinNumber": "4",
+        "pinName": "VOUT",
+        "rotation": 0,
+        "pinLength": 10,
+        "pinColor": null,
+        "pinShape": "None",
+        "pinType": "Undefined",
+        "primitiveId": "e14"
+      }
+    ],
+    "rects": [
+      {
+        "async": true,
+        "primitiveType": "Rectangle",
+        "topLeftX": -35,
+        "topLeftY": -20,
+        "width": 70,
+        "height": 40,
+        "cornerRadius": 0,
+        "rotation": 0,
+        "color": null,
+        "fillColor": null,
+        "lineWidth": 1,
+        "lineType": 0,
+        "fillStyle": null,
+        "primitiveId": "e0"
+      }
+    ]
+  },
+  "windowId": "72983aeb-262d-4053-8e2c-559c96969711"
+}

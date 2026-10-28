@@ -1,0 +1,1 @@
+const f=await eda.dmt_EditorControl.getCurrentRenderedAreaImage();if(!f)return {error:'undefined'};const a=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<a.length;i+=8192)s+=String.fromCharCode(...a.slice(i,i+8192));return {size:f.size,type:f.type,data:btoa(s)};

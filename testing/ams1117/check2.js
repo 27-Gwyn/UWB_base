@@ -1,0 +1,1 @@
+return {components:(await eda.sch_PrimitiveComponent.getAll()).filter(c=>c.getState_Designator()).map(c=>({ref:c.getState_Designator(),supplier:c.getState_SupplierId(),props:c.getState_OtherProperty(),name:c.getState_Name()})),source:await eda.sys_FileManager.getDocumentSource(),drc:await eda.sch_Drc.check(true,true,true)};

@@ -1,0 +1,309 @@
+{
+  "success": true,
+  "result": {
+    "candidates": [
+      {
+        "uuid": "9f9c6cb41c7449fd8acf96aceed2661a",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "Advanced Monolithic Systems",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C6186",
+        "symbolUuid": "06f50e10ab7d460599b3fe3ee8717a78",
+        "symbolName": "AMS1117-3.3",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "710e85d0901e4548925bb3e21a646fdd",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "YONGYUTAI(永裕泰)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C2891839",
+        "symbolUuid": "f9bf0646a08f40bebd227f0a9ae9831c",
+        "symbolName": "AMS1117-3.3_C2891839",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "c1d2e57bd17a44db8380cd962bab5179",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "JSMSEMI(杰盛微)",
+        "manufacturerId": "AMS1117-3.3V",
+        "supplierId": "C5205141",
+        "symbolUuid": "082d2698a02c433f8e0a0a564c0ad844",
+        "symbolName": "AMS1117-3.3V_C5205141",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "08d930ccd2874347baba6a9372c61310",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3-YJLTY",
+        "supplierId": "C9900003397",
+        "symbolUuid": "1b2ff0c281854153bd16071e6e4dfbcf",
+        "symbolName": "AMS1117-3.3-YJLTY",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "02a53eb798d44490ba8c6ffe9b4183e1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3-EV",
+        "supplierId": "C28642131",
+        "symbolUuid": "05cb7f69bb5947588139f0d9c7f41770",
+        "symbolName": "AMS1117-3.3-EV",
+        "footprint": "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR_2"
+      },
+      {
+        "uuid": "b145993043d24a18802eca732584e9a6",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3VSOT-89",
+        "supplierId": "C9900008082",
+        "symbolUuid": "2ed63ac2bb5a455690c47c4c9a9316f3",
+        "symbolName": "AMS1117-3.3VSOT-89",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+      },
+      {
+        "uuid": "b36a3ec4037c49e8b7f2aab3f2341485",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3V(LX)",
+        "supplierId": "C9900203976",
+        "symbolUuid": "4bd38b369ebe4690ae16ea6dae868f3f",
+        "symbolName": "AMS1117-3.3V(LX)",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.0-BR"
+      },
+      {
+        "uuid": "df372b539d5f4fc1a95e3034d2a8d0f4",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3S-EV",
+        "supplierId": "C28642132",
+        "symbolUuid": "8f064134358a4427bd4d3beafb52da72",
+        "symbolName": "AMS1117-3.3S-EV",
+        "footprint": "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR"
+      },
+      {
+        "uuid": "0ebf5572bffa4fe49c1426d1a6fbf085",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C351785",
+        "symbolUuid": "6969575416b5456a9d1f22e6f7af1a96",
+        "symbolName": "AMS1117-3.3_C351785",
+        "footprint": "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "c06f1f220a944bf6833e2133da5e8a43",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "AOTE(奥特)",
+        "manufacturerId": "AMS1117-3.3 (AT)",
+        "supplierId": "C54899526",
+        "symbolUuid": "5e31818fffc74ac6ad8b119306300d1a",
+        "symbolName": "AMS1117-3.3 (AT)",
+        "footprint": "SOT-223-3_L6.6-W3.5-P2.30-LS7.0-BL"
+      },
+      {
+        "uuid": "be0aeb9d0d6b48fc871c500731a99ce2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "UMW(友台半导体)",
+        "manufacturerId": "AMS1117-3.3S",
+        "supplierId": "C347256",
+        "symbolUuid": "c5364ebfabe943a18ac829b4e8acc523",
+        "symbolName": "AMS1117-3.3_C347256",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+      },
+      {
+        "uuid": "714f35850cbf495ab636b53f32ca793c",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "UMW(友台半导体)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C347222",
+        "symbolUuid": "aaafcf0e19294c0ea5f116922e82349f",
+        "symbolName": "AMS1117-3.3_C347222",
+        "footprint": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "b9a6ba14ab694c7886f1a4da9f5480e3",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "Slkor(萨科微)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C426566",
+        "symbolUuid": "e35f41a4b42a45dc8fc4ff57c1b5100d",
+        "symbolName": "AMS1117-3.3_C426566",
+        "footprint": "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "1c2c6a3b91df4aaa89beb2f9b81ac4d7",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "YONGYUTAI(永裕泰)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C41414107",
+        "symbolUuid": "434d25df7a7f4177871f79d9f56269ed",
+        "symbolName": "AMS1117-3.3_C41414107",
+        "footprint": "TO-252-2_L6.6-W5.6-P2.3-LS9.7"
+      },
+      {
+        "uuid": "208327bd97d246ec93637123b71c879d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "GMIC(绿微)",
+        "manufacturerId": "AMS1117-3.3OE",
+        "supplierId": "C50313803",
+        "symbolUuid": "9ab366d75ca6499f976bd1004851ae2d",
+        "symbolName": "AMS1117-3.3OE",
+        "footprint": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "11037e5c46a743019d7b783c72377cca",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "JSMSEMI(杰盛微)",
+        "manufacturerId": "AMS1117-3.3V-JSM",
+        "supplierId": "C18190088",
+        "symbolUuid": "fac8191a2790452e9656274e06c1dabb",
+        "symbolName": "AMS1117-3.3V-JSM",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-TL"
+      },
+      {
+        "uuid": "a64c44517ffb4142a2590abedc01d15f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "YONGYUTAI(永裕泰)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C2904742",
+        "symbolUuid": "64afad3ad8bb4345aa644c0775ac4a52",
+        "symbolName": "AMS1117-3.3_C2904742",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.1-BL"
+      },
+      {
+        "uuid": "44a9805ba5b24031b3278f43b725ae38",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "GOODWORK(固得沃克)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C6067465",
+        "symbolUuid": "14a59175cc444361a79add9583a82f31",
+        "symbolName": "AMS1117-3.3_C6067465",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+      },
+      {
+        "uuid": "8ff1309ac7534eadaeb71d820db8fe2a",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "FOSAN(富捷/富信)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C20628883",
+        "symbolUuid": "7de29b1396614c07941d27ac1cb2e2b3",
+        "symbolName": "AMS1117-3.3_C20628883",
+        "footprint": "SOT-89-3_L4.5-W2.5-P1.50-LS4.1-BR-1"
+      },
+      {
+        "uuid": "ee225a8c2d2a4887b0e3a889f74da594",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "GR(国睿)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C18164485",
+        "symbolUuid": "036d09090b2c4e70a5d0da103718abb0",
+        "symbolName": "AMS1117-3.3_C18164485",
+        "footprint": "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "1c37ec5fc925470bac2ca03709cf2609",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "FM(富满)",
+        "manufacturerId": "AMS1117-3.3V",
+        "supplierId": "C173386",
+        "symbolUuid": "160701342f7c4c92a9f236bcbdcb4412",
+        "symbolName": "SC1117-3.3V",
+        "footprint": "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "14f5bb0125ee40e28bdc840ff3048540",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3V",
+        "supplierId": "C17702043",
+        "symbolUuid": "9899ad7dc88b4bd8b772548d8a8c75c8",
+        "symbolName": "AMS1117-3.3V_C17702043",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "6c68a86d0ac048abbb6e2f6a2746fc74",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "TWGMC(迪嘉)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C5250992",
+        "symbolUuid": "38b7e097ba394a5aab4e70daf896918b",
+        "symbolName": "AMS1117-3.3_C5250992",
+        "footprint": "SOT-223-3_L6.5-W3.5-P3.05-LS7.0"
+      },
+      {
+        "uuid": "35dabf4ed1e747f997209abc5cde19db",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "HGC(深圳汉芯)",
+        "manufacturerId": "AMS1117-3.3RG",
+        "supplierId": "C2977152",
+        "symbolUuid": "63566aeb157b4c5baa1dbf97d794caae",
+        "symbolName": "AMS1117-3.3RG",
+        "footprint": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "cfac66f44f164aa087ea9f598d80874f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "ALJ(龙晶微)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C22458961",
+        "symbolUuid": "39940c210008425f8859aae7836c4da9",
+        "symbolName": "AMS1117-3.3_C22458961",
+        "footprint": "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "cf54794832874c958bdb3fe147b478ce",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C5181460",
+        "symbolUuid": "586e05c6b14641b7b293cbcd0db0c952",
+        "symbolName": "AMS1117-3.3_C5181460",
+        "footprint": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "26fd734e35294da69db5ce3e936e724f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "HGSEMI(华冠)",
+        "manufacturerId": "AMS1117-3.3/TR",
+        "supplierId": "C22461603",
+        "symbolUuid": "b4fcc2bf02764a5ca2765b1a1078a44f",
+        "symbolName": "AMS1117-3.3/TR",
+        "footprint": "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "6d231bcd05954c4aac731c7276ecc8ee",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "GMIC(绿微)",
+        "manufacturerId": "AMS1117-3.3OF",
+        "supplierId": "C50313802",
+        "symbolUuid": "b310b9d4ba684f1e8f8df80b200f9cd1",
+        "symbolName": "AMS1117-3.3OF",
+        "footprint": "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR"
+      },
+      {
+        "uuid": "d4d73fa605ea4b568bedca4567545047",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "JSMSEMI(杰盛微)",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C917183",
+        "symbolUuid": "eea6788429564128bf8d50624beaa136",
+        "symbolName": "AMS1117-3.3_C917183",
+        "footprint": "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR"
+      },
+      {
+        "uuid": "6667ce2476974145960ba5eaa4a691ba",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "AMS1117-3.3",
+        "supplierId": "C22466222",
+        "symbolUuid": "58a6f65161f34bc6abdfd7fa9d3df0ba",
+        "symbolName": "AMS1117-3.3_C22466222",
+        "footprint": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+      }
+    ],
+    "footprints": []
+  },
+  "windowId": "72983aeb-262d-4053-8e2c-559c96969711"
+}

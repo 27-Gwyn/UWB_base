@@ -1,0 +1,1 @@
+const c=(await eda.sch_PrimitiveComponent.getAll()).find(c=>c.getState_Designator()==='U1');const p=await eda.dmt_Project.getCurrentProjectInfo();return {t:await eda.lib_Symbol.openInEditor(c.symbol.uuid,p.uuid)};

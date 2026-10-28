@@ -1,0 +1,96 @@
+{
+  "skill_name": "pcb-design-guidelines",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请审查下面的合成 Buck 电源板布局方案并保存 power-review.md。已确认连接：J1.VIN→F1→VIN_PROT；CIN.1 接 VIN_PROT，CIN.2 接 PGND；Q1 输入端接 VIN_PROT，Q1.SW 接 SW，U1 控制 Q1；D1 阳极接 PGND、阴极接 SW；L1 接 SW/VOUT；COUT 跨 VOUT/PGND，J2.VOUT 接 VOUT；RFB1/RFB2 从 VOUT 分压到 U1.FB，分压参考端接 AGND；U1 有本地旁路电容。布局截图和网络表显示 CIN 离 Q1 较远，CIN-Q1-D1-PGND 的换流回路被拉长，且 SW-L1-COUT 的输出路径绕行，功率地回流绕到另一层并穿过敏感 FB 走线。板框、安装孔、层数和器件身份不能改变；已知 2 oz 外层铜、允许功率回路温升 20 C，但未提供具体损耗、内层铜厚、叠层介质、板厂过孔能力或最终线宽。只提出布局/回流优先级和需要补充的验证，不做虚构计算，不声称 DRC 或热分析已通过。",
+      "expected_output": "指出 CIN-Q1-D1-PGND 的换流环路、SW-L1-COUT 的输出路径、功率地回流和 FB 敏感路径问题；建议按各自真实回路重排并保持连接/器件；把线宽、过孔和温升计算绑定到缺失的损耗、叠层和板厂数据；明确没有运行 CAD DRC 或热分析。",
+      "files": [],
+      "expectations": [
+        "分别按真实输入换流环路（CIN、Q1、D1、PGND）和输出能量路径（SW、L1、COUT、负载）解释优先级，不把它们合并成一个高速回路。",
+        "要求 CIN 靠近 Q1/D1/PGND 换流回路，L1/COUT 靠近输出路径，功率地回流连续且短，并指出 FB 走线避开开关节点并从合适的安静参考点取样。",
+        "不擅自改变 J1/J2、Q1、D1、L1、U1 或地网络，不把截图上的长线直接当作断网。",
+        "说明 2 oz 外层铜和 20 C 只是局部已知条件，线宽、过孔、温升仍需损耗/叠层/板厂数据或计算工具。",
+        "明确未执行原生 DRC、热仿真、阻抗求解或网表比较。"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "请为一个已完成原理图的混合信号采集板制定布局与叠层计划，保存 mixed-signal-plan.md。板框 80 mm × 60 mm，六层候选叠层尚未由板厂确认；J3 模拟传感器入口、ADC1、MCU、DDR 时钟和 USB 高速接口的网络及封装已确认。ADC 输入带宽 20 MHz，USB 为 480 Mbps，DDR 时钟 200 MHz；阻抗目标、介质厚度、参考平面和允许串扰尚未提供。用户希望模拟输入、ADC、数字控制和外部高速接口有清楚分区，但不允许凭空增加地分割、交换差分成员或指定通用线宽。请给出器件顺序、关键回流、层叠问题、约束表和验证步骤；只制定方案，不声称已完成 PCB。",
+      "expected_output": "保留模拟输入→ADC→数字处理及 USB/DDR 的真实接口关系；提出连续参考平面、关键回流和约束驱动的阻抗/线宽；把阻抗、线宽、叠层作为板厂和信号约束驱动的待定项；区分差分、时钟和敏感模拟路径；列出需要实际执行的 SI/DRC/制造检查。",
+      "files": [],
+      "expectations": [
+        "按读取、转换、数字处理和外部高速接口的真实功能安排器件与连接器，不把所有元件平均铺开。",
+        "明确参考平面连续性、跨层回流过渡、DDR/USB 约束和 ADC 敏感输入的隔离/取样路径。",
+        "不把 20 MHz、480 Mbps 或 200 MHz 直接换算成未经层叠确认的固定线宽/阻抗，也不假设六层叠层细节。",
+        "不自动增加 AGND/DGND 短接、平面分割或终端器件；把这些作为原理图/产品约束与验证项。",
+        "列出叠层/阻抗、SI、串扰、DRC、网表和制造检查，并说明本次没有实际运行。"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "请审查以下 PCB 交付条件并保存 manufacturing-review.md。板框、四个安装孔、J1/J2 配接方向、散热片禁布区和连接器高度是固定约束；目标板厂给出的最小线宽/间距、最小机械孔、板边铜退让、阻焊桥和六层阻抗能力已在规则表中，但封装库中有两个 QFN 的 Pin 1 标记和散热焊盘开窗尚未核对。需要 ICT 测试点、可返修空间、选择性装配的 JP1、R10/R11 互斥选件，丝印目前遮住两个焊盘。请按机械、封装、装配、测试、丝印和规则文件列出优先修复项。不要重新选型、改变网表或把“通过 DRC”写成已完成；本次没有提供 CAD 文件。",
+      "expected_output": "优先保护板框/孔位/连接器/散热区，核对 QFN 机械图和 Pin 1/焊盘开窗，修复丝印和测试可达性，保留 JP1 与互斥选件；将板厂规则逐项映射并明确缺 CAD 无法实际 DRC。",
+      "files": [],
+      "expectations": [
+        "先检查固定机械边界、安装孔、配接方向、高度和散热禁布区，再处理一般丝印。",
+        "要求依据器件厂商封装图核对 QFN Pin 1、焊盘编号、热焊盘和阻焊开窗，不凭库外观猜测。",
+        "保留 ICT 测试点、JP1、R10/R11 互斥和装配方向；给出可返修和测试探针空间的检查方法。",
+        "把最小线宽/间距、孔径、板边退让、阻焊桥和阻抗能力绑定到已给板厂规则，不创造新的通用数值。",
+        "明确没有 CAD 文件，不能报告 DRC、装配检查或制造文件检查已通过。"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "请根据这份完整的合成原理图和约束写 beginner-board-guide.md，目标是给首次使用 KiCad 9 的人逐步完成可制造的 PCB 指南。网络连接已确认：J1.1→F1.1，F1.2→VIN；CIN1.1 与 VIN 同网、CIN1.2→GND；U1.VIN→VIN，U1.GND→GND，U1.SW→SW；D1.K→SW、D1.A→GND；L1.1→SW、L1.2→VOUT；COUT1.1→VOUT、COUT1.2→GND；J2.1→VOUT、J2.2→GND；FB 分压从 VOUT 经 R1/R2 中点到 U1.FB，R2 底端→GND。器件、引脚、封装、2 层板框 50×30 mm 和接口边缘方位都已确认。CIN 回路电流 1.0 A 连续，外层成品铜 35 µm，允许温升 10 °C，关键直线长度 50 mm，压降上限 50 mV，板厂应用最小线宽 0.15 mm；无过孔的外层线段。板厂已确认最小间距 0.15 mm、过孔成品孔 0.30 mm/焊盘 0.60 mm。无阻抗受控网络，无高压隔离要求。对该电流段用 skill 附带脚本/明确公式算出温升和压降宽度，指出约束取大后的初选宽度并建议向上留制造余量；把具体网络和器件位置映射成操作步骤。输出可勾选的 KiCad 9 流程，区分 Net Class 默认值与 DRC 最小值，说明铺铜后重填充再运行 DRC。不要声称已编辑 CAD 或通过检查。",
+      "expected_output": "含器件/网络约束表、逐步 KiCad 9 施工操作、功率环路与 FB 摆放/走线对象映射、具体线宽热/压降算例及单位、取大和制造取整说明、DRC/输出验收清单，并明确未执行 CAD 操作或 DRC。",
+      "files": [],
+      "expectations": [
+        "依脚本模型给出约 0.300 mm 热初估、约 0.491 mm 压降初估，选用值不小于二者和板厂最小值；标注为估算并说明模型边界。",
+        "描述 J1/F1/CIN1/U1/D1/L1/COUT1/J2 的真实端点与输入换流/输出路径，要求缩小实际闭环并保护 FB 回流路径，不改网表或封装。",
+        "给出对 KiCad 9 新手可执行的同步、板框/机械、摆放、网络类/规则、布线、铺铜、重填充、DRC/制造输出步骤。",
+        "明确 Net Class 轨宽是默认值；最小宽度要求需通过 DRC 规则强制执行，并说明适用条件。",
+        "明确这是指南而非已完成的板图/DRC/制造签核。"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "根据已确认的接口/器件关系为一个混合信号板写 incomplete-stackup-guide.md。现有原理图、封装、板框、安装孔、接口方向、ADC 输入网络和 MCU/DDR/USB 信号连接均可读取；用户要求从原理图出发列完整 PCB 步骤。候选板为六层，但板厂尚未确认层叠、材料 Dk、各介质厚度、成品铜厚、阻抗公差、DDR 时序/偏斜限制和 USB 走线拓扑。已知连接器、机械边界和隔离要求。请继续输出不依赖这些参数的同步、板框、器件分区/相邻关系、回流风险、资料请求和部分规则清单；标明哪些 DDR/USB 规则和走线/签核需暂停。不要用数据速率直接猜线宽、阻抗或长度，不要因局部缺项而只输出问题清单，也不要声称 DRC/SI 已通过。",
+      "expected_output": "指南推进机械和布局工作，精确列出需要板厂/接口约束补充的层叠与时序参数，并局部阻止受控阻抗布线/签核；其他阶段继续给步骤。",
+      "files": [],
+      "expectations": [
+        "依真实接口与已知边界给板框、连接器、ADC、MCU/DDR、USB 的分区/摆放次序，不改网络、封装、隔离或机械约束。",
+        "继续列出原理图同步、机械/器件摆放、参考平面连续性规划和后续操作，不只提问。",
+        "明确索取板厂 layer stackup、Dk/介质厚度、铜厚/阻抗公差及 DDR/USB 由器件数据手册或接口规范得到的阻抗/拓扑/时序/偏斜约束。",
+        "不按数据率直接编造具体线宽/阻抗/长度，说明这些具体规则和最终布线签核受阻，但机械布局等不受影响。",
+        "区分计划和已执行检查，没有 CAD 时不得宣称 DRC/SI 通过。"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "用户要求审查一个已经改版的 PCB 交付包，但只提供旧版与新版文件清单、BOM/CPL 摘要和检查报告，没有 CAD 会话。请保存 revision-release-review.md，列出改版基线、同源冻结、受影响检查、制造成员和首板实测边界。不要声称已运行 DRC、回读 Gerber 或完成实物验证。",
+      "expected_output": "区分旧版基线与新版变更，要求源/规则/制造成员同源并分别记录哈希和检查覆盖；把 DRC/DFM/计算与首板实测分开。",
+      "files": [],
+      "expectations": [
+        "列出旧版板身份、源/规则/制造状态和本次变更范围，并说明哪些对象需要回归。",
+        "要求原理图、PCB、规则/叠层、Gerber/钻孔、BOM、CPL、装配和适用模型绑定同一冻结源。",
+        "区分文件存在、脚本成功、保存重开、DRC/连通性执行、制造输出回读和首板实测，缺少 CAD 时不得写成通过。",
+        "要求 BOM、CPL、原生应装位号与 DNP/后焊清单分别对账，并说明铜/孔/板框改变不能只改文件名。",
+        "明确电脑验证不能代替热、EMC、功能、可靠性和认证实测，给出首板交接的待测边界。"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Given a verified schematic for a mixed power and high-speed board, write routing-work-order.md for an engineer who must route the board manually. The input identifies real pads and nets for a converter, ADC, USB differential pair, clock, feedback node, ESD device, and test points, but the final stackup and fab limits are pending. Specify route order, pad-to-pad endpoints, allowed layers and reference planes, return-path transitions at vias, topology-specific checks, and completion evidence. Do not invent impedance, width, or clearance values and do not claim that routing or DRC was executed.",
+      "expected_output": "A network-level routing work order that tells the engineer what to route first, how each critical path is physically connected, how to preserve return current, and what must be checked before proceeding.",
+      "files": [],
+      "expectations": [
+        "Separates high-di/dt loops, power distribution, controlled-impedance/clock/differential, analog/feedback, interface protection, and general control routing.",
+        "For every critical class, records real pad endpoints, allowed layers, reference plane, via and return transition, constraint source/state, and a completion check.",
+        "Uses Buck/Boost/LDO or other topology checks as conditional guidance and does not copy one topology's loop into another.",
+        "Keeps feedback and sensitive paths away from switch nodes, preserves differential pairing and continuous reference, and puts ESD discharge current at the interface entry.",
+        "Marks stackup-dependent width, impedance, spacing, and length as pending and clearly separates a work order from executed CAD/DRC evidence."
+      ]
+    }
+  ]
+}

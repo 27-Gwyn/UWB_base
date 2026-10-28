@@ -1,0 +1,29 @@
+schema: electronic-product-brief-v1
+project_id: UWB/Anchor/2ceff1de2cdb41d6a9101840f44c2b87
+revision: 2026-10-28-DRAFT
+status: USER_REVIEW
+purpose:
+  user_problem: 在现有 Anchor 原理图完成 ESP32-S3 + DW3220 实验用硬件草案
+  success_behavior: [USB与UART恢复下载, SPI访问UWB, 后续TWR与PDoA实验]
+  prohibited_behavior: [新建或复制工程板子, 改库引脚, 修改实例针号]
+functions: [USB供电与保护, 3.3V稳压, MCU最小系统, 双RF馈电, 调试测点]
+operating_states: [上电, 复位, 下载, 低速SPI调试, TWR或PDoA实验, 睡眠]
+interfaces:
+  - {name: USB, domain: USB2.0 FS, pins: 'GPIO19/20', phy_ownership: OTG或Serial/JTAG互斥配置}
+  - {name: UART0, domain: 3.3V, pins: 'GPIO43/44'}
+  - {name: SPI, domain: 3.3V, owner: ESP32-S3, target_initial_hz: 2000000, target_debug_hz: 16000000}
+power:
+  sources: [{name: USB VBUS, nominal_v: 5, source_current_capability: unknown}]
+  rails: [{name: '+3V3', regulator: AMS1117-3.3, thermal_signoff: pending}]
+mechanics:
+  envelope: unknown
+  stackup: unknown
+production:
+  prototype_quantity: null
+  assembled_cost_target: null
+unknowns:
+  - {item: 双天线实体与匹配, owner: 用户与RF设计者, closes_with: 验证过的结构及标定数据}
+  - {item: 晶体ESR差异, owner: 设计者与厂家, closes_with: 厂家确认或起振裕量测试}
+  - {item: USB源能力与AMS1117热, owner: 设计者, closes_with: 负载预算及实测}
+  - {item: 机械层叠与环境, owner: 用户, closes_with: 后续PCB输入}
+sources: [用户任务提示词, 主指导册, 副指导册, design/sources.md]

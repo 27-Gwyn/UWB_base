@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "result": {
+    "pre": {
+      "documentType": 1,
+      "uuid": "a2ae37ea91715ac4",
+      "tabId": "a2ae37ea91715ac4@2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+    },
+    "boolean": false,
+    "afterBoolean": {
+      "documentType": 1,
+      "uuid": "a2ae37ea91715ac4",
+      "tabId": "a2ae37ea91715ac4@2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+    },
+    "details": [
+      {
+        "type": "warn",
+        "count": 3
+      }
+    ],
+    "afterDetails": {
+      "documentType": 1,
+      "uuid": "a2ae37ea91715ac4",
+      "tabId": "a2ae37ea91715ac4@2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+    },
+    "scopeVerified": true
+  },
+  "windowId": "e3618554-b319-4aac-a46c-b9169094be03"
+}

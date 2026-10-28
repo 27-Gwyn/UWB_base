@@ -1,0 +1,1 @@
+eda.sys_PanelControl.closeBottomPanel();const out={passed:await eda.sch_Drc.check(true,false,false),caps:{zoom:typeof eda.dmt_EditorControl.zoomToRegion,image:typeof eda.dmt_EditorControl.getCurrentRenderedAreaImage}};if(typeof eda.dmt_EditorControl.zoomToRegion==='function')out.zoomed=await eda.dmt_EditorControl.zoomToRegion(100,1580,1040,150);return out;

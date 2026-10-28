@@ -1,0 +1,51 @@
+﻿reference,function,quantity_per_board,assembly_quantity,required_quantity,order_quantity,manufacturer,requested_mpn,mpn,supplier_part_number,package,package_verified,footprint,pinout_verified,cad_status,model_3d_status,lifecycle,stock_checked_at,stock_quantity,moq,unit_price,currency,assembly_class,line_parts_cost,setup_fee,extended_fee,line_total_cost,datasheet_url,approved_alternates,substitution_approved,substitution_approval_evidence,design_critical,approval_required,status,evidence_url
+U2,,1,,,,ESPRESSIF(乐鑫),ESP32-S3-WROOM-1-N16R8,ESP32-S3-WROOM-1-N16R8,C2913202,,,569cd2a74515a837,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R1,,1,,,,,,,电阻.1,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C10,,1,,,,SAMSUNG(三星),CL10A105KB8NNNC,CL10A105KB8NNNC,C15849,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C20,,1,,,,SAMSUNG(三星),CL10A105KB8NNNC,CL10A105KB8NNNC,C15849,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C11,,1,,,,SAMSUNG(三星),CL21A106KAYNNNE,CL21A106KAYNNNE,C15850,,,954826f5a376f4ad,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C1,,1,,,,SAMSUNG(三星),CL21A106KAYNNNE,CL21A106KAYNNNE,C15850,,,954826f5a376f4ad,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C22,,1,,,,SAMSUNG(三星),CL21A106KAYNNNE,CL21A106KAYNNNE,C15850,,,954826f5a376f4ad,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C25,,1,,,,SAMSUNG(三星),CL21A106KAYNNNE,CL21A106KAYNNNE,C15850,,,954826f5a376f4ad,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C12,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C3,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C21,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C23,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C26,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C29,,1,,,,YAGEO(国巨),CC0603KRX7R9BB104,CC0603KRX7R9BB104,C14663,,,c06beb25eb483e17,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+SW1,,1,,,,XKB Connection(中国星坤),TS-1187A-B-A-B,TS-1187A-B-A-B,C318884,,,fbf28c81887090eb,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+SW2,,1,,,,XKB Connection(中国星坤),TS-1187A-B-A-B,TS-1187A-B-A-B,C318884,,,fbf28c81887090eb,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+SW3,,1,,,,XKB Connection(中国星坤),TS-1187A-B-A-B,TS-1187A-B-A-B,C318884,,,fbf28c81887090eb,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R10,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R11,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R30,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R31,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R33,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R34,,1,,,,UNI-ROYAL(厚声),0603WAF1002T5E,0603WAF1002T5E,C25804,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R12,,1,,,,UNI-ROYAL(厚声),0603WAF1001T5E,0603WAF1001T5E,C21190,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+D1,,1,,,,KENTO,KT-0603R,KT-0603R,C2286,,,c507c823735200f6,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R13,,1,,,,UNI-ROYAL(厚声),0603WAF270JT5E,0603WAF270JT5E,C25190,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R14,,1,,,,UNI-ROYAL(厚声),0603WAF270JT5E,0603WAF270JT5E,C25190,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+U1,,1,,,,Advanced Monolithic Systems,AMS1117-3.3,AMS1117-3.3,C6186,,,851216e145a7eaf1,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C2,,1,,,,KEMET(基美),T491B226K010AT,T491B226K010AT,C117030,,,242bb5cf2e7279aa,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+J1,,1,,,,韩国韩荣,TYPE-C-31-M-12,TYPE-C-31-M-12,C165948,,,a5408b5f20db1619,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+U4,,1,,,,ST(意法半导体),USBLC6-2SC6,USBLC6-2SC6,C7519,,,7cbe7d806d272d21,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R2,,1,,,,UNI-ROYAL(厚声),0603WAF5101T5E,0603WAF5101T5E,C23186,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R3,,1,,,,UNI-ROYAL(厚声),0603WAF5101T5E,0603WAF5101T5E,C23186,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+J2,,1,,,,Ckmtw(灿科盟),B-2100S03P-A110,B-2100S03P-A110,C124376,,,b4a2bad6ea4417f4,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+J3,,1,,,,Ckmtw(灿科盟),B-2100S03P-A110,B-2100S03P-A110,C124376,,,b4a2bad6ea4417f4,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+TP1,,1,,,,,TP-黄色测试点,TP-黄色测试点,C9900007422,,,08f8f4bb5f196440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+TP2,,1,,,,,TP-黄色测试点,TP-黄色测试点,C9900007422,,,08f8f4bb5f196440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+TP3,,1,,,,,TP-黄色测试点,TP-黄色测试点,C9900007422,,,08f8f4bb5f196440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+U3,,1,,,,Qorvo,DW3220,DW3220,C3294486,,,88afdb8b51e8bf47,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+R32,,1,,,,UNI-ROYAL(厚声),0603WAF1003T5E,0603WAF1003T5E,C25803,,,c9373868d11ee440,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+FB1,,1,,,,muRata(村田),BLM03PG330SN1D,BLM03PG330SN1D,C160966,,,deed10d940cc9a54,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C24,,1,,,,muRata(村田),GRM155R71H472KA01D,GRM155R71H472KA01D,C77024,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C27,,1,,,,muRata(村田),GRM155R71H472KA01D,GRM155R71H472KA01D,C77024,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C30,,1,,,,muRata(村田),GRM155R71H472KA01D,GRM155R71H472KA01D,C77024,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C28,,1,,,,muRata(村田),GRM155R71C224KA12D,GRM155R71C224KA12D,C77011,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+Y1,,1,,,,TXC(晶技),8Y38472012,8Y38472012,C2450882,,,a9162876ee67aec7,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C31,,1,,,,muRata(村田),GRM1555C1H3R3CA01D,GRM1555C1H3R3CA01D,C76968,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C32,,1,,,,muRata(村田),GRM1555C1H3R3CA01D,GRM1555C1H3R3CA01D,C76968,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C40,,1,,,,muRata(村田),GRM1555C1H2R0CA01D,GRM1555C1H2R0CA01D,C76962,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json
+C41,,1,,,,muRata(村田),GRM1555C1H2R0CA01D,GRM1555C1H2R0CA01D,C76962,,,4830cb51f972c195,library mapping checked,native library snapshot,,,,,,,,,,,,,,,,,,,BLOCKED,output/native-audit.json

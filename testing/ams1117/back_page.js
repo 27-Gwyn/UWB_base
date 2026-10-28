@@ -1,0 +1,1 @@
+await eda.dmt_EditorControl.openDocument('ba9ae5b49cdb7591');return true;

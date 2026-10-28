@@ -1,0 +1,3541 @@
+{
+  "schema": "uwb-project-local-skills-v1",
+  "userFacingDate": "2026-10-28",
+  "sourceRoot": "C:\\Users\\29909\\.codex\\skills",
+  "destinationRoot": "C:\\Users\\29909\\Desktop\\File\\2026本科生实验室\\UWB\\.agent\\skills",
+  "excludedDirectories": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    ".pytest_cache",
+    ".cache"
+  ],
+  "excludedFiles": [
+    ".DS_Store",
+    "Thumbs.db",
+    ".env",
+    ".env.*"
+  ],
+  "skills": [
+    {
+      "name": "manage-pcba-program",
+      "role": "硬件项目阶段协调与证据记录",
+      "source": "C:\\Users\\29909\\.codex\\skills\\manage-pcba-program",
+      "fileCount": 7
+    },
+    {
+      "name": "plan-electronic-product",
+      "role": "需求、系统架构、供电和接口规划",
+      "source": "C:\\Users\\29909\\.codex\\skills\\plan-electronic-product",
+      "fileCount": 5
+    },
+    {
+      "name": "qualify-pcba-sourcing",
+      "role": "料号、封装、引脚、采购与生命周期核验",
+      "source": "C:\\Users\\29909\\.codex\\skills\\qualify-pcba-sourcing",
+      "fileCount": 6
+    },
+    {
+      "name": "design-and-review-circuit",
+      "role": "供电、复位、接口和电路正确性审查",
+      "source": "C:\\Users\\29909\\.codex\\skills\\design-and-review-circuit",
+      "fileCount": 6
+    },
+    {
+      "name": "easyeda-api",
+      "role": "嘉立创 EDA 专业版 API 文档与桥接工具",
+      "source": "C:\\Users\\29909\\.codex\\skills\\easyeda-api",
+      "fileCount": 475
+    },
+    {
+      "name": "easyeda-schematic-net-fanout",
+      "role": "器件放置、引脚映射和初步扇出辅助",
+      "source": "C:\\Users\\29909\\.codex\\skills\\easyeda-schematic-net-fanout",
+      "fileCount": 3
+    },
+    {
+      "name": "ideal-schematic-style",
+      "role": "用户个人原理图风格与参考规则",
+      "source": "C:\\Users\\29909\\.codex\\skills\\ideal-schematic-style",
+      "fileCount": 18
+    },
+    {
+      "name": "modular-schematic-layout",
+      "role": "模块化图面、局部拓扑和统一视觉规范",
+      "source": "C:\\Users\\29909\\.codex\\skills\\modular-schematic-layout-main\\modular-schematic-layout",
+      "fileCount": 17
+    },
+    {
+      "name": "schematic-humanizer",
+      "role": "可读性整理、渲染审查和连接保真核对",
+      "source": "C:\\Users\\29909\\.codex\\skills\\schematic-humanizer",
+      "fileCount": 9
+    },
+    {
+      "name": "pcb-design-guidelines",
+      "role": "从原理图到 PCB 的分区、回流、层叠和施工指南",
+      "source": "C:\\Users\\29909\\.codex\\skills\\modular-schematic-layout-main\\pcb-design-guidelines",
+      "fileCount": 9
+    },
+    {
+      "name": "pcb-layout-review",
+      "role": "布局布线、RF 禁布、热、DRC 与制造性审查",
+      "source": "C:\\Users\\29909\\.codex\\skills\\pcb-layout-review",
+      "fileCount": 11
+    },
+    {
+      "name": "release-pcba-fabrication",
+      "role": "同版 Gerber、BOM、CPL 与制造包核验",
+      "source": "C:\\Users\\29909\\.codex\\skills\\release-pcba-fabrication",
+      "fileCount": 8
+    }
+  ],
+  "verifiedFileCount": 574,
+  "fileHashes": [
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/SKILL.md",
+      "bytes": 3695,
+      "sha256": "77624e47439bda7ae7795b65114a59a4efc9edd2346220f69e8c8e4966ca6172"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "9d11a247732c0e3d8917e1752ec0db96e96ee0524dd2d03b2854a3b7709ffcad"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/references/recorded-workflow.md",
+      "bytes": 3976,
+      "sha256": "38f7713cb76335f36e7991062c94042aa564f41d5d8f65177a58ddded0855c5b"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/references/stage-gates.md",
+      "bytes": 3024,
+      "sha256": "88408a83c22a8179031e529b1b889b40065039a98551cabc3deede479e8e9bdd"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/scripts/program_state.py",
+      "bytes": 10461,
+      "sha256": "44a8f7d58bea98583ce74cd7bb4994b84871831847776e4e9d895f71a7446c31"
+    },
+    {
+      "skill": "manage-pcba-program",
+      "path": "manage-pcba-program/scripts/workflow_record.py",
+      "bytes": 13735,
+      "sha256": "d978e25c8a7ffe1e19b0573e9b2d47ddeed0afba188e2a933be5ca9b032afd92"
+    },
+    {
+      "skill": "plan-electronic-product",
+      "path": "plan-electronic-product/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "plan-electronic-product",
+      "path": "plan-electronic-product/SKILL.md",
+      "bytes": 2436,
+      "sha256": "516745dacb93df154091d24933a8cd6be467288d080311261dbebcaeb928da12"
+    },
+    {
+      "skill": "plan-electronic-product",
+      "path": "plan-electronic-product/agents/openai.yaml",
+      "bytes": 266,
+      "sha256": "49f4d9289a466459abdae7cb5bf8b2ad79d8d35e777d278452ca0308153c83c1"
+    },
+    {
+      "skill": "plan-electronic-product",
+      "path": "plan-electronic-product/assets/product-brief.yaml",
+      "bytes": 568,
+      "sha256": "2a436490a09444f5de44d9be759f1cac2e032cd6d7af0fa3fb6f9ccb5c882f13"
+    },
+    {
+      "skill": "plan-electronic-product",
+      "path": "plan-electronic-product/references/intake-checklist.md",
+      "bytes": 1656,
+      "sha256": "b8634829a00ad5a47ef5d9db535974d30e6abc88fde9a0deb7283f1c298249bd"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/SKILL.md",
+      "bytes": 2665,
+      "sha256": "e89d661fa8fb7c2124e9bbeb98498156669971ef926d349626afba65d1441bfa"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/agents/openai.yaml",
+      "bytes": 231,
+      "sha256": "3fd2b47829b6a6dbc9d894123c76d8e239dab045d17503f4af5458545c5cb1ad"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/assets/sourcing-lock.csv",
+      "bytes": 496,
+      "sha256": "6ceb61653f88b57ba6690c977c2bb4de132d1e2ee403e6e1f7c4cc496a9a9bc4"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/references/substitution-gate.md",
+      "bytes": 1851,
+      "sha256": "ab301974b0462178e7428176cf6ae549e571583694c56c8934be778c9fb9066a"
+    },
+    {
+      "skill": "qualify-pcba-sourcing",
+      "path": "qualify-pcba-sourcing/scripts/validate_sourcing_lock.py",
+      "bytes": 11545,
+      "sha256": "f1995a86975f734b19944e717f1e733f3c3ee265fd29e6b102b7f6ba7846f97f"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/SKILL.md",
+      "bytes": 3345,
+      "sha256": "5eecdf01fff35f4b5ae53ccd695f12c2032a65f24141fb5dc886d94b6d963159"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/agents/openai.yaml",
+      "bytes": 256,
+      "sha256": "b9d38b286a937e88abd479ca24e8a5b7ad253764ff4a9fbeffde82c2a07a0b33"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/assets/circuit-review.md",
+      "bytes": 627,
+      "sha256": "3264ea93ee180a99a0cd47c6443a0dd29cd7a569c05943811240f632a4e76734"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/references/circuit-audit-checklist.md",
+      "bytes": 2354,
+      "sha256": "5328d2bcf4d91abd4ed286ca27f3a6bb481c038c6bd86fc1d8acd4738251c168"
+    },
+    {
+      "skill": "design-and-review-circuit",
+      "path": "design-and-review-circuit/references/evidence-adapters.md",
+      "bytes": 1078,
+      "sha256": "1d77b6bdc87544669da7d619549580a3cab79ee699ea08f2b4de8a90cb6d5941"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/package-lock.json",
+      "bytes": 839,
+      "sha256": "69d0e4c2e8562abb006e6cfc407059f8d0c3ec66d504223173580232c3989daa"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/package.json",
+      "bytes": 262,
+      "sha256": "477a969dcbfdc628b2e9a8c008488e046be76c7dbdd7db332f60499e61226421"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/README.md",
+      "bytes": 4807,
+      "sha256": "aa2edd1de828a01a02d1bd3a6029f9ac3329811ce12827a6d6144602886672df"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/README.zh-Hans.md",
+      "bytes": 4454,
+      "sha256": "4269fc1d2283fcb0285a1fa76365f36926e7cc359abfaa5aed448dbcbd66de3d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/SKILL.md",
+      "bytes": 31547,
+      "sha256": "a0ef933a087b30014bfc9d952a240fc8bc1e70fb8645d0661465c0470cb8e1d5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/index.md",
+      "bytes": 7050,
+      "sha256": "c77941769faf75730eecd5a99c37b87a86ff68bd6bc4bea317d8b8b14f3ba0e1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/ancillary-projects.md",
+      "bytes": 4339,
+      "sha256": "a6ff15ba77fad6ebb372caba856f50e77c77edc1673aa87c84e0de1f6a4fcd02"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/cli.md",
+      "bytes": 57515,
+      "sha256": "8a62a8d309c9bef304ec00eeb139e58493ce035d1d4915ba6e44f129de820698"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/error-handling.md",
+      "bytes": 1238,
+      "sha256": "ffb216d4b8972b92da78d955c42d8e6ce93258dc1cbb75a4be211a0a96f45966"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/extension-json.md",
+      "bytes": 4932,
+      "sha256": "c0c5bdb44da9dc3b8fccd9adacf2b2ebbfd5bed0214ef12119e73eb6886d9e89"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/extensions-marketplace.md",
+      "bytes": 4227,
+      "sha256": "d7b81d4683b7714a3d46b6c1e353436bc4f8df03bace1d09f89e44bb9ce05509"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/how-to-start.md",
+      "bytes": 16433,
+      "sha256": "28a8a2ec3145e075f77617872a36811e18801770844b45e7a315da9dd83897ae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/i18n.md",
+      "bytes": 3049,
+      "sha256": "59997feb3bf7f91fb1ae2bf15d141d8c027e18c1ddf830af958e4e93cd28ecd4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/index.md",
+      "bytes": 955,
+      "sha256": "26a26c25963543e6a576d3b0eea9fbeb903fabecbaba68a52094ae212bd508ce"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/inline-frame.md",
+      "bytes": 1390,
+      "sha256": "1d183f3c3150b023ba8aebb063e5c11ce96b538108424bdb8e966242ecbfc58a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/invoke-apis.md",
+      "bytes": 4110,
+      "sha256": "4fcdacdb40a35eb53c83706a36963bc1d04f288e6f3de5811fcd246dc82065bf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/stability.md",
+      "bytes": 3198,
+      "sha256": "db41216129c0681f809f5842d6b8f918bce663064e511c299ab1269b1bd75234"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/_index.md",
+      "bytes": 40837,
+      "sha256": "f96cc6f89e77aeccee2ef9d2a5d6b43bb3b6c6a1c088f491289bc998cd5ccb09"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/_quick-reference.md",
+      "bytes": 196270,
+      "sha256": "0f08219f26be5b0a0db032d4ebc3116a518b4057b52019248e418042e0f3f800"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/scripts/bridge-server.mjs",
+      "bytes": 18241,
+      "sha256": "33cbd91c5b36077a3e30aab2fa2df5402637fe612fa9ab8fe2e8473ce2024d96"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/user-guide/using-extension.md",
+      "bytes": 2250,
+      "sha256": "21b12879d081a638a5e86712984d852f4576013442dc4c677b2cb1123338b7c8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/3d.md",
+      "bytes": 4645,
+      "sha256": "0be99874019a2307153bec6372d5b9c6f3f993467036a1ce26b530383c43564a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/attr.md",
+      "bytes": 2064,
+      "sha256": "f387337689d46326f6cd8f478ae3f7e87d0d0e3b03744a7c6f982bd9bd118b31"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/common.md",
+      "bytes": 9692,
+      "sha256": "d6410b1f9e4abb3165f56cecefc687b54a635b00e0c975595c5ae03212b46085"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/component.md",
+      "bytes": 3692,
+      "sha256": "4986f17f101cbd76890764d7d3c8e5b9b64cea6442e3981f4fd6e6dd6890c7ee"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/dimension.md",
+      "bytes": 2047,
+      "sha256": "aba1168835398023ca135fc3a56bb4b7352a194abee43a19a62a5c2d9e915cd4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/index.md",
+      "bytes": 1219,
+      "sha256": "abbbf2fba1a1270fd63915cf84fcbb60bcdff974d76f4222cd619cb335ca2950"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/obj.md",
+      "bytes": 1436,
+      "sha256": "e3f13910ba505078d1c84fda9c9cffee2560f644531a45800d69304a163aa240"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/pad_via.md",
+      "bytes": 4795,
+      "sha256": "81f6deaa2cfa9f933718b3331d0fab966608c3765d87da676830b1b90d83579b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/panel.md",
+      "bytes": 1598,
+      "sha256": "3882cefa6ac62bccf1314051adb3752528b0ec09d5cd632efc2745d4688fa38c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/partition.md",
+      "bytes": 1030,
+      "sha256": "740973a79f376fc6669a81fda92fa48a025936e0948cfdb33bea23c921995605"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/primitive.md",
+      "bytes": 4993,
+      "sha256": "1b9987a6c080f41e0a0ae668981d05e1a7bdc600571a4dbd561eb4dca52a1c33"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/rule.md",
+      "bytes": 2334,
+      "sha256": "8a8f7ed33b117fc3196d9da9bf41e13617f097a104ede6c5d401db54ef45b8fd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/shape.md",
+      "bytes": 12240,
+      "sha256": "f2dbd18727203a69fedf091a8e9dfc852a8c12c94f3255c465f81a8bde773856"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/pcb/text.md",
+      "bytes": 1963,
+      "sha256": "4b7960e893627234b8788fd23a1b95eac481ada3d19b0518a5356938f69d5984"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/blob.md",
+      "bytes": 1349,
+      "sha256": "c7250e4817120d93a0ab9a8f5fc73e2a899f3e5c107b649b79eef465969123d2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/common.md",
+      "bytes": 935,
+      "sha256": "3cb8a06fc19aa7336f0150e307a5ef8bf2afd55da7968b178411eff35b8f206f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/group.md",
+      "bytes": 1644,
+      "sha256": "0737c4f67676a7a9103cb38fa79b458f6d8cf07562f6aa1ac5d68892eb774a22"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/index.md",
+      "bytes": 808,
+      "sha256": "f5b3443bcd0f2b4edf5299865175ebc337b6dbd8e5e96fb2868bcacbf06aba30"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/instance.md",
+      "bytes": 1329,
+      "sha256": "1884a20416247615c2200ad9c8e3dbd333a543c6c6d2e28608580a0988e810f2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/meta.md",
+      "bytes": 3551,
+      "sha256": "318d7bc68c2f6e7486df451b847e2d848d774fbb9fd83f71dab26816769021e2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/project/variant.md",
+      "bytes": 611,
+      "sha256": "c05da478f1eeb4e6db0b9d73d93ff6f5c79339cf0dd5faae263068f1f0a4d2eb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/attr.md",
+      "bytes": 2105,
+      "sha256": "25be147cc907198e2d368937d3206a68cee42552c81104f5d144911fbf45a29f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/common.md",
+      "bytes": 1445,
+      "sha256": "e9cebc4f3a24cdf96c2bf91b3219a701522a2e75b1fcd1a7cae1611aaa259395"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/component.md",
+      "bytes": 6838,
+      "sha256": "760fc7d491e4fc9cdb9eaf4dca81028fa8c323d9e8aac8ad9da077e760d2a247"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/index.md",
+      "bytes": 940,
+      "sha256": "162048941858a6fbf3c0456cc350f7d0c7bcb711e1cc761d87581850c36e5c1e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/obj.md",
+      "bytes": 1249,
+      "sha256": "3b119b1845b007ce38fe4ca844c84f4eeda51c6a457d3c20f9e81317dbe41b0e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/pin.md",
+      "bytes": 2308,
+      "sha256": "da057715b7bbe7eca7058219e628e52bb428d33256d1d95f22d7354197fb59e9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/shape.md",
+      "bytes": 6973,
+      "sha256": "97a0f44564e8fe78e0057206ff23f8658decf0739d02396b3025b59a69a4ff81"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/structure.md",
+      "bytes": 1553,
+      "sha256": "5a842c91fb9a83301cdb12414b90d821cdcf5ff19fe8036769382e1fc88a1f0d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/table.md",
+      "bytes": 2449,
+      "sha256": "c38bd177c61a00ad838e01024f647e3967faeb3fa09e06bf7b6964cb983aada4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/text.md",
+      "bytes": 1295,
+      "sha256": "01bcff7279e455347728bf266d0b63717a3b59aef39acde623f792be924b1e5f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/format/schematic/wire.md",
+      "bytes": 4953,
+      "sha256": "d0ac1f9508caacde048c4b0481a78582bdb03ca6d339c353767ece3c3731ea92"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/ancillary-projects/easyeda-api-sdk.md",
+      "bytes": 60,
+      "sha256": "b22fbd767a392fa85eaf8f4172e288333a8191901f3a78369d28f2d2d680b4cc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/guide/ancillary-projects/pro-api-types.md",
+      "bytes": 92,
+      "sha256": "6dd75ea90bbf3a2708ff12e038a18702cb2cdeeb55a5cf7022a500e4afeb5993"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Board.md",
+      "bytes": 8589,
+      "sha256": "4ab703f89e0676048521435dbad575251baec11411a3bc9dc7696abf16b06318"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_EditorControl.md",
+      "bytes": 33425,
+      "sha256": "2b027fb4f3ddd703e502ea0e1cbaa382672dd4cf0211eaa5455266079d556ee7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Event.md",
+      "bytes": 6139,
+      "sha256": "741be34d61575b5df099683ab98fbbe38efe3be381c984bcf247610d3ca9cdb2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Folder.md",
+      "bytes": 12495,
+      "sha256": "b33619643242f3d720f4c01486ed3cbfe036f417a5933abe0ede5b44680013d9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Panel.md",
+      "bytes": 9807,
+      "sha256": "d71fd5570df39b567679aac2aec5c3e02e19d59ded158d9a09e8d7a18492a205"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Pcb.md",
+      "bytes": 10449,
+      "sha256": "da83df2fdff9a16a919bbf2c58c9d72501e35fadbaa1992fa6ffc9f0bcb30dfd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Project.md",
+      "bytes": 12144,
+      "sha256": "b7f735812ef2a69f2fc77dcc668886b16b9b47248e520615a1d85a2dbaa52e5a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Schematic.md",
+      "bytes": 35735,
+      "sha256": "a015c291eb161e243117f671271083cfc947edd2dbb9d8b7e21df52e36118e8f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_SelectControl.md",
+      "bytes": 2512,
+      "sha256": "eed90fb83ee8cc0d89dd12bfdf0a472ba74f7a66a8921e438f86fab705b614f8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Team.md",
+      "bytes": 3322,
+      "sha256": "bfe76f9eeaf0546d94fb5d2028a82b9196ee5e1c48ec4f93538f1e0d593af57b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/DMT_Workspace.md",
+      "bytes": 3732,
+      "sha256": "9da1542e3bf061d257c049534c47a416111b85a3cc1f89aec4876ada0bfdb35d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/EDA.md",
+      "bytes": 12618,
+      "sha256": "d5ea11420ee8a84ea8d5427fa45bfb868c844452e7ac4c189e0f7fe276b846db"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_ComplexPolygon.md",
+      "bytes": 6044,
+      "sha256": "e0364f22e9a5a74d39ff2cd45aec207f82bfdbd9a3df18e43cbe3050ee9ffde9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_Polygon.md",
+      "bytes": 3105,
+      "sha256": "8fcd843dbee93edf2683585877f3821e54c55e3848e205bcf39ce163a4a8ccd0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveArc.md",
+      "bytes": 37653,
+      "sha256": "435652e00f93a9272709d90c1baf8bb5589cde42c15e67e8fb50ff9dbf7c76ce"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveAttribute.md",
+      "bytes": 64926,
+      "sha256": "26578900362ca37e229e3a875fcc35fd0ef5343a9cd2398f662ce7991922659d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveComponent.md",
+      "bytes": 52305,
+      "sha256": "d4a67282b909bcd859a068548b65fc2122bad5f7379593bf84552c1a28eee70f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveComponentPad.md",
+      "bytes": 8772,
+      "sha256": "6bc9d17c55216675c48579146a272e9525b451644a434e60210aa0d979aa402c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveDimension.md",
+      "bytes": 27831,
+      "sha256": "174b03f4d276bdbaf5d9ed718c629b144237599c4451acd770262aaec6067b54"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveFill.md",
+      "bytes": 28795,
+      "sha256": "c6719ffe6a9e00e105b57b63b033e9dc43293fa4725c2ab9e90515efe6b264bf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveImage.md",
+      "bytes": 31889,
+      "sha256": "e15614ff04971ed3b4392abe6d65c2d5e3ffc44fb98a7bca6e96bd33dcb4a015"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveLine.md",
+      "bytes": 32186,
+      "sha256": "7d42e4ece46df64987c6ca6d15f4cee937a6795aaa3088e0485236bcb96a37c5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveObject.md",
+      "bytes": 39835,
+      "sha256": "297957beda63cf53e13578cb87e3bb7e9d9c3656d31d1a4fe6beadee54d2e8d4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitivePad.md",
+      "bytes": 61154,
+      "sha256": "90913ca44c0c622ef5b092b3801eecf388931bd04b9a49f20250ff741b4d247e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitivePolyline.md",
+      "bytes": 26817,
+      "sha256": "6f53caf614f335b5be8ae057d2dfa54eb07ebd2d78d0152a4931c8db3938912e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitivePour.md",
+      "bytes": 42693,
+      "sha256": "15106206e50c896874998159c2c919c072545670dd0518b24a963071ed3c632d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitivePoured.md",
+      "bytes": 12285,
+      "sha256": "704a8b747597da767e5d84eccfa9e773d9b1c8fa4eb9b8fa6d0dd6e9836890f6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveRegion.md",
+      "bytes": 29858,
+      "sha256": "c2c0216d9f78d0187492d44fcc451fdab548a0eded24cf0cbc806dc27c69e9ec"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveString.md",
+      "bytes": 44413,
+      "sha256": "ae0ccfbba412e048aad25bcd09deadba06a8e306940e2b6fdddfd316f12d71d8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/IPCB_PrimitiveVia.md",
+      "bytes": 32128,
+      "sha256": "61519751b3ab671e89f9a81af3974d2b1217dfb8ef771cb00fd2faf06b28ee37"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveArc.md",
+      "bytes": 32988,
+      "sha256": "caa892528dd6c4ac315949b9f4a5c48a181ab0d109ff510a3de87439e8011430"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveAttribute.md",
+      "bytes": 59217,
+      "sha256": "0883040a91c804d3f1ea2f348c1ce0c0e180f517b670cfcfbd6770b531e55202"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveBus.md",
+      "bytes": 19561,
+      "sha256": "de413ede8dc2e6d223618f7d062068b6d0c8c387ce824f29428c22d1c5aa27f3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveCbbSymbolComponent.md",
+      "bytes": 5987,
+      "sha256": "bb6e2f49533bc99be4d16f4bcdc7ce4db9e02a2106b414fa0ee21e887d54a436"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveCircle.md",
+      "bytes": 27562,
+      "sha256": "1faef52285002589da27798efdd5d2e9c18d4b275f68caf02fd38959413f8de9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveComponent.md",
+      "bytes": 56708,
+      "sha256": "3f2a9a7e24c666230ef25178fe3dcda1fcf8da38fb5198a75403c94966867fae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveComponentPin.md",
+      "bytes": 3071,
+      "sha256": "db044b2843447cd04837578decbbbfbe6dc8c147d6a8f3403c72e061d95a43c9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveObject.md",
+      "bytes": 13035,
+      "sha256": "0e832b9535b541aaef34ad3f36dcb592789510fdff39d8decc65c1acc70ffa61"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitivePin.md",
+      "bytes": 52066,
+      "sha256": "a3d491e207a080baca9fd3ad61a8694db505d558aeb6041a69b51d02be8dd812"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitivePolygon.md",
+      "bytes": 21724,
+      "sha256": "5ae3517c6a2fbd295b7e565c8b93a27594825e3c3b2656d2505a5bf4a01edaba"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveRectangle.md",
+      "bytes": 35403,
+      "sha256": "c932a2d6d4fd539a565f4ca6db744a690e86e2278d09949684c1887f10d82e9d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveText.md",
+      "bytes": 34703,
+      "sha256": "593254bfc06a87895178843e6754733654207549b5974e74e78338a7cfb5a25e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/ISCH_PrimitiveWire.md",
+      "bytes": 19491,
+      "sha256": "c1d65155f8897ba8d7fdf59852005fdf80236dd8a00c36563b82bf1e2698dcf5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_3DModel.md",
+      "bytes": 11826,
+      "sha256": "65b05e4d4173a92a50bfc73b7e49ebadb3d4510231f0a4408f53745857b90664"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_Cbb.md",
+      "bytes": 15753,
+      "sha256": "a5143e45535120078a0cff997fd9d8fdb13a7dd535227046389e6798b54e7583"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_Classification.md",
+      "bytes": 18202,
+      "sha256": "fe8433a9961493096fed7aa6c886daf1de89af082c17b3d460353ca480b72e1a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_Device.md",
+      "bytes": 20589,
+      "sha256": "9436c06566a0ddafd18a82e284db09b762b995812044d90cc9a93f7fae860c05"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_Footprint.md",
+      "bytes": 21372,
+      "sha256": "6212a844b4829e7ac27f66562cca61e744ed0cdc43c5344ae04171e9ea8edc1d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_LibrariesList.md",
+      "bytes": 7466,
+      "sha256": "91cd3f1fec15189a267e37e785a16ed0f11c2edb770525f8b40d684d6d9979ea"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_PanelLibrary.md",
+      "bytes": 13516,
+      "sha256": "3188eb39a63b0638f8efe2668b4f5c24f68eb7631f5ab3b883605ef6e8207488"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_SelectControl.md",
+      "bytes": 1849,
+      "sha256": "6ed28f5c4e07854ffff4a95ed4c694a568e7a9b3c23ed602a4640e3f1e01a755"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_SimulationModel.md",
+      "bytes": 12839,
+      "sha256": "f94919d94df756993937529b9da9fdcd5752731e8bba4e1e692369d1689ed96f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/LIB_Symbol.md",
+      "bytes": 22987,
+      "sha256": "f9588a36350bbb1caaf8427ab3472885910776f4c7aab0157d4c7fa24a986888"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Document.md",
+      "bytes": 34090,
+      "sha256": "c24744213f1ac481256105b6dbd351da5e3e018cc3ab154fdbcbefd9dc3f205d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Drc.md",
+      "bytes": 61552,
+      "sha256": "7401659df4b3fb302abe1f9f8fbacd3bc78999fc2d3d5c01bae369d140de7eab"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Event.md",
+      "bytes": 20324,
+      "sha256": "457687116b0d5d081777a3f493b206760431049c1b693285d5cbc6969b2ce45a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_ImageTool.md",
+      "bytes": 7315,
+      "sha256": "8b439315b988a6e68573080e0287405b49d9ed0bba77beef49bb5c23b90d617b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Layer.md",
+      "bytes": 35588,
+      "sha256": "52a1fe2c162d78d2c6bb99ae26f5c2bf6a4e2cfc9c96581164740ad4a0993197"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_ManufactureData.md",
+      "bytes": 52314,
+      "sha256": "03c77ce6cb84a4d3bbd3ba867ad47e7de89d6ac0855b54c6ec694f64909481ae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_MathPolygon.md",
+      "bytes": 17234,
+      "sha256": "73b088ea7f7552066066332d42e5ea8aa0acd738143926b89a41ab3cb89c96dd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Net.md",
+      "bytes": 18944,
+      "sha256": "d8bd261544070ec112fe1ae9054ed6f356a1f579eee128f6ee8cf3a3d126e3ba"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Primitive.md",
+      "bytes": 4651,
+      "sha256": "53560758cb7231c0b5ca5837ea4977d0ecabef6d1b800a524d28be4860bc4eda"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveArc.md",
+      "bytes": 14816,
+      "sha256": "ce539a50058ac0951de36d1d2642d13b922557523f740c994fe56544f80a6718"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveAttribute.md",
+      "bytes": 14545,
+      "sha256": "9f8a043593a9f9df4675108d4a176bed78545ca054f2bf2f0892a7e261a117f1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveComponent.md",
+      "bytes": 23246,
+      "sha256": "2939a659ae2a32b41d7957abdf7ec5259292cfa3c27610594ae94d4a36ec5b64"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveDimension.md",
+      "bytes": 15557,
+      "sha256": "a9cce888ab49fd3437e21961b270d184c19b8eb0afd786265c993c827c928e08"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveFill.md",
+      "bytes": 14695,
+      "sha256": "554bdbd2193711885b072f267214b7952542122562ac046e8cbe7b4450e4eb12"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveImage.md",
+      "bytes": 15256,
+      "sha256": "5d2684c7bb01a09a59aaf5c1feaf3e47d969f09c21cd85fde3af246a72158d2d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveLine.md",
+      "bytes": 14103,
+      "sha256": "cb7c435d06feb93e01719a4780676f4b348fd503c61da600da61622b7e38cc04"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveObject.md",
+      "bytes": 16282,
+      "sha256": "83e8e5abe4ca75e5099f358353e48870ffe75f791cd5a023d4f0e2bcb691d73f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitivePad.md",
+      "bytes": 17427,
+      "sha256": "1284556a4ed1f674ebb2400e9aad3580b1d2a62351a8824e4b4134e7b8e0f0c1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitivePolyline.md",
+      "bytes": 14697,
+      "sha256": "6ed62782a96e3814e0495277a3888a37c506aa57124c354f7f94b5b189c68234"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitivePour.md",
+      "bytes": 16116,
+      "sha256": "c225b28aefc262de0f10a38b2e04f16202950fef1f8d6e8f38aa7604a9311638"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitivePoured.md",
+      "bytes": 7775,
+      "sha256": "996d1943ed317d72c9bda83b0684aed6d1fc244760b388a207d2f7cd5141a353"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveRegion.md",
+      "bytes": 16010,
+      "sha256": "f18afdfba2aabf6e6dd68321c31ee9ba5544ba792429ca3c9e363a809f490959"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveString.md",
+      "bytes": 15137,
+      "sha256": "0dcf7a7f7c79492f3c9155afe0a62b82fe38fce0d3d445493a8d015f0f8753b2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_PrimitiveVia.md",
+      "bytes": 14081,
+      "sha256": "a3f70dcb659ce4a9bd45cdf2129e99c7073d4fdd0644e52f8344ffe79858f2f4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_RayTracerEngine.md",
+      "bytes": 9203,
+      "sha256": "b73da5835e4584b34f27cd5704f6f97556269b59f53e399410ebf392a30c850f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_SelectControl.md",
+      "bytes": 10542,
+      "sha256": "2b5cd9a7c9a34e763cdc2b7f294cd7c2b72c4307a9641ca264a2784fdafefb84"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PCB_Tool.md",
+      "bytes": 88,
+      "sha256": "304234c63d792e9c2d0e315ba9534387d6148a60de961f0f421a00df8262aa6f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/PNL_Document.md",
+      "bytes": 1417,
+      "sha256": "3c1165a890d778ffa2a497a5c2561f0dbb32c9554544349ee9067ab4791a61c6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Document.md",
+      "bytes": 15363,
+      "sha256": "f0d30b6390d0f0a78513023d0ce09ce977fc8188256a8ff36368ff8723b7030f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Drc.md",
+      "bytes": 3969,
+      "sha256": "96f7cc28afa8146ac4459fb23a5df953044de87b7fe31161889cedb143c56b37"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Event.md",
+      "bytes": 9426,
+      "sha256": "59f748cbc57c263a0532163ecf73af6d7a9d0e4dfaa90ae116e7190cf6b1ee8f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_ManufactureData.md",
+      "bytes": 23053,
+      "sha256": "713bc2a726362031ae0412db6c33b2545f509afab061cb5e453a995eccac80e5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Net.md",
+      "bytes": 3060,
+      "sha256": "d46850d065e8e849e7ea0e0dea2e6fc82a73ed195f92e764fb28771e5ba8adfc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Netlist.md",
+      "bytes": 2639,
+      "sha256": "b431773c7fa80e3981cc79bf7ff57f032c4f089e6d05155c8c471ee556f3e427"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Primitive.md",
+      "bytes": 6084,
+      "sha256": "749a8ea862a96248fcc5631e5269f7eb1576d8a111c7fa6ff5919494b3b324c4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveArc.md",
+      "bytes": 13204,
+      "sha256": "a844e404f2d35007c25ed2276ba79b5f7518f58bedb371863ef083b0ca518a5e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveAttribute.md",
+      "bytes": 11602,
+      "sha256": "a86f8774b52c6c471a8285010cd676759dd60a042f8df854b06dc621406ccb76"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveBus.md",
+      "bytes": 13691,
+      "sha256": "bcd0c4335483d42b7354af362e0c3838d50afdf52cb0c2d1f8fdc3d25362ecdb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveCircle.md",
+      "bytes": 13760,
+      "sha256": "cafd1a04f4beb7bea2ca955173c85f046c7cdd7c246634d71b8389c4a9705463"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveComponent.md",
+      "bytes": 42161,
+      "sha256": "481b9efc1d95911854b08fa293583e20341a407abb87d93f1b7a34511673cad9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveObject.md",
+      "bytes": 14474,
+      "sha256": "3b7880f38f6be8beffb06d69d11c61b5f77ed71caa16be5bd3cdd1aab650b20f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitivePin.md",
+      "bytes": 17668,
+      "sha256": "48912239ea6ad6d5182e2d44654243bb182051eba30c2a34a359e5b9407e02e6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitivePolygon.md",
+      "bytes": 13753,
+      "sha256": "11a13bd5691a8219196d482b1c7655114ff05b6b63f5e8a57c13a62da329b54a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveRectangle.md",
+      "bytes": 14462,
+      "sha256": "994e12f7fc8740098f263d77d952e78dbc7436efd57b75e3afdd6343ff4c698e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveText.md",
+      "bytes": 14505,
+      "sha256": "ddd679d8cc33976d7d0cbc3eb5f18c5abc984feb57db6436de8cf2761aff0b33"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_PrimitiveWire.md",
+      "bytes": 16332,
+      "sha256": "04438126d78df50e8fb366a574f1c2a7d99a9887de37dff2c839f1dbb9c7baaf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_SelectControl.md",
+      "bytes": 10210,
+      "sha256": "eb14f04f4d49954f866c3f8c23519f70c9431c7c6d757a7be3a81f4649f1e278"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_SimulationEngine.md",
+      "bytes": 2022,
+      "sha256": "041faac61e5457af48ae6e77cc7c8832b2ff3cb63d8258f87ea81608f82dc9fd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SCH_Utils.md",
+      "bytes": 2721,
+      "sha256": "563284a6d67218d2e5543269bc55cddc2a7630bf6b6be8458798a790aff35628"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_ClientUrl.md",
+      "bytes": 2806,
+      "sha256": "f0575ce4c59b6a3da295df59ecb3f259b68c04d4e5fdd5b0b8477bb0b13f87f3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Dialog.md",
+      "bytes": 12747,
+      "sha256": "28097c57787f2ad57de34869e6ebb19deaf403888e9df9a321784a22c6f81701"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Environment.md",
+      "bytes": 10015,
+      "sha256": "a1c08045111e866d781ff3d799f71325d25b971403a7511cb5093d3c426f29d3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_ExternalApi.md",
+      "bytes": 3764,
+      "sha256": "80c7e645b1b4aca03f3f0cd6384d0e67b0cfe0fc238c6598ddc821bb82d45485"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_FileManager.md",
+      "bytes": 32294,
+      "sha256": "671c5fd997711e1853d383a5c08aac4f7770e6eb73d620f93987fe1c352a36f8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_FileSystem.md",
+      "bytes": 22409,
+      "sha256": "9e34c5d4f590be116e7d891df56c1331cbd33c87695fff16b9396674ebf04cb9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_FontManager.md",
+      "bytes": 3130,
+      "sha256": "fe32e2bd5d27f9ddfacc69cba303ec2cc657c78c210e62117a6e53fb43a11bf0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_FormatConversion.md",
+      "bytes": 7275,
+      "sha256": "e137b1ad28871993b813682d2c03775abb754cf0caf5422257b1c48c17a5d432"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_HeaderMenu.md",
+      "bytes": 10833,
+      "sha256": "9f4891e9c50b7db30105bfbabea03a9e845daa05cd7d41244e7e323a2f3c32fb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Help.md",
+      "bytes": 3261,
+      "sha256": "bd4d06365f0fe2c22593f590e3859b24ca6e28c76dd3761ecaf0e09cac45b1cf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_I18n.md",
+      "bytes": 13410,
+      "sha256": "71b1dcc3c17fcd0ced9aa8df1251481cce9e7c844fceb2515602f41c7ec3d3fc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_IFrame.md",
+      "bytes": 11942,
+      "sha256": "c2a9edd3b4eba1e437f46d231d0af9db561d7f6abd8449166be03ac0ea96a765"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_LoadingAndProgressBar.md",
+      "bytes": 4336,
+      "sha256": "7010eb68eff733fcb7ad416a1fc15d30cab09338cf285030fadebc7f36cf76f6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Log.md",
+      "bytes": 7082,
+      "sha256": "9d9ca4c290cad6cfcd4c374e2d6e68de6c3e684440d78eede2f65fc8225970dd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Math.md",
+      "bytes": 28771,
+      "sha256": "734fe126189faa6d04809d9d3b11736f44f9d6ca42cf45ea7c024705ac8f4562"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Message.md",
+      "bytes": 6210,
+      "sha256": "a3d528d98d47e537448ed038b6dcba9a44bd9afad668ba5da1bfb39fabd315af"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_MessageBox.md",
+      "bytes": 3835,
+      "sha256": "2a75448a858c64aa9b84a1925042a82ccc8fdf2c41c4d5fde179522b64b39ac9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_MessageBus.md",
+      "bytes": 24151,
+      "sha256": "9a5eb5a0f425d21861c883a1e0859fcd9fd981f5a1fafc0f0a4c7de0c65a304a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_PanelControl.md",
+      "bytes": 11158,
+      "sha256": "f276aa39b487b3b65285d0f046f5904b4fb1389e126d3b9f9f1da284abed1f59"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_RightClickMenu.md",
+      "bytes": 4087,
+      "sha256": "8bf0ea14dd7106b571fa480745459e31c7160fa6315a502fefca6482ee4b3d0b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Setting.md",
+      "bytes": 2956,
+      "sha256": "2074a88738e1f0e5d32af98e5e8f9d55962b39980a4f68b3f8a5726b21814ca9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_ShortcutKey.md",
+      "bytes": 11615,
+      "sha256": "e335d0d95bbd290375b409e40880f04fb79a4658f85bc7688ba052c16f31989c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Storage.md",
+      "bytes": 8972,
+      "sha256": "02d0834e0cb13388fbcc0a405268de33798dd96c73b32aa47dafc69aa99ac6fa"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Timer.md",
+      "bytes": 6397,
+      "sha256": "89eb6aaa4423bae2c3af615a8d1c80a35329b268d4cc8b8f8eb6cedac60562b9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_ToastMessage.md",
+      "bytes": 2921,
+      "sha256": "caa7b03e8ab51c3fc5a1880734fc451f387269ce461083d6c7fe45b6da80ec7f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Tool.md",
+      "bytes": 5876,
+      "sha256": "e34d796626b50a409c733787c03de426e16e4a55fb3685d0af0f9306cdd544fa"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Unit.md",
+      "bytes": 8657,
+      "sha256": "3ec683b9684645eebd0df90e10c122019f18453c741ff904f5184666e4952a81"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_WebSocket.md",
+      "bytes": 6462,
+      "sha256": "853236bf66c34dc67e586f2728e285bb122dcd00774610c1ed2f7d5a2070c5dc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/classes/SYS_Window.md",
+      "bytes": 13560,
+      "sha256": "27442028f154c248499ba605463a734690ba68aa1fe9e1e16229763438b58a44"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_EditorDocumentType.md",
+      "bytes": 2251,
+      "sha256": "1974312e7e2c87d63355d7240f19460d181177b6864e9ec62865b10deb2b1e4f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_EditorSplitScreenDirection.md",
+      "bytes": 436,
+      "sha256": "4a9472467f399a38c840753980f69d8ac1f54d203957249d21fa6bb844584cfb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_EditorTabEventType.md",
+      "bytes": 654,
+      "sha256": "7df4479887faf14eaba366ef21264832183a78d2b7d65749c6fbc0f3e7ff90d3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_IndicatorMarkerType.md",
+      "bytes": 606,
+      "sha256": "9411b7ded728c3c4a38939573366283d5d97c34452ddbe4b4e72a63be4cf141c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_ItemType.md",
+      "bytes": 1193,
+      "sha256": "9ffd6f11d34de3b899886e1f935eb706e519ccf3f7322b05dfc76431e50ff7ae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_ProjectCollaborationMode.md",
+      "bytes": 401,
+      "sha256": "984d687bfac78ba11a3002396a72f8a6e04d75077dcc6a25d9d7d9affa834aae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_ProjectFileFormat.md",
+      "bytes": 857,
+      "sha256": "0ba7b95e8b1627dc1e28e0c7f2620e7e58fe92d6e1027e25e1d0bc5084097322"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EDMT_ProjectReadyState.md",
+      "bytes": 712,
+      "sha256": "70a66d0613e435c05ce766a1fb7c33e2a88c61430aad148bebc7e3d7931602fd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ELIB_DeviceJlcLibraryCategory.md",
+      "bytes": 429,
+      "sha256": "f4878cba74079e7c6287df634e044d6327097b9c27c223416833c3f6f219872e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ELIB_LibraryType.md",
+      "bytes": 881,
+      "sha256": "e1774dbdea3bb5e39094269ab1391f5274d1e22d07aed6268feff949fe7365cb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ELIB_PreviewType.md",
+      "bytes": 539,
+      "sha256": "1080fc6ad87b77934346b1e799fb83016fa06431f86e183017fc3335354ecc86"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ELIB_SimulationModelType.md",
+      "bytes": 411,
+      "sha256": "b47b3cb12ae70ff7c6109709c0f9865b2c3342fd3c05abf023ae4ed0dab1b224"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ELIB_SymbolType.md",
+      "bytes": 947,
+      "sha256": "783c7032e9fac0f7edb96da2bc8524cd19766a7f82fa4d2a454938465044fb7f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_AutoRoutingCornerStyle.md",
+      "bytes": 406,
+      "sha256": "aa560157f3bbd936c40db98caf4a71f7a32b85e4e6f0b923e55b3ea859dd3886"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_AutoRoutingExistingPrimitiveMode.md",
+      "bytes": 540,
+      "sha256": "4efdb8a7c08826e51849b078854abff2ca54f2b9f3e04717afd585567310de0b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_AutoRoutingOptimization.md",
+      "bytes": 467,
+      "sha256": "fbee914aa6da223362019c9eadb7c7f4b03ff0155afdb3d0521a76fc475bacfa"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_DocumentCanvasUpdateCalculationActiveStatus.md",
+      "bytes": 463,
+      "sha256": "44acd86277eda461cae75719df75a779631cbcdc9acb0b7566ccf1daaa0eb59f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_DocumentRatlineCalculatingActiveStatus.md",
+      "bytes": 524,
+      "sha256": "51a48967e126f5ae89127d04c3b7c93cd66c09fb9f8fdbc8ec838bac81ab4957"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_InactiveLayerDisplayMode.md",
+      "bytes": 488,
+      "sha256": "bee1ef1901ac933ac3a2e55f3c16c81b0db3d34e412fd36f6a77456e9d0cc43b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_LayerColorConfiguration.md",
+      "bytes": 614,
+      "sha256": "2ba6fe24570e004116b449c86bd40a918b480c62a2fd76dad8075dcf0e26e7d8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_LayerId.md",
+      "bytes": 6942,
+      "sha256": "959acc1326e054ac909ffa987ca6ca9cfd8b1e669f10e08de25286b0942a9a51"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_LayerStatus.md",
+      "bytes": 452,
+      "sha256": "c343aa4f2722b36d453362d3a31e44e72f8f2167bc899a209c628ef3b9c0aff9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_LayerType.md",
+      "bytes": 876,
+      "sha256": "c755694ff239f369e3a695c38b8b576e8d2c99a043aea7a4d7114c5c13102321"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_MouseEventType.md",
+      "bytes": 480,
+      "sha256": "8ebb642549ce58294f65632aa5bc4bfdbe3411b31d63804a3a9756eae4eb1586"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_NetEventType.md",
+      "bytes": 489,
+      "sha256": "14979586a0cefb6eef48968490616c2bec27921b0819448edceb67da954aa288"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PcbPlateType.md",
+      "bytes": 374,
+      "sha256": "00d61ec318cbbf5774befd4adb89cb309be7f0fdb3154cc1620931180006e013"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PdfOutputMethod.md",
+      "bytes": 659,
+      "sha256": "a8d66bebd8cfd66694583b7bbb30b97e5d5b18c355c58d17e0939606e24279e5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveArcInteractiveMode.md",
+      "bytes": 441,
+      "sha256": "b1ece4b15a6f787588c51a1e241f4f6f7c78fa217d6a274ad0efcd65f5dc0a32"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveDimensionType.md",
+      "bytes": 505,
+      "sha256": "cc42e7a09f9f6057b258ff5be941649dfe571108118a112d775a4e3045d4049b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveEventType.md",
+      "bytes": 473,
+      "sha256": "35f226ea904ffb852471fa1f1e5f5f04b1c7f03cd3909a3fe00c8a6266696048"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveFillMode.md",
+      "bytes": 559,
+      "sha256": "73ec51c79beb1d83f0e96b63b25b0be0517e1ba193732dd7e07f02046e1c03a0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitivePadHeatWeldingConnectionMethod.md",
+      "bytes": 571,
+      "sha256": "3026a5c4bc9040686a4d9acad8d65c49637d8baa8e6cb48670bf07ce18549eaf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitivePadHoleType.md",
+      "bytes": 484,
+      "sha256": "2c0c8e97f7776e1b61acc69e52a7e5c4b25190a4b2e8079471f745e75b7225c4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitivePadShapeType.md",
+      "bytes": 666,
+      "sha256": "9bd85d9ef7217db8e0218eb853522063d8bb1e0860632a7abecad4bd9eae1669"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitivePadType.md",
+      "bytes": 442,
+      "sha256": "d3adcb60f521ecf4b310dc69fb5667d4314c7509d9e3b7c193791abb8a23a89f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitivePourFillMethod.md",
+      "bytes": 492,
+      "sha256": "103243ede6aea39a63ee4e77102b64f89676e6857c3f3539ebc81496811e17ce"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveRegionRuleType.md",
+      "bytes": 854,
+      "sha256": "e32c84f037f536abaf8f240611e4642d0d87176d4f76eab7bafe018e4c778976"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveStringAlignMode.md",
+      "bytes": 890,
+      "sha256": "9b084ec023a2888c553a7e78b90a08e92240b0a4d99018c3787d85bb4f1438a2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveType.md",
+      "bytes": 1423,
+      "sha256": "987e12ea791414f5142813600998b2f01dd49980932d796242bced5383da27c9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/EPCB_PrimitiveViaType.md",
+      "bytes": 435,
+      "sha256": "3c484961ac864c0d8aab36e885229179e4f6c41a4dc3771cf9f66a9336352414"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_DynamicSimulationEnginePullEventType.md",
+      "bytes": 996,
+      "sha256": "62e644aac7455728ba374659badee6e44719b6d1c1af22ec81a3a85da99c024e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_DynamicSimulationEnginePushEventType.md",
+      "bytes": 863,
+      "sha256": "f525d14c97d5da84e28c5ebc8035a2750cf69e877d37f328d11c500d886c3e67"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_ExportDocumentFileType.md",
+      "bytes": 480,
+      "sha256": "6e23dbaa033122101125c1b7cb4463bb1e0e276dcb6061a172cb13838f1678ab"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_MouseEventType.md",
+      "bytes": 413,
+      "sha256": "ac02b570128bc152885e5c9d31b3ad195eb1267cd7182b3fbafbffef0707c459"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveComponentType.md",
+      "bytes": 1080,
+      "sha256": "8e8c3e095a3cd9c2840b08663b89759329e75e06c83e09fa5ec2f80d92880534"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveEventType.md",
+      "bytes": 576,
+      "sha256": "e0669b64fbe0dbb21a9bc7d7e3d18460c833f5d38bb2b0887a8af200c8243b65"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveFillStyle.md",
+      "bytes": 903,
+      "sha256": "e1fd8a24f2432e2733ce8a720d9d1f042c4c8812152c34baaf388f4d0db2975e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveLineType.md",
+      "bytes": 510,
+      "sha256": "99dac4c3c284f00df2a687a3bba21ee6c23707a0399f8fe136661709fd7b4e3b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitivePinShape.md",
+      "bytes": 546,
+      "sha256": "e9b1595d5d00317709943229513fc214ef58779ac32b4049200e1267c0da6c80"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitivePinType.md",
+      "bytes": 1056,
+      "sha256": "4affa1f94c01827afae6b18ed1b330820f8473f81992191596bcb495698bdd80"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveTextAlignMode.md",
+      "bytes": 886,
+      "sha256": "559aba1281c542be32b719f9a481f6040e1bd0b394af206d821874c463c03ed8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_PrimitiveType.md",
+      "bytes": 1281,
+      "sha256": "5dcedf37c254d56df3c8d58882ab358e2f75612c69f063a45a3f816e822ddfd8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_SimulationNetlistType.md",
+      "bytes": 340,
+      "sha256": "2e1339e24ab3e7174147b66b7b8173708290152f9c69a661f8c48cbd4a80fc74"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_SpiceSimulationEnginePullEventType.md",
+      "bytes": 504,
+      "sha256": "8df93b69466833aec3034ae030e71ded20ace3b7043179e6f1c1fd83464cd71e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESCH_SpiceSimulationEnginePushEventType.md",
+      "bytes": 672,
+      "sha256": "cc7c16e06f7824851823eafdd416df2b29b225b9b73e740c44411054fde9ab26"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_BottomPanelTab.md",
+      "bytes": 722,
+      "sha256": "83bdd520cd487008644b45a4d23475c4184af01f6c45574b694d1a36cc91f1e9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_HeaderMenuEnvironment.md",
+      "bytes": 1331,
+      "sha256": "6a39ea8836a9b12af7b55976bcff670f00eaa5e28f8fff6dd389f852030b8c6f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ImportProjectBoardOutlineSource.md",
+      "bytes": 632,
+      "sha256": "4d10d38a2c5b57dea2fa04d8e80b1971868e89b4889361a2463e2850b176d174"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ImportProjectImportOption.md",
+      "bytes": 619,
+      "sha256": "84177874b2107090b9e882be047777d3450a23c3f30cd2d49220d5eb443fa864"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ImportProjectSchematicObjectStyle.md",
+      "bytes": 506,
+      "sha256": "6faf9ef739a19816c8eb65ea9c7c36e4e453145360df6daa310f130fd86ee7e2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ImportProjectViaSolderMaskExpansion.md",
+      "bytes": 631,
+      "sha256": "cb6808dd19c3990ee0ac9e256962e7d92230dc462457d264875ece01885ae40c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_JobState.md",
+      "bytes": 715,
+      "sha256": "44e86352ede816dc1fffab154965ec26a90c4b5dedfbcb2cbc14c90faaccb656"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_LeftPanelTab.md",
+      "bytes": 789,
+      "sha256": "03f06514316d8d003cd8867d5b1747b4ba4af7d3e160fcdf54f0b85d9ba0ebb4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_LogType.md",
+      "bytes": 516,
+      "sha256": "dd1ced2118b6076f5cf660da5e33ff9b5bc73bd1cee4ae3d1656df2fbe107775"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_NetlistType.md",
+      "bytes": 919,
+      "sha256": "ab9091bb75e2d368a2615de8002a4cfb78da38ed20c6419bee0cfe0af558423b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_PanelPosition.md",
+      "bytes": 505,
+      "sha256": "5e2719d1e6e9bf6f3d80fbde025f334eee061ce14e7cff4452ce2f0e60d2c437"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_PanelTab.md",
+      "bytes": 2793,
+      "sha256": "6508ca45a49ee434488c1e1c33ce90eee4602793affe29e6810f8856c211f0f9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_RightPanelTab.md",
+      "bytes": 1875,
+      "sha256": "9dc808e1b2831d84521b1349679c1f996d74941dc7833cea52fa48b655d6d472"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ShortcutKeyEffectiveEditorRange.md",
+      "bytes": 1494,
+      "sha256": "2c5a39329b46c6983b6f7eeaf94a09719b4491b46c1098b1954576f78b72753b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ShortcutKeyEffectiveEditorScene.md",
+      "bytes": 751,
+      "sha256": "dbd244c45d6dbcdfa0f2cdbbf59ca9703be14e5c11af00ae92b62dd136dd21e2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_StartPageQuickStartItem.md",
+      "bytes": 1850,
+      "sha256": "fd5ad6daadb4422c64d569115e7b67f91ce9d9661d90a93ea04ca4cad57f1910"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_Theme.md",
+      "bytes": 352,
+      "sha256": "ea4475f230cfd1f621e6ec7d416b7d18cf44176d8d09545108c0d0b3a6629af8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_ToastMessageType.md",
+      "bytes": 600,
+      "sha256": "b5bce66995987d80406156972acd7fc7a474471c29c29aff36efcfc361caef83"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_Unit.md",
+      "bytes": 682,
+      "sha256": "55a02e2d8aba202533f2d327a128ef53ef865db3d15ed5c18279dec3ceec173f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_WindowEventType.md",
+      "bytes": 484,
+      "sha256": "d76878b06c63378bdc5cd453145c5fa1f3d8d3191ef8364fe3cf32a70ceece5a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/ESYS_WindowOpenTarget.md",
+      "bytes": 406,
+      "sha256": "9bbd01d75c4c93c186572c8e6eac2c4d05e4efd0ead3bc77ac673a0c72e8bdf2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/NetportDeviceName.md",
+      "bytes": 1056,
+      "sha256": "6351a5ebd503986879abb38700fa3d20f28a2772e8d882df86361177527cad12"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/enums/SchToolBarDeviceName.md",
+      "bytes": 1945,
+      "sha256": "3083d90f2cb9726b2874be32ad0ee3da0437bb4f869b33ffcecd64065dd701d5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/BoardProps.md",
+      "bytes": 1597,
+      "sha256": "72f83c84e9e6e13b0e70df13e8df32706d78e2b026776e13965bdb9df7620213"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/BorderConfig.md",
+      "bytes": 903,
+      "sha256": "5f1df9c41d9a9818dc900ef723766f0ba10b7ebcf32ccb101b5272e4f7b48a6b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ButtonProps.md",
+      "bytes": 2157,
+      "sha256": "2d79b342481ff802389b2e89c63f955ceef8a8868db8358ac1bfddb35479a70d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CellClickInfo.md",
+      "bytes": 1103,
+      "sha256": "e690fb316585cf8ed8362934325afe22124dd7f07a4214f9981d25ae29d6cedc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CellCoord.md",
+      "bytes": 805,
+      "sha256": "a078861c0eebdbf14bee7fc1a886ce4f4bd6f34e2c1658aa78cf1aa397cab22a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CheckboxEditConfig.md",
+      "bytes": 1550,
+      "sha256": "3c1b602d316b7c9b9dc9b83176b4b59c80971e3a4186c02c4fbefe4e2dfdd9db"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CheckBoxProps.md",
+      "bytes": 2389,
+      "sha256": "9e4b190f06516a4927f9e5a78083043698f0c1a006d76acb81934ef9d02955e1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CheckChangeDetail.md",
+      "bytes": 850,
+      "sha256": "12de7bfef2e13e21a960f3ec876e314c38f0679ac22c91dc15eacb10e124eb1d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ClipboardCellData.md",
+      "bytes": 1271,
+      "sha256": "f01c49d318cf891a1d78ff483afbee9601e0dcedd52e60054ca6e392c26a7c68"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ClipboardConfig.md",
+      "bytes": 1533,
+      "sha256": "1f3cf05e8f3dfcf901543ffd53b296884f13fb57030b4dbf274b2c78bfa02c0f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ColorPickerProps.md",
+      "bytes": 2561,
+      "sha256": "f4fa5e8058f4f2c588f98517f5a3a9e526b1495b448e35538a72199c62c9dcae"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ColumnDef.md",
+      "bytes": 7966,
+      "sha256": "36f49403c581940fabc8946b5dbc4a87609c9abb5b061ed9633fea1df95219bc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ColumnEditTrigger.md",
+      "bytes": 522,
+      "sha256": "806aa99cf2723ea8e9e790992c554b99c52c4c1794b74fc1a2d33e97acaf5184"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ColumnGroupDef.md",
+      "bytes": 1836,
+      "sha256": "d06930ec561b1c4432ab20283821db49a2e8f495aa7292ef959bf225a9c15ec1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ColumnResizeConfig.md",
+      "bytes": 1518,
+      "sha256": "c84791d12cfb078c2ef1b34992c81aff63d78f3d295e163b92d454b824fad193"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ComponentPropsMap.md",
+      "bytes": 5140,
+      "sha256": "f517d16fa98ba975777f616a86dca8e4c922a60d1d6d873f72946838f5b8bfd6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/CustomHeaderConfig.md",
+      "bytes": 1793,
+      "sha256": "63ff7dd644c5df8f6aaea714ac7ae4341e74458b8cc76a46d5db065619edf748"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/DialogProps.md",
+      "bytes": 3664,
+      "sha256": "f9aaebbe20d910fc28c8ca5aaca7be6de4bcc4bc2f330428c1c0c142b858f9a1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/DragSortConfig.md",
+      "bytes": 1446,
+      "sha256": "066bd47096c6919d6cc6c1ed10272a148c19c9e9d0fdcfaf38db3c26e5ba3df4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/EditingConfig.md",
+      "bytes": 2531,
+      "sha256": "28ef5f976d481e5976359a30506dc10154d65e187cdd03251f55d0a444b9f7e7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/FilteringConfig.md",
+      "bytes": 2896,
+      "sha256": "6414859e591436eeae81af5b5731b773636eb51acf9def2145edb56c029112ba"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/FixedColumnConfig.md",
+      "bytes": 819,
+      "sha256": "744c429cb352007081efd9af63a824cab8108fd24058d8b7580f237652d5df96"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/FlexItemProps.md",
+      "bytes": 1135,
+      "sha256": "5612774f3ef80f20ae8994ea1d1694e5b39e91aeb86746b9714f120443b7a4bf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/FlexProps.md",
+      "bytes": 2449,
+      "sha256": "5da9db8aeaf62119be9919de8189e6f4708e2f2c04e1ffb37e61443139f45f06"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/GridItemProps.md",
+      "bytes": 1367,
+      "sha256": "ebeb5d6cfc8f2f4bf3062e1025e1b07fd4d68cc9bdf628253742f9f1b367fddc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/GridProps.md",
+      "bytes": 1748,
+      "sha256": "c7cf8f54a74dec939fcacf523f6328c54e74a436019a539ae1ee8fb8646241ec"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IconProps.md",
+      "bytes": 783,
+      "sha256": "91ca1d598d6936579a92f0406128505f9b8e1f4b0667560dfb54c4bbd1390f70"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDesignPortal.md",
+      "bytes": 1549,
+      "sha256": "ba291f5ccd6dab3caeac61a5ee8c98a18f1d1c3db407f00e3d6d5c4da7473176"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_BoardItem.md",
+      "bytes": 1634,
+      "sha256": "5ecf40bc864d250d28c95365f931a32c69754c92026c6a8020452d62b8af6ba6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_BriefProjectItem.md",
+      "bytes": 1785,
+      "sha256": "cefe66cc41dd4c883769b1546c32282651558a298ef977979657f8502b6d5621"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_EditorDocumentItem.md",
+      "bytes": 1845,
+      "sha256": "9c1ec429b028ecf9a9fa62ac69a09524e677b290436ed7539bd59a7c76d3453c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_EditorSplitScreenItem.md",
+      "bytes": 2231,
+      "sha256": "e5ea958626546b7ac3946bd0b4296425d9f9964c9599d68a9bda992f3b3ae0b5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_EditorTabItem.md",
+      "bytes": 1589,
+      "sha256": "51b97e4e2dd8921a72e95062f997f005311fbc424889408117316f1280c65471"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_FolderItem.md",
+      "bytes": 2141,
+      "sha256": "af2147b9876cbeb08b90bc347b8080fbe635edeaf465a7d05b2b4c87677470d4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_IndicatorMarkerShape.md",
+      "bytes": 3802,
+      "sha256": "dbb381a36cf77c7c7ebe2e320f47160a508a9a0bfb6f52e5b00399e4f2910d4b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_PanelItem.md",
+      "bytes": 1295,
+      "sha256": "a0da2a4ea914680f25b9a94a9bfab36b2420b4a4b01598dbff8e1ad06b8c49ca"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_PcbItem.md",
+      "bytes": 1643,
+      "sha256": "96f985e99ce12a8bb6d0a3c626e45082aa28f798a02bb08f6bb209a5c395fa4b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_ProjectItem.md",
+      "bytes": 1747,
+      "sha256": "0a63c4f928a697f383199d1d2cc251526d32895754b4840064a7c4234ad3b904"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_SchematicItem.md",
+      "bytes": 2497,
+      "sha256": "f49073d296981d9b1e2b0725a3278eded3b08801bfab09d314d31b4dae1072fd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_SchematicPageItem.md",
+      "bytes": 2168,
+      "sha256": "23c88d367783bd123e70c8f2a9b00d0f1bf4f96b2a1fddead55def236792d8f6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_TeamItem.md",
+      "bytes": 1306,
+      "sha256": "8fe11b8d75b3c4d74664c8709f64aa518bdb8fbc5e87355aa12fc9588da5fac6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IDMT_WorkspaceItem.md",
+      "bytes": 1054,
+      "sha256": "aa2d3f7a8703aa20f86ab6a7b21a84af88151834e077bd86d06ce0ca1eb3dc26"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_3DModelItem.md",
+      "bytes": 1962,
+      "sha256": "9906b47713c6e0687d41a809907b8ff5e8aae048c202963239b2e01e20dd6b5d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_3DModelSearchItem.md",
+      "bytes": 2732,
+      "sha256": "189990e4a0cf27c521c44eee1c4a608e72257317daec2cda0ac3d440ceab142f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_CbbItem.md",
+      "bytes": 2210,
+      "sha256": "b822d849002c7d968474c7bcc8056c6d6ad395b49b0c384dd5069940a2c58c65"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_CbbSearchItem.md",
+      "bytes": 2667,
+      "sha256": "9386b471672ea86807f456d1c5d4ffac73ff37ba746178b76fe7f8161856e10c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ClassificationIndex.md",
+      "bytes": 1943,
+      "sha256": "9cf482ad1bff3da454c1c5092ea9357130faf607bf41bbbabdee93a8915bc46d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ClassificationNode.md",
+      "bytes": 1553,
+      "sha256": "262b7090fe7c73afbae07114239a15a8f936b6e614ca502960c353409b4f0cf1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_DeviceAssociationItem.md",
+      "bytes": 2409,
+      "sha256": "0acffdb63c9e127c5ed19d460f6573484ffc548a8bc67eef3d5fad4ff6b467db"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_DeviceExtendPropertyItem.md",
+      "bytes": 3148,
+      "sha256": "2e76e40eb59f7b05465d94fa7f6725669c1a5c5efc458cc1636ef7daa4257b04"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_DeviceItem.md",
+      "bytes": 2838,
+      "sha256": "d0d0ebb9198246e5cf272e6b2457f901e99b3ebcff9e86e6707bf717aba45a14"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_DevicePropertiesForSearch.md",
+      "bytes": 2619,
+      "sha256": "8cff09851150cff6b06e1a275f3a27f56ce232530de42cc7a0cdba1a0f522838"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_DeviceSearchItem.md",
+      "bytes": 5879,
+      "sha256": "5b72ae41e14739208c7938e2d88e10781ac6539314e02b5970c3ca9487eb830f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibrary3DModelFunctions.md",
+      "bytes": 1269,
+      "sha256": "6194ac77a997d966f9f31f8c56daa62164b6eabae718fb99d56ca81f8460a544"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryCbbFunctions.md",
+      "bytes": 2626,
+      "sha256": "be7bbb9c0ac19087773e8bf9c14e9b8e535f89f415df75de1bc151e901d1b57c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryClassificationIndex.md",
+      "bytes": 2091,
+      "sha256": "ea9d9896183d6475dfef9ccee5dde5d8c1819df83db3cf2300ecfd8d65ec7faf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryDeviceFunctions.md",
+      "bytes": 4078,
+      "sha256": "b77d40080e72a59eba7c45025988bb4af92a66ac0773874ed748a1f0cc608d50"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryFootprintFunctions.md",
+      "bytes": 1216,
+      "sha256": "186b0ab1a7c9c9cc21afad77d0ea023d9ed3cc3701288518e5d56480d97dae14"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryFunctions.md",
+      "bytes": 1754,
+      "sha256": "87867b025f45f5a9744f23c8b251c3dfe4368827b08a42158e637b59120257cc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryItem.md",
+      "bytes": 1223,
+      "sha256": "3f20dca3fd218d381532561a54e532fd8230f45e230d6678a19079212f8b60d6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryItemIndex.md",
+      "bytes": 1281,
+      "sha256": "fd63eb7cec58bf9e85e83250a8a15f5e855a1715615b202a851409e1067464e2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibrarySearchProperty.md",
+      "bytes": 1446,
+      "sha256": "49957cd1892e6f9788b90f731d726dc3886abc963e716404c4bb535883d3126d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibrarySearchResult.md",
+      "bytes": 1644,
+      "sha256": "38c9742c508a0dd3fabd8ed822ff9422481fb0d78b6650cb9fca250ed53eed32"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibrarySearchResultDataLine.md",
+      "bytes": 2859,
+      "sha256": "1b76c75fc05dc905bc22700ee513fc1751537a9ea5830242c3a45bed4666d11f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibrarySymbolFunctions.md",
+      "bytes": 1861,
+      "sha256": "f95100e94b3cd8db4b426facb3866eb452dd1d9cccf730320d40e881603a705f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_ExtendLibraryUserIndex.md",
+      "bytes": 1216,
+      "sha256": "b11496fd50b1a6403890fd946603b8c3715616a02f7dcfecd305f2443639392b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_FootprintItem.md",
+      "bytes": 2756,
+      "sha256": "565dea629781547fcdf940375fc3131cba19874998995f07d1ae4a67cc007ef6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_FootprintPropertiesForSearch.md",
+      "bytes": 626,
+      "sha256": "1c89e67e0411dcc8834c725294579a3c7d67d4dd9591808aa402f06ecccbda20"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_FootprintSearchItem.md",
+      "bytes": 2777,
+      "sha256": "4f4c998adc6fa75e22af23eb61221347f65638c79c65b9d7b9566641e19b8b00"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_LibraryInfo.md",
+      "bytes": 774,
+      "sha256": "d1e621f307db4118e510c89ceef9ba473cb8b3be9fd0c5d19c35b0a98ebf5b97"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_LibraryItem.md",
+      "bytes": 1075,
+      "sha256": "420eb0daa7cc39869850c0d1f298907b4d68938524eba15756c84859531c62a1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_PanelLibraryItem.md",
+      "bytes": 2074,
+      "sha256": "57d61b3a1b4e0c491de96308e20a46bcf352f613db2eaabfccb5e0fd0bcdeeb5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_PanelLibrarySearchItem.md",
+      "bytes": 2857,
+      "sha256": "d9217ed21a8543988db1460ebc8d57fab8143bcf81fc9c92eb4a2f8be2babd30"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_RegisterExtendLibraryProps.md",
+      "bytes": 956,
+      "sha256": "ba38b99183d5906e3b736901c8f35122dc0596ff88fc73ede9bac3006bb6f38e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_SimulationModelItem.md",
+      "bytes": 3336,
+      "sha256": "76515f53ea661a50fef833dc034fca65907ab7ce27a472fbabe0f6ee4735278d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_SimulationModelSearchItem.md",
+      "bytes": 3179,
+      "sha256": "95fcecb239eb452cf139c2e5ea04e339d7b494a94272993b77e0d6207276a884"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_SymbolItem.md",
+      "bytes": 3197,
+      "sha256": "424af7a3f4fb0c951e62cc384d4b92833bc1c5840d47384ec9fb7846e1aeaa8e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_SymbolPropertiesForSearch.md",
+      "bytes": 605,
+      "sha256": "aa448c42dd550d5341e2a307c9ac744b8da055037c30c4edad3d3dab268eda6e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ILIB_SymbolSearchItem.md",
+      "bytes": 2973,
+      "sha256": "d7acd37acae77af6fe25ecdc01cbcf323462548592f17290948bde11d7b31325"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ImageProps.md",
+      "bytes": 997,
+      "sha256": "019c791792edf8223eb6d7a35c5c212b9b75331350ebc9ba9ccdffdc3b85aeff"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/InputEditConfig.md",
+      "bytes": 1713,
+      "sha256": "a14efb9de3838f8fc374f8066a7ca15f902e25c38eaeec0102f1d43cc76c9032"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/InputProps.md",
+      "bytes": 6254,
+      "sha256": "9b1dc37fcdbf5c2ef787e87017e9307d7c3dc07a8dbdc072b8f3fbb28ee137dd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_AutoLayoutResult.md",
+      "bytes": 1989,
+      "sha256": "c988ad408db484550fc87f9b7a5163af06d39d0cee10b5bf25624e9e86c61878"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_AutoRoutingProps.md",
+      "bytes": 3093,
+      "sha256": "5701ef9278023ec247c025cdf1baaec668f5263e566157a32074439445aaa5d2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_AutoRoutingResult.md",
+      "bytes": 1894,
+      "sha256": "60d296451ec03df264b1317c17e799e91821bfb12cd0907b4d99df9dfbe5b98d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_BomPropertiesTableColumns.md",
+      "bytes": 1832,
+      "sha256": "4b58f6f46c0a8e03ef15aafe8d80da261474dca1baff5f6776539289baaad7a4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_DifferentialPairItem.md",
+      "bytes": 1085,
+      "sha256": "e76a2e60070dc703269299d7649591b0e6c1c4d75fa7bc923464fc03e7add75a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_DiscretizedPoint.md",
+      "bytes": 719,
+      "sha256": "f7bc1c1fca3dd7540168b26b5a8f7718b1eaaa6a89c75de40440710d3b14f8dd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_DiscretizeOptions.md",
+      "bytes": 829,
+      "sha256": "2115bb8d4fbe18e2f33e8178196d04eba12517f1b241a41441e8deb7fd1733f6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_EqualLengthNetGroupItem.md",
+      "bytes": 1231,
+      "sha256": "99024b387660a6eca18df000238c421fb5e9130cfd40a98266ccb9779009d605"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_LayerItem.md",
+      "bytes": 2538,
+      "sha256": "6c046b47d729ea769f4932f27edff27065fe1c6b194504cb28e1b3c492796dfd"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_NetClassItem.md",
+      "bytes": 1076,
+      "sha256": "bae0b8a86c7d748ac1d5cf7957ed610eccdd785bc1595654fcf4c356fb8dd336"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_NetInfo.md",
+      "bytes": 966,
+      "sha256": "e214b638808e037203449c0bd7fc9fe88c0334c5329cb687ca29af831e0002d2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PadPairGroupItem.md",
+      "bytes": 825,
+      "sha256": "1138110b657ff44598530d81da5a4673988e455afadfd8ee6040ac05c4fb99f7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PadPairMinWireLengthItem.md",
+      "bytes": 899,
+      "sha256": "b71c8d33a52dfa2df208be163cdc478fdd6e3e031de2f64db14712084937500c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PhysicalStackingConfiguration.md",
+      "bytes": 1179,
+      "sha256": "5e031f2d3d2496eee83e259d76b26437c4013c271638c63e882e39aef71ebbb9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_Primitive.md",
+      "bytes": 2565,
+      "sha256": "c03d0bcd9b76f04673bda982364f41c4393c2091a6a8cdad0bc70d1a0aca4cba"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PrimitiveAPI.md",
+      "bytes": 3197,
+      "sha256": "f6192647e0e05bc8e3408755e9d212b10a7147f4ef33ea7f36da140cd0ec005c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PrimitivePadHeatWelding.md",
+      "bytes": 2153,
+      "sha256": "491ebd877aecacd73cf62b15290f0b1452cc135061e87505729339a3eb039e7a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PrimitivePouredPourFill.md",
+      "bytes": 1326,
+      "sha256": "023b66c6d7b05eb73234fed07b33a497307f504e887e5506e0e238d0589eb415"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_PrimitiveSolderMaskAndPasteMaskExpansion.md",
+      "bytes": 2585,
+      "sha256": "21a5b9dbe6fd69e9cbf16da7d53de0cd4956be81438d49ff495cb49849845acb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerBackgroundConfig.md",
+      "bytes": 2226,
+      "sha256": "4880ce58456b5511022c885f3fbdfa792ed2f46fa4051bd248447691d3fa970d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerLightConfig.md",
+      "bytes": 4256,
+      "sha256": "64743eed149008409ff288908fc762c8fd83f09227596948e47c8738892fe657"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerMaterialConfig.md",
+      "bytes": 6113,
+      "sha256": "c4bb0330e1440015b4437df677a615a83439af8deb7f3834ca18d6343f84d022"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerPcbMaterialConfig.md",
+      "bytes": 2073,
+      "sha256": "ec3772634c6009610fcc1ebf5aaf46ba2f795622981894aaf5d7d9059faf3917"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerRenderConfigurations.md",
+      "bytes": 2705,
+      "sha256": "76be151f4271d18e6bee6a0e97377f50a81d359ae2119740f081f292e9c5baeb"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerRendererConfig.md",
+      "bytes": 2113,
+      "sha256": "7a080427251838525e813eb11cff4ecd70c417d5f896c7b79e85fedd7033787c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerSceneElement.md",
+      "bytes": 1116,
+      "sha256": "cc0db83fe9f6fa9495d8adde8d4431f036062419df8a4ec452f681308a639042"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerSceneElementTransform.md",
+      "bytes": 1241,
+      "sha256": "f564dc6385194ad8b997291e54f8a3196b18de09f84d74a69bf1b7b3cf652ac6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_RayTracerTexture.md",
+      "bytes": 775,
+      "sha256": "7acfeca9ea12a6a4579053028025adc6b6d5db7f6a8dfb7cbeed2536b429673a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IPCB_SubstratePhysicalProperties.md",
+      "bytes": 1021,
+      "sha256": "5198f69e932e4558a10c77ee67a0b885fc64c7af9c47027dcd6feb04928d1711"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IRawNet.md",
+      "bytes": 891,
+      "sha256": "2cbe074d142bbd4dca01f83af41f85151f4e01a22610e2c053046c7522d83c67"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IRawPureSchematic.md",
+      "bytes": 921,
+      "sha256": "bf123508822c90fae1843a7bb88d09cb62c54211e33e2af8f16bedcfc3fc5d9d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IRawSchematic.md",
+      "bytes": 861,
+      "sha256": "288e4bab1d137e9f4ad6b4b8c1c32dd84b66faa35cfc64127b688a66ffbdc9ca"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/IRawWire.md",
+      "bytes": 1146,
+      "sha256": "6df548fad5449b283407e5257484c9176cf7712f5ef19527158927c588b93de6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_DrcError.md",
+      "bytes": 1393,
+      "sha256": "cb5bfb3b063d55ebb56ebcadad44e9bb91e78c97642d36ca747dbf3c08bf835b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_DrcErrorPrimitive.md",
+      "bytes": 1498,
+      "sha256": "fba040f9ece5299c97b67a1e4815eae3989119163bc1b0b8c10a9843244162a0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_ExportPngResolution.md",
+      "bytes": 1284,
+      "sha256": "abf9a655f0e38c627dc8b61d176814a47e37f3e6b93d051c0acbc73390abad0d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_NetInfo.md",
+      "bytes": 725,
+      "sha256": "5a0e2e73280bda0bebe5f3c23383b77903bcaf73e6e3ab2a08d5c8e63ac0a7b9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_Primitive.md",
+      "bytes": 2571,
+      "sha256": "b8766e53147197f1d968ed04143bb1c80888eb9688c0bdf2bfc7a405399817b0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_PrimitiveAPI.md",
+      "bytes": 3203,
+      "sha256": "332a96f8a73064c17f75142a100cfb0fea99217bc1cb47707286dbd3c2cc28a2"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_ProjectNetInfo.md",
+      "bytes": 1312,
+      "sha256": "7e7f6af272ff807062a256b0b7bf07c03231ddbfdee425e1dee05e8ce012fee0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISCH_WireInfo.md",
+      "bytes": 1384,
+      "sha256": "c139b43e96447d55ac80d2af1ac215edf443d77fc25671cb6aba987a2f293725"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ComparisonResponse.md",
+      "bytes": 1288,
+      "sha256": "1724ae7e44bf31fa15336efbec20bd4427bd2bcfb983f182d1460cf672194c08"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ExtensionExternalApiIndex.md",
+      "bytes": 362,
+      "sha256": "6021c91288cf82ddb4c8e34ef83be8c5a7c9e1bdd297d61b66912ed55268b9ca"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ExtensionRegisteredExternalApis.md",
+      "bytes": 337,
+      "sha256": "ffedda825b2422a6c210b05e3aa7b97a3e55dec2971f3b0a86e79248125a9b7a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ExternalApiHelp.md",
+      "bytes": 1960,
+      "sha256": "83e1abdaaa0d26c0e6c090b7a3ef637cbd07157d4927078339436ca0f6242547"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ExternalApiRegistration.md",
+      "bytes": 1749,
+      "sha256": "eea0ac252c6dada9869c007079af36d18302e16f8927a9441014559d7d37e14b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_FileSystemFileList.md",
+      "bytes": 2165,
+      "sha256": "94ad65e049ef55a632cd62ead317922c0726c0930637fb65815f293652393c40"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HeaderMenus.md",
+      "bytes": 5380,
+      "sha256": "2335037be53a688c3bc824481e9f31bbf3f2d0fc44a302fb424ccc3c9398b7b1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HeaderMenuSub1MenuItem.md",
+      "bytes": 2290,
+      "sha256": "839999ae9e4ffd67c10f51dc47ba2fb07146825a60991c9f908946a8f29dcdda"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HeaderMenuSub2MenuItem.md",
+      "bytes": 1903,
+      "sha256": "e961ae8b251f85fa364fa1494a18645d424de5581274bccfbf533697bb32b863"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HeaderMenuTopMenuItem.md",
+      "bytes": 1209,
+      "sha256": "94e57281d6da400666c5f645cce7e9f698eec1d833cf598dc09a607f08456131"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HelpAudienceEntry.md",
+      "bytes": 1113,
+      "sha256": "3ef7a5932b719ad535b0fb6bc9fcc4d5c64cf2837ebf611899ca735a2f7298d1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HelpClassSummary.md",
+      "bytes": 2339,
+      "sha256": "df4b33192e96ec1ed051b0a285eeebed7f60fb5e2f512f0885e131d8777de919"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HelpData.md",
+      "bytes": 1017,
+      "sha256": "7ae29e826a5639dad1efa91ffcbec1caaab0eb38c0b676a73114aadd798c84b3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_HelpMethodDetail.md",
+      "bytes": 3823,
+      "sha256": "bcf2e81aeab789a35e6fbb688fbad7ebe1be6dc4000f0e058b65f58994901eaf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_JobHandle.md",
+      "bytes": 601,
+      "sha256": "e72c2be7493f17317790ebda8033e5243b3fe8cce079c8c20797f75eabf3f66c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_JobLogEntry.md",
+      "bytes": 1379,
+      "sha256": "fef7cc09415e13067f806b0baef3556f32e72c459eebe38f72f8dcce26442701"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_JobStatus.md",
+      "bytes": 1920,
+      "sha256": "1b968deca979a15748dcace5eed050c5bdccae5edf43e40b3903f033f2f5d8a5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_LogLine.md",
+      "bytes": 942,
+      "sha256": "73e1f989484da7134b73612864c87663e04ab2c6147ee1a608a44cfd55db5b6b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_MathBBox.md",
+      "bytes": 1189,
+      "sha256": "b18c66d13ccd127640b12b0bcb7c30bcaa76eaadc1f41194761b6b0545652abc"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_MathPoint.md",
+      "bytes": 675,
+      "sha256": "b44345fd67cee8ec68a046f26cd93f3cccb43b9dccaa9d99f5f4b8c30b835f8c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_MathPolygonWithHoles.md",
+      "bytes": 1072,
+      "sha256": "f08c413f3eb61fa0f7b95b523046f580685910bcd4a3e0e8e7b30f65309708cf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_MessageBusTask.md",
+      "bytes": 1098,
+      "sha256": "6072b3f93c6ef93a7bfcb9a02a81889003a00c6a2b4aa9d8cfadf2c28e809bc0"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_MultilingualLanguagesData.md",
+      "bytes": 210,
+      "sha256": "26ce0058a723871bf8714e41a7ee5dac0285365ce27893f1ef6f5217a91a3e61"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_RightClickMenuItem.md",
+      "bytes": 1865,
+      "sha256": "d6c7009b0c7c27e12e06f37994617c07578334ed3d59f0ae175e99e60ab8a789"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ShortcutKeyData.md",
+      "bytes": 1829,
+      "sha256": "80ffca7a40549e8ea7659dc995d776e36b8cdf3c463411efe3e22ec472be3cff"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ShortcutKeyDataWithCallFn.md",
+      "bytes": 728,
+      "sha256": "2f6a612ec03cd650c194a7f941648a64623bb779613547e9026cb2207482968f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_ShortcutKeyDataWithUserDefinedShortcutKey.md",
+      "bytes": 920,
+      "sha256": "c92a2aec1ba56103e13eef1a95cd791ff7f83ebdc1fc431d2da5528179f983b4"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ISYS_WindowEventListenerRemovableObject.md",
+      "bytes": 1424,
+      "sha256": "80a9b06816e56b8a0cd8e364dd4d1c576438b2f1a4735c983553c02f4147976e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/KeyboardConfig.md",
+      "bytes": 724,
+      "sha256": "8166b1e7453dbe1e98810f3b5a93d50e4b3bbbb7bfa29cef5843a078dc743927"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ListChildren.md",
+      "bytes": 2174,
+      "sha256": "89642b6941f48a01f5ee44b47c888f841cd35b39e29d33e95bb3c6163508017f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ListProps.md",
+      "bytes": 3105,
+      "sha256": "ea1dc108aa299cf3891174751049ae6c38c97731ab6a8603183118bcdccc6705"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ModalProps.md",
+      "bytes": 3550,
+      "sha256": "5b9256eb7f4e636271c083bfaba8515d494475bb10ac57edac57787ac111b85d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/NumberEditConfig.md",
+      "bytes": 2081,
+      "sha256": "e9409ff8e0776bcebf43bc796a9b1b9cff61d9c0e8f56e5c5f64093999fbdd00"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/RadioGroupProps.md",
+      "bytes": 2142,
+      "sha256": "91358d6eceb42ae9aece202886a48cf9e20dc10750183e69eae8002829c4a3a9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/RadioItem.md",
+      "bytes": 1007,
+      "sha256": "27df083b98a43a91e887a45b09c438955396d26236d9a8b7fd0d1c80ed4a4e0a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/RichTableProps.md",
+      "bytes": 16648,
+      "sha256": "096f2752a02c931b22dfe003a6c041910298cc55a52bfd587571ee287ab5f252"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/RowMetaConfig.md",
+      "bytes": 1425,
+      "sha256": "c0331b66d474d2edf42fbb4559b4d7d8aac40dde4165292e6644812c078a01e9"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ScrollerProps.md",
+      "bytes": 1881,
+      "sha256": "24257d143e42e36fa3887ac548bf28c3b1f05be8fcca7517504ed9b95b357f81"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SelectEditConfig.md",
+      "bytes": 2018,
+      "sha256": "80b042a79db760b60ab1805125f958147b73947a45035dfcdc3de69bc049345c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SelectionConfig.md",
+      "bytes": 4927,
+      "sha256": "cb3d2f6bcace14a9131d6bebaf9c2bc86c6de91f3d83254b0551df25adcffa5d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SelectListItem.md",
+      "bytes": 1400,
+      "sha256": "8c65621d739c075262309eb5d80edf07ef10227b95f0ca3e643c58cc3b7c0aba"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SelectOption.md",
+      "bytes": 1218,
+      "sha256": "b5fbc01f7139f3b875d1e68731e43059500ef37aed48acf571fd51caff53a094"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SelectProps.md",
+      "bytes": 1714,
+      "sha256": "e42411819b205ed1512653b445cbb554aafe330ecea15ef20b268289e2957eb5"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SliderProps.md",
+      "bytes": 1341,
+      "sha256": "24bce2123ed5dd5a0c9dd362e3a6ffe63416f09dfbc3b1a2b3ffea914699dd83"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SlotProps.md",
+      "bytes": 767,
+      "sha256": "77384ae8ab0b650eebd34ddcd719f2db22cc4bd7f738f3180758bfd6b2450661"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SortingConfig.md",
+      "bytes": 1885,
+      "sha256": "f55bd56a73067151a13dff5353b1060b6d6c1907f55b0c1622243250b414977b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/SortState.md",
+      "bytes": 738,
+      "sha256": "d3e9872b3d576c42c9e8b547d1d46b96b8acf992798459362653137cac759e19"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/StyleProps.md",
+      "bytes": 5207,
+      "sha256": "9916790a957df33939588fa7dcc2a515207a2b23422b28f7d4bfd33884e18628"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/TextareaEditConfig.md",
+      "bytes": 1682,
+      "sha256": "29b966e6c856d8a7917e984052faf1c61c593cf525f6d369cf57b3a297e3dd3a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/TextAreaProps.md",
+      "bytes": 2018,
+      "sha256": "3b8cb57260a4b0bbef07adc42ba74ffc4daeba3f50903de22a7d65437bcbbe99"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/TextProps.md",
+      "bytes": 1498,
+      "sha256": "8ec6b25a278bbd95dc12b557e41688afbce7687b9b5542e748dbaabb32f79ea7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/ValidationRule.md",
+      "bytes": 2266,
+      "sha256": "539a90d86260b4d3f78672bbab295589ca79ee2363567a7c96a8442856affd8c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/interfaces/VirtualScrollConfig.md",
+      "bytes": 1263,
+      "sha256": "6e4e6f0c0071fffeba1b4bd357d6ad1a9f85220eebc521aaf3a198c793e61a97"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/Align.md",
+      "bytes": 101,
+      "sha256": "3148542b5a65d87edac6349ce058c06b5977a536893d23427a20f21bdfa5b8b6"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/CellContentType.md",
+      "bytes": 201,
+      "sha256": "80f153183f093dd9630656666c49886077679c522744eab9503aefef8b7e4c4c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/ColumnDefOrGroup.md",
+      "bytes": 281,
+      "sha256": "228a4f35192ccc74dfa812a80a6127924a5e65489b5e4fc9ee78da1a240eab35"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/ColumnEditConfig.md",
+      "bytes": 534,
+      "sha256": "8b4cfb068572c59662a6825b6fddd0b9705adef05bf66514a750467ecdb9c40a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/ColumnType.md",
+      "bytes": 248,
+      "sha256": "e9dec546133b5498c9b34c50e22969fc929b006ac894dd663b10d1620a30a9d3"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/DataChangeType.md",
+      "bytes": 145,
+      "sha256": "1fc400005162291de3427bcbe1ca69754fb238c59689c545fefb99d78d786160"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/FilterMatchMode.md",
+      "bytes": 158,
+      "sha256": "01cfd3c5d1f9cf0aecbc3727f28b65ebfd2c78358c7a5d3b54c322b80124a7f8"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/RichTableRow.md",
+      "bytes": 226,
+      "sha256": "f2dec1c54ba1130ec860e25853c6a54f610ada30a5e40d1546c778bcb69ac642"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/Serializable.md",
+      "bytes": 256,
+      "sha256": "d656cccc2fe70ba6e04d5fc4e9cf7eb13b6b44c5a5bd88092711fa6413d04c4e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/SerializablePrimitive.md",
+      "bytes": 309,
+      "sha256": "7e667254a6455e0a334a6b8833beb1f4f0e04ba3699240223b8610f2c4ab1918"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/SortOrder.md",
+      "bytes": 96,
+      "sha256": "b7e02edf4d2c1864a783f5c05cff9489f35e1f025f0baab87b6887aae0c56661"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersInTheSelectable.md",
+      "bytes": 2790,
+      "sha256": "ab31e1a9706c8cb6c4c633e89d741d0c41f71105d590aaa54cf8ad0ca3fdfa71"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfComponent.md",
+      "bytes": 274,
+      "sha256": "d44f1ad12fb5020a482d99b6a8efa0827fd165267a791f01e5b381b11a52e954"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfCopper.md",
+      "bytes": 481,
+      "sha256": "715924d9818c8b1fd52edde8c92f1e97691e5891e524d6593454afff96fd3e92"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfCustom.md",
+      "bytes": 2760,
+      "sha256": "8fd66e8c9305f37d888f4792c1c266c94b76368e562f6eda9071d928146286a1"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfDimension.md",
+      "bytes": 586,
+      "sha256": "59aa106cc035d1580e64d80bb05f19e2b7c0b52902cb5ead56ce894e4c173f0a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfFill.md",
+      "bytes": 1466,
+      "sha256": "e1b57cf72bf04d9dbd3f01230a56beb200a76e4adc2d685a8653cf77f2d2fb0c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfImage.md",
+      "bytes": 1192,
+      "sha256": "ce48ec657d19f62bac886eb3fde0373af0cdaa5a04cbd05c15919572beed3213"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfInner.md",
+      "bytes": 2697,
+      "sha256": "c3b4207a25e4186551f4e6346a27469d57c16aceca70edc037cd593086bbe1ee"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfLine.md",
+      "bytes": 1459,
+      "sha256": "4a52cb41ea21412abf92e17f141cafdb43936ff7cda3308f912d2381b6ca375b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfObject.md",
+      "bytes": 412,
+      "sha256": "048cce1e6595ac262ab1c0bc939fc7ae08624e11fd45ac9971f26d1ea9cd4ac7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfPad.md",
+      "bytes": 337,
+      "sha256": "28f70e6054683ec6268ac9e665ecc1b07e37eefcf1c2a455e14ec6bd8654aeb7"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayersOfRegion.md",
+      "bytes": 272,
+      "sha256": "58889762c06b5d2049194a921e520a820ee98b15513c88280c6d03f9b4f1b55e"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_LayerTypesOfInnerLayer.md",
+      "bytes": 355,
+      "sha256": "8e9baf62474ebe040a84f401005e93a3f113e1af369def048f35e22ee1d65b3c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_NumberOfCopperLayers.md",
+      "bytes": 189,
+      "sha256": "8b685888e20b44180998810e54850da79a0fdf3e9b5e8caa3dbc9053fb1cc4bf"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_PolygonSourceArray.md",
+      "bytes": 1727,
+      "sha256": "291efe2c465aefc559e06abeb16f6206fa23b34c3692fa1faf2f3458b6e1069c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_PrimitiveDimensionCoordinateSet.md",
+      "bytes": 1727,
+      "sha256": "fee177bfa150dd3b3068f2604ae8df47585f65d9a1c5af5c893c346fbf0bbd08"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_PrimitivePadHole.md",
+      "bytes": 807,
+      "sha256": "659e52fc0df0f6fd8d9bcbe998ea81265ca97b183a8746791d5c05b021b7425d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_PrimitivePadShape.md",
+      "bytes": 1912,
+      "sha256": "a221edb8ce330a61748491188fd61e7c027d04617bb80ef8ce2dab66c60013db"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TPCB_PrimitiveSpecialPadShape.md",
+      "bytes": 392,
+      "sha256": "54a22970afa7ce353dedbf213beea5e19d6496dd8909f9b7ab92e92694f8264c"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TSYS_ComparisonErrorCode.md",
+      "bytes": 234,
+      "sha256": "62a1977b7081576fdab98150865ba31d9e9c7e92e91d8cf3bc5e10c1ac23f03d"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TSYS_LanguageKeyValuePairs.md",
+      "bytes": 183,
+      "sha256": "e50b2b7e813f1f994f207aba2fba410a7a59c500c873309381b283ce218ac01b"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TSYS_MathPolygonGroup.md",
+      "bytes": 379,
+      "sha256": "e5c6e3c8fd20babb5408e79987f18657578f135f74534370acfc08eeb4a9c76f"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TSYS_MathPolygonInput.md",
+      "bytes": 961,
+      "sha256": "93d55edd55711e195b7fb4e5065818d8a8a4d5982a7e530e9f96b3d9b09eec3a"
+    },
+    {
+      "skill": "easyeda-api",
+      "path": "easyeda-api/references/types/TSYS_ShortcutKeys.md",
+      "bytes": 853,
+      "sha256": "cbb5e02fa51e5fd9ccc75ca4cb4c728d6f4f9806d6a5148bcfae5ce2fefeae3b"
+    },
+    {
+      "skill": "easyeda-schematic-net-fanout",
+      "path": "easyeda-schematic-net-fanout/README.md",
+      "bytes": 1530,
+      "sha256": "f216c67cf2e8b641939f5afb6f864c500f1ed9ad596f40463124f23a55ce017c"
+    },
+    {
+      "skill": "easyeda-schematic-net-fanout",
+      "path": "easyeda-schematic-net-fanout/SKILL.md",
+      "bytes": 14663,
+      "sha256": "7bf52efe3f0cb22af46b293dce9830860b68a6e4ee71fbf327115528bdfee84d"
+    },
+    {
+      "skill": "easyeda-schematic-net-fanout",
+      "path": "easyeda-schematic-net-fanout/references/esp32-s3-debugger-example.md",
+      "bytes": 7346,
+      "sha256": "4d088806120a84799899727d9dac927d833e8ca4b80462cc24efdd421df40fbb"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/SKILL.md",
+      "bytes": 4408,
+      "sha256": "5f6ea08d75b2d7831af3eb6d7f5c69f93e4784d45db0fb8576a2993291b18eb6"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/agents/openai.yaml",
+      "bytes": 342,
+      "sha256": "4ce24506103751d9194495ddbe259a509fe1dc3f7414e1cb9e510da6f7cba924"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/easyeda-workflow.md",
+      "bytes": 10157,
+      "sha256": "48d5c92867a0f846795773c016a3394339da38d8992dfe53e786cc1d82cf562a"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/evidence.md",
+      "bytes": 25204,
+      "sha256": "2e20d15a55d13fd433f70be50c6b89ab6c7887aedcee999442222a9affb1d4f5"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/handbook.md",
+      "bytes": 23506,
+      "sha256": "b369297ab5a8045eb7c5af9fe9a98b17cad4537ea5de72ad1713ed0d05598fa7"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/library-index.json",
+      "bytes": 41066,
+      "sha256": "74cad3c1c1845b7b90caec7f3b0480b0139320febe55b3770726026932e78880"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/preferences.md",
+      "bytes": 4647,
+      "sha256": "b859f5fb25de2a0c5a4962b9d75c66dbeecd4775fecb8492b50c94c2642d31ff"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/validation.md",
+      "bytes": 7485,
+      "sha256": "3a41da510103735139578896ec641b02df96420a031cafb67046e4fb0e61e9e0"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/scripts/audit_skill.py",
+      "bytes": 5045,
+      "sha256": "3ab1393f4c6bde396bcb06bb28639577cea425790d3b4f47436fb63cf0c860b2"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S010-dense.png",
+      "bytes": 203529,
+      "sha256": "c8988abcbcacce0dca0f044fef5b0395eb0427fee3d5a2c316d33f725ad64d73"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S011-usb.png",
+      "bytes": 79351,
+      "sha256": "a2f4d32320b7eea4afa2d5a8f97951344aab34e5b61189496056e65844243306"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S016-phases.png",
+      "bytes": 41555,
+      "sha256": "978de61aaadfe5cf329b9e78b1348db35df6db3d32995946271ee7a961c4cab8"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S021-analog.png",
+      "bytes": 67989,
+      "sha256": "c1ba333fe60ada70705528228db75ba0a0639827b079f53787d5d021fe8d5d29"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S023-edge.png",
+      "bytes": 20505,
+      "sha256": "008bb7a0dd84fea0830ab34e94eb969641e20c565e88c2f308ee9eafab4b1391"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S027-pair.png",
+      "bytes": 29375,
+      "sha256": "4969247a47fe2d798a5449f621d0e0c1a03764debae0188a9768617d42721046"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S028-power.png",
+      "bytes": 62861,
+      "sha256": "a0610544fca45eb86e13be1b2456e6adb784fb945acd9d5deb4b2f95fd9457ce"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S030-transceivers.png",
+      "bytes": 63409,
+      "sha256": "63e942289489b702bf8d6d8a578ca0785aa5a8613d17c00f34a7a55723edc16b"
+    },
+    {
+      "skill": "ideal-schematic-style",
+      "path": "ideal-schematic-style/references/figures/S034-power.png",
+      "bytes": 57842,
+      "sha256": "389de8a0ae79a637b7f278926ce1b3da775cf22537f7f4bf46e9a9b271a8f745"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/SKILL.md",
+      "bytes": 24959,
+      "sha256": "15670ccd1415cc36b461b8f1a4477938f8cce7a687fa05588486ad8be83d0073"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/evals.json",
+      "bytes": 17387,
+      "sha256": "3fc49b7d0aeec5c26d0650c450d84da75422a4cb6de3849844b3c4f0ff760b5e"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/README.md",
+      "bytes": 4319,
+      "sha256": "80884ba81c528b8411939ac79fb88de088ae62b219b9ea3f246b6bca1d42bf91"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/references/document-architecture.md",
+      "bytes": 6546,
+      "sha256": "60434c16c82c9dd86844f72382b85c6fc92215483cf8be3939083d8030723e2c"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/references/layout-patterns.md",
+      "bytes": 5465,
+      "sha256": "d30d1e0fb9cf25ccae7558c9c922146ca91ff2c0cc05b1ad252749b04c83bdc1"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/references/standards-and-sources.md",
+      "bytes": 1537,
+      "sha256": "544a81ddd1c56eda64ed892ba5c88fa91f9340534128534c06b2632a286cccfd"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/references/workflow-and-delivery.md",
+      "bytes": 4550,
+      "sha256": "f0aa04fad90b69d17721ca7811339b0c880b13a12ef61a46f6d46bf6c6c6d168"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/docs/images/after.png",
+      "bytes": 303470,
+      "sha256": "f637cd334c378e7536ee1bbcb9bbf5d9615f5620d666088520bc1fbc9eb386a8"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/docs/images/before.png",
+      "bytes": 135890,
+      "sha256": "c05a022330a7aa1fa7690a03fd328b60aca033b50893e32b57c34e90f60d94eb"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/annotation-collisions.png",
+      "bytes": 43144,
+      "sha256": "08e35ae10c913c92d269b4bf6273cb2ea744a2748938837a0654c635f7927697"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/annotation-collisions.svg",
+      "bytes": 2823,
+      "sha256": "d97af491ccf2f36d4d3b57d78342b21e39e0010b24444367a9ba6c216778f1b4"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/labeled-paths.png",
+      "bytes": 114771,
+      "sha256": "432322828b68f98918009aafdfe97a799cc8574aa623d2d015489d15d850a3c7"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/labeled-paths.svg",
+      "bytes": 8322,
+      "sha256": "a039d0ac9ec436444b703924b5d40f5cbde9e9fb8535d9e7bafd1f7c84249877"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/style-bridge.png",
+      "bytes": 51850,
+      "sha256": "98af61f8cfff88453ffc4b3c5c552b2765f48656ec3dc558da0058419042fc1a"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/style-bridge.svg",
+      "bytes": 2341,
+      "sha256": "08621e516dd5dd99d6c85f36d8aabc45e369460cc5d44ee8a1b5afc3e90533f8"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/style-coupled.png",
+      "bytes": 66744,
+      "sha256": "b878fc148554b619447d9f2a7d6f7808589b3ac315035196adb4f942491c9f3d"
+    },
+    {
+      "skill": "modular-schematic-layout",
+      "path": "modular-schematic-layout/evals/fixtures/style-coupled.svg",
+      "bytes": 1732,
+      "sha256": "e37affcb5fe7387489a18c3218a294a65cf5babf97f6c632fd6f16a4a26ee768"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/SKILL.md",
+      "bytes": 5718,
+      "sha256": "1fc8aff3f18c0bb3764e47fc800d0f73b42847ac58c5941946f652423e3a95d6"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/agents/openai.yaml",
+      "bytes": 306,
+      "sha256": "f2db0cfa3218b8e9fffc75a9df5b5be6893fe27dc119f7c7eadc539d66acf3eb"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/references/adapters.md",
+      "bytes": 5128,
+      "sha256": "11e07887ebf270ef7bdf3a7ea9d1a3cb8f039aadea88b9cd071d12bc1dc864fc"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/references/layout-handoff-annotations.md",
+      "bytes": 4473,
+      "sha256": "93663e95d83309692b0be61d0b4100b6ed25635804944a8355c9be5972b08c9d"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/references/prompt-template.md",
+      "bytes": 4700,
+      "sha256": "c7cf989447ac63e9a9a967799a05c7336ee1e5d053dd9b43e06adb58ae7ecadb"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/references/visual-audit-checklist.md",
+      "bytes": 4297,
+      "sha256": "5d155a13accc606e5d1e6d62f8d3ad0527a559d63a97e38b780639675c15d5af"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/references/visual-audit-record.md",
+      "bytes": 812,
+      "sha256": "9a85cad1d4b3a7184ccf4d9d26f4fa59786bff904d2b5406bc9f6a1ac11f7f6d"
+    },
+    {
+      "skill": "schematic-humanizer",
+      "path": "schematic-humanizer/scripts/compare_connectivity.py",
+      "bytes": 13769,
+      "sha256": "8befb90c3df6a7e8093d921df5840987404852e986bdd409d926d69c2c3eee52"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/SKILL.md",
+      "bytes": 14600,
+      "sha256": "b04f5a3b40f0b6b0c6741d848de4449e859f8cdab5917da6d9e65ab2d0457bf7"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/evals/evals.json",
+      "bytes": 12699,
+      "sha256": "f9e4974a617f06e5f32f9867bf59a779ac7c9919d5ffe3377b2c9ed431eff962"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/evals/README.md",
+      "bytes": 1035,
+      "sha256": "4d73568c73f800cd972546c4f6d0c3014ee9e54694e5f60f551c9fbcd5aa110e"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/references/from-schematic-to-board-guide.md",
+      "bytes": 5863,
+      "sha256": "8d088dd698e92a24e4eddd8e6a90157d97b287a815f081211773028ff259c9aa"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/references/pcb-parameters-and-calculations.md",
+      "bytes": 6260,
+      "sha256": "ab86cf9b2f5490f7edcc6ea0647cffb53ffb950e870e21380cfe5eaecb528c46"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/references/routing-playbook.md",
+      "bytes": 7975,
+      "sha256": "2a1902e2affcfa9f7e381d67da04dd74777db45705702df268d3dc3b68a01d13"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/references/standards-and-sources.md",
+      "bytes": 5476,
+      "sha256": "3834d114d5a4fe63a92ed1439a088aff1d518d9737e8f459553a298bb1d87e6b"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/references/workflow-and-delivery.md",
+      "bytes": 4145,
+      "sha256": "2aa89b1a9e3caa87ddb8021145edda0dd4f983b9192172af106634a3d6613472"
+    },
+    {
+      "skill": "pcb-design-guidelines",
+      "path": "pcb-design-guidelines/scripts/trace_width.py",
+      "bytes": 6074,
+      "sha256": "c65eaa8bb362129f23ddc0dc3e0e7e71daf34239c59d198f699c7b66c2e3dc4a"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/SKILL.md",
+      "bytes": 7646,
+      "sha256": "ba72f3879a345fb929e85647be592554614ceaed638654bd30e5a21fd8bfb1ed"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/agents/openai.yaml",
+      "bytes": 245,
+      "sha256": "75ede614db7430e347ebbaa65fa5d0d8762eafd4283a354d4a2c3b31cb4a1670"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/connector-stack-and-fanout.md",
+      "bytes": 3580,
+      "sha256": "4f503c307626c03ea540a286301a7bbc34fa60093b99e3c9c7141d97656b812f"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/eda-adapters.md",
+      "bytes": 1225,
+      "sha256": "5667426447d6476ff4bdd07f64cec404e41b463c22459d6a7597fb38b2953cf4"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/layout-review-checklist.md",
+      "bytes": 4489,
+      "sha256": "29d663d5592c56e3a1bbfd05739c400d1da6002ff9ce7e9c5ace26e1caf8fe6c"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/layout-review-record.md",
+      "bytes": 1921,
+      "sha256": "3ae412f3d1fa9d02d4b49f09db35049e30144e08ed7329ba3c65f5b38d98be67"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/proven-lessons.md",
+      "bytes": 3566,
+      "sha256": "1053807c9dde2713ca197ca4d2c4fbc9f07cb481385e688e83d55cbbfce30db2"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/references/variant-porting.md",
+      "bytes": 5656,
+      "sha256": "d2816ad29dc5d376f0cb41d3847af0d1bb3daef88c227aa0b69be26642c06d26"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/scripts/record_lesson.py",
+      "bytes": 1696,
+      "sha256": "7aafb41cf9d78ff7d1c96509acfbbc6b925cd121a8792aabffd7a3f8c81312c2"
+    },
+    {
+      "skill": "pcb-layout-review",
+      "path": "pcb-layout-review/scripts/score_experiment.py",
+      "bytes": 3731,
+      "sha256": "387fb9a0d008b857eada4c61fd3896a8b00597be5fc3b0f79fd37e96e90a826d"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/LICENSE",
+      "bytes": 1064,
+      "sha256": "cb753bef8aa15d1420f0392d8ebda6650e35b19ea0eb4b2531af8f271bd5deb3"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/SKILL.md",
+      "bytes": 3299,
+      "sha256": "a8b9f10a936e406e424fff6283232913ff20dd55010d45ebb4c83fc3cff20bd0"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/agents/openai.yaml",
+      "bytes": 246,
+      "sha256": "70c352b473ed16bc5ad9bc5fcdd1c672be4c8919ab6d31eeb300547c48175e68"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/assets/release-manifest.example.json",
+      "bytes": 342,
+      "sha256": "9c5838656144465b2ed17ced6b0feda1d4b417d5748004778027b2ef604c917b"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/references/eda-release-adapters.md",
+      "bytes": 1129,
+      "sha256": "54a35d0166128cefceb6626c83e0767ea7da05ba0586c59aca57dfb53f607f6f"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/references/release-checklist.md",
+      "bytes": 2976,
+      "sha256": "22df3cd303834bf999a92782c475cb8f15d48bd65f51d7d8f498d0ff094a644d"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/scripts/build_release_manifest.py",
+      "bytes": 4833,
+      "sha256": "a5c83813352ce406b35e60d85860c231cd6271c4708e84c56a5fa6e84a049011"
+    },
+    {
+      "skill": "release-pcba-fabrication",
+      "path": "release-pcba-fabrication/scripts/validate_release_manifest.py",
+      "bytes": 7345,
+      "sha256": "5bde0acdfa2d81d0f155b1a347c0858d7272c609d4b425d72b9a1f7a634e49a4"
+    }
+  ],
+  "verification": "Every included source file matched its installed SHA-256 immediately after copying."
+}

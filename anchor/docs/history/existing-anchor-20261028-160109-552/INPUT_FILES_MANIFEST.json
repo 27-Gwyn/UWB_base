@@ -1,0 +1,88 @@
+{
+  "schema": "uwb-anchor-prompt-inputs-v1",
+  "date": "2026-10-28",
+  "purpose": "Prompt and supporting input preparation; no EDA drawing performed by this publishing script.",
+  "projectRoot": "C:\\Users\\29909\\Desktop\\File\\2026本科生实验室\\UWB",
+  "skillsReadme": "C:\\Users\\29909\\Desktop\\File\\2026本科生实验室\\UWB\\.agent\\skills\\UWB_SKILLS_README.md",
+  "guideChanges": [
+    "Project-local skill links",
+    "Project-local path and status snapshot note"
+  ],
+  "files": [
+    {
+      "path": "CODEX_绘制Anchor原理图_提示词.md",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\tmp\\anchor_prompt_bundle\\CODEX_绘制Anchor原理图_提示词.md",
+      "bytes": 13165,
+      "sha256": "0818f914478650dee079a7b9439b02ffd49581c3a9e7289eb92f647796337fc7"
+    },
+    {
+      "path": "docs/Anchor_嘉立创EDA专业版_AI原理图指导册.md",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\docs\\Anchor_嘉立创EDA专业版_AI原理图指导册.md",
+      "bytes": 16896,
+      "sha256": "bdd02c32f92f193902890dcab31487edb825b32b9caf01bff0098a14b53e245a"
+    },
+    {
+      "path": "tools/01_identify_context.js",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\design\\Anchor_ESP32S3_EasyEDA\\01_identify_context.js",
+      "bytes": 623,
+      "sha256": "25102d06057903899a3b15d8338f55549ba904a4b4ba988a5da98820770f695f"
+    },
+    {
+      "path": "references/vendor/DW3000_v1_3.pdf",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\references\\vendor\\DW3000_v1_3.pdf",
+      "bytes": 2387730,
+      "sha256": "33759927d036b1728a10e60a1abacb1d75a52d3092d3456f8a576cd365c9e216"
+    },
+    {
+      "path": "references/vendor/ESP32S3_WROOM1_v1_8.pdf",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\references\\vendor\\ESP32S3_WROOM1_v1_8.pdf",
+      "bytes": 1280501,
+      "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435"
+    },
+    {
+      "path": "references/vendor/AMS1117_AMS.pdf",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\references\\vendor\\AMS1117_AMS.pdf",
+      "bytes": 518384,
+      "sha256": "3414629a1039eb6b42a94719bc55f801d50c60321ca6538e6de105739f70f14d"
+    },
+    {
+      "path": "references/vendor/USBLC6-2_Rev7.pdf",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\references\\vendor\\USBLC6-2_Rev7.pdf",
+      "bytes": 575521,
+      "sha256": "bc30154f310cd631043214ed52571daefe04270587ec55072d49a23bd18b9068"
+    },
+    {
+      "path": "docs/Anchor_副指导册_操作效率与引脚保护.md",
+      "source": "C:\\Users\\29909\\Documents\\ChatGPT\\2026本科生实验室跟班-福州大学电力系统与装置产业研究实验室\\docs\\Anchor_副指导册_操作效率与引脚保护.md",
+      "bytes": 7762,
+      "sha256": "6f4b2012433b6bbd66622c36dde1338899dcd3c4a8bd1b9a7e12c3f2c8476eba"
+    }
+  ],
+  "revision": 2,
+  "supplementUpdate": {
+    "date": "2026-10-28",
+    "userRequirements": [
+      "Avoid unnecessary foreground mouse clicks",
+      "Ask proactively about substantive issues",
+      "Keep schematic-library and instance pin definitions read-only"
+    ],
+    "backupDirectory": "docs/history/supplement-20261028-155342-707",
+    "changes": [
+      {
+        "path": "CODEX_绘制Anchor原理图_提示词.md",
+        "beforeSha256": "431294b26d4169891775bec736dcbd4cce1239d6451e4727b8814a5630c1f927",
+        "afterSha256": "0818f914478650dee079a7b9439b02ffd49581c3a9e7289eb92f647796337fc7"
+      },
+      {
+        "path": "docs/Anchor_嘉立创EDA专业版_AI原理图指导册.md",
+        "beforeSha256": "316074b63eb827f4a5edf71db642909058c3a8673c9b2f0de06c19097d51560d",
+        "afterSha256": "bdd02c32f92f193902890dcab31487edb825b32b9caf01bff0098a14b53e245a"
+      },
+      {
+        "path": "docs/Anchor_副指导册_操作效率与引脚保护.md",
+        "beforeSha256": null,
+        "afterSha256": "6f4b2012433b6bbd66622c36dde1338899dcd3c4a8bd1b9a7e12c3f2c8476eba"
+      }
+    ]
+  }
+}

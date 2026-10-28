@@ -1,0 +1,2 @@
+const out={};
+for(const [k,fn] of [['project',()=>eda.sys_FileManager.getProjectFile('UWB_before_Anchor','', 'epro2')],['drc_boolean',()=>eda.sch_Drc.check(true,false,false)],['drc_details',()=>eda.sch_Drc.check(true,false,true)]]){try{const f=await fn(); if(f&&typeof f.arrayBuffer==='function'){const a=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<a.length;i+=8192)s+=String.fromCharCode(...a.slice(i,i+8192));out[k]={name:f.name,size:f.size,data:btoa(s)};}else out[k]=f;}catch(e){out[k]={error:String(e)}}}return out;

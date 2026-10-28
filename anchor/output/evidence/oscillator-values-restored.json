@@ -1,0 +1,177 @@
+{
+  "success": true,
+  "result": {
+    "changes": [
+      {
+        "id": "63127e8d89c7cb40",
+        "key": "LCSC Part Name",
+        "before": "",
+        "after": "38.4MHz ±10ppm 10pF"
+      },
+      {
+        "id": "12b375d9c463fb02",
+        "key": "Supplier Footprint",
+        "before": "",
+        "after": "SMD2016-4P"
+      },
+      {
+        "id": "a88bdf62cabaeb8c",
+        "key": "JLCPCB Part Class",
+        "before": "",
+        "after": "Extended Part"
+      },
+      {
+        "id": "5125d267977f535d",
+        "key": "Datasheet",
+        "before": "",
+        "after": "https://item.szlcsc.com/datasheet/8Y38472012/2542736.html"
+      },
+      {
+        "id": "482ddf3214f36b37",
+        "key": "Value",
+        "before": "",
+        "after": "38.4MHz"
+      },
+      {
+        "id": "a0c4a6a809d4dbcd",
+        "key": "Normal temperature Frequency Tolerance",
+        "before": "",
+        "after": "±10ppm"
+      },
+      {
+        "id": "a709ffe3668c82c5",
+        "key": "Load Capacitance",
+        "before": "",
+        "after": "10pF"
+      },
+      {
+        "id": "dd8c17c92e774344",
+        "key": "Frequency Stability",
+        "before": "",
+        "after": "±10ppm"
+      },
+      {
+        "id": "644d31d38e608de4",
+        "key": "Equivalent Series Resistance(ESR)",
+        "before": "",
+        "after": "80Ω"
+      },
+      {
+        "id": "2984cd14bf832d9c",
+        "key": "Operating Temperature",
+        "before": "",
+        "after": "-20℃~+70℃"
+      },
+      {
+        "id": "ea99d83a3d86506b",
+        "key": "Description",
+        "before": "",
+        "after": "频率:38.4MHz;常温频差:±10ppm;负载电容:10pF;频率稳定度:±10ppm;"
+      },
+      {
+        "id": "caaef4c831c88b5a",
+        "key": "LCSC Part Name",
+        "before": "",
+        "after": "±0.25pF 3.3pF 50V"
+      },
+      {
+        "id": "22156b1ad6883004",
+        "key": "Supplier Footprint",
+        "before": "",
+        "after": "0402"
+      },
+      {
+        "id": "3d7aa45e6d3b2b3c",
+        "key": "JLCPCB Part Class",
+        "before": "",
+        "after": "Extended Part"
+      },
+      {
+        "id": "262b85a0aca68a2d",
+        "key": "Datasheet",
+        "before": "",
+        "after": "https://item.szlcsc.com/datasheet/GRM1555C1H3R3CA01D/78095.html"
+      },
+      {
+        "id": "ca9e21b2fb54f1f6",
+        "key": "Value",
+        "before": "",
+        "after": "3.3pF"
+      },
+      {
+        "id": "1f2e4308797d467f",
+        "key": "Voltage Rating",
+        "before": "",
+        "after": "50V"
+      },
+      {
+        "id": "cb457b9c723d14ce",
+        "key": "Temperature Coefficient",
+        "before": "",
+        "after": "C0G"
+      },
+      {
+        "id": "8cdd5c440437b3f2",
+        "key": "Description",
+        "before": "",
+        "after": "容值:3.3pF;额定电压:50V;温度系数:C0G;"
+      },
+      {
+        "id": "34e39fffac0010ce",
+        "key": "LCSC Part Name",
+        "before": "",
+        "after": "±0.25pF 3.3pF 50V"
+      },
+      {
+        "id": "73647ca4154f6bba",
+        "key": "Supplier Footprint",
+        "before": "",
+        "after": "0402"
+      },
+      {
+        "id": "feb1e896e9520f71",
+        "key": "JLCPCB Part Class",
+        "before": "",
+        "after": "Extended Part"
+      },
+      {
+        "id": "39ede02816b6b731",
+        "key": "Datasheet",
+        "before": "",
+        "after": "https://item.szlcsc.com/datasheet/GRM1555C1H3R3CA01D/78095.html"
+      },
+      {
+        "id": "b119b0ca35159cc4",
+        "key": "Value",
+        "before": "",
+        "after": "3.3pF"
+      },
+      {
+        "id": "e91e2a448b71b93b",
+        "key": "Voltage Rating",
+        "before": "",
+        "after": "50V"
+      },
+      {
+        "id": "5ead55cbb5742853",
+        "key": "Temperature Coefficient",
+        "before": "",
+        "after": "C0G"
+      },
+      {
+        "id": "7e5fbcf08142608e",
+        "key": "Description",
+        "before": "",
+        "after": "容值:3.3pF;额定电压:50V;温度系数:C0G;"
+      }
+    ],
+    "saved": true,
+    "details": [
+      {
+        "type": "warn",
+        "count": 3
+      }
+    ]
+  },
+  "windowId": "140dbe58-557a-4c51-9302-8ce58effb02e"
+}

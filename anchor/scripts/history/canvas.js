@@ -1,0 +1,1 @@
+const bounds=await eda.dmt_EditorControl.zoomToAllPrimitives();const f=await eda.dmt_EditorControl.getCurrentRenderedAreaImage();if(!f)throw Error('No render');const a=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<a.length;i+=8192)s+=String.fromCharCode(...a.slice(i,i+8192));return {bounds,mime:f.type,data:btoa(s)};

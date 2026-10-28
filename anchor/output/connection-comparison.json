@@ -1,0 +1,15 @@
+{
+  "schema": "anchor-pin-comparison-v1",
+  "actual_source": "actual-netlist-final.json",
+  "expected_pins": 204,
+  "expected_components": 50,
+  "actual_components": 50,
+  "differences": [],
+  "result": "PASS",
+  "limitations": [
+    "NC verified separately from saved instance pin states; blank export alone is insufficient.",
+    "No populated multipart devices; no hidden symbol pins among selected parts, verified from library records.",
+    "Only Basic assembly variant is used. Y1 is excluded from assembly BOM pending crystal qualification.",
+    "Repeated footprint pad numbers are reconciled separately against embedded native library records."
+  ]
+}

@@ -1,0 +1,1 @@
+return {doc:await eda.dmt_SelectControl.getCurrentDocumentInfo(),pins:await eda.sch_PrimitivePin.getAll(),rects:await eda.sch_PrimitiveRectangle.getAll()};

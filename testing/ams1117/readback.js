@@ -1,0 +1,1 @@
+const comps=await eda.sch_PrimitiveComponent.getAll();const o=[];for(const c of comps){const ref=c.getState_Designator();if(ref)o.push({ref,pins:await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())});}return {pins:o,wires:await eda.sch_PrimitiveWire.getAll(),components:comps,source:await eda.sys_FileManager.getDocumentSource()};

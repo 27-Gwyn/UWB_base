@@ -1,0 +1,867 @@
+{
+  "success": true,
+  "result": {
+    "placed": [
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "e5bfb244b1579421",
+          "componentType": "part",
+          "x": 200,
+          "y": 700,
+          "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+          "rotation": 0,
+          "mirror": true,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "7caf64c9dd126d1b",
+            "name": "B-2100S02P-A110"
+          },
+          "symbol": {
+            "uuid": "0be9011a300688b7",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "210S-1*2P L=11.6MMGold-plated black"
+          },
+          "footprint": {
+            "uuid": "8a65267b832be694",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_2P-P2.54-V-M-1"
+          },
+          "designator": "J1",
+          "name": "={Manufacturer Part}",
+          "uniqueId": "",
+          "manufacturer": "Ckmtw(灿科盟)",
+          "manufacturerId": "B-2100S02P-A110",
+          "supplier": "LCSC",
+          "supplierId": "C124375",
+          "otherProperty": {
+            "LCSC Part Name": "1x2P 间距:2.54mm 方针 直插",
+            "Supplier Footprint": "插件,P=2.54mm",
+            "JLCPCB Part Class": "Extended Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/B-2100S02P-A110/125650.html",
+            "Pin Structure": "1x2P",
+            "Pitch": "2.54mm",
+            "Row Spacing": "-",
+            "Circluar Pins/Square Pins": "方针",
+            "Mounting Type": "直插",
+            "Number of Rows": "单排",
+            "Number of Pins": "2P",
+            "Current Rating": "3A",
+            "Voltage Rating (Max)": "-",
+            "Length of Mating Pin": "6mm",
+            "Insulation Height": "2.54mm",
+            "Length of End Connection Pin": "3mm",
+            "Contact Material": "黄铜",
+            "Contact Plating": "金",
+            "Operating Temperature": "-40℃~+105℃",
+            "Color": "黑色",
+            "Description": "插针结构:1x2P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:2P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 220,
+            "y": 705,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 0,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e5bfb244b1579421-e5",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 220,
+            "y": 695,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 0,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e5bfb244b1579421-e9",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 179.5,
+          "maxX": 210.5,
+          "minY": 684.5,
+          "maxY": 715.5
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "990ade4ac6e4db7f",
+          "componentType": "part",
+          "x": 419.99999999999994,
+          "y": 600,
+          "subPartName": "CL21A106KAYNNNE.1",
+          "rotation": 90,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "43202af928f7a7e1",
+            "name": "CL21A106KAYNNNE_C15850"
+          },
+          "symbol": {
+            "uuid": "500dd518f1c0720a",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "CL21A106KAYNNNE"
+          },
+          "footprint": {
+            "uuid": "3684f06164e8bb07",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0805"
+          },
+          "designator": "C1",
+          "name": "={Value}",
+          "uniqueId": "",
+          "manufacturer": "SAMSUNG(三星)",
+          "manufacturerId": "CL21A106KAYNNNE",
+          "supplier": "LCSC",
+          "supplierId": "C15850",
+          "otherProperty": {
+            "LCSC Part Name": "10uF ±10% 25V",
+            "Supplier Footprint": "0805",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/CL21A106KAYNNNE/16532.html",
+            "Value": "10uF",
+            "Tolerance": "±10%",
+            "Voltage Rating": "25V",
+            "Temperature Coefficient": "X5R",
+            "Description": "容值:10uF;精度:±10%;额定电压:25V;温度系数:X5R;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 419.99999999999994,
+            "y": 620,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 90,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "990ade4ac6e4db7f-e4",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 419.99999999999994,
+            "y": 580,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 270,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "990ade4ac6e4db7f-e10",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 411.49999999999994,
+          "maxX": 428.49999999999994,
+          "minY": 589.5,
+          "maxY": 610.5
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "74d03250bc8df52f",
+          "componentType": "part",
+          "x": 559.9999999999999,
+          "y": 600.0000000000001,
+          "subPartName": "CC0603KRX7R9BB104.1",
+          "rotation": 90,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "de1160ca79d32a08",
+            "name": "CC0603KRX7R9BB104"
+          },
+          "symbol": {
+            "uuid": "991f0d242ef44f4b",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "CC0603KRX7R9BB104"
+          },
+          "footprint": {
+            "uuid": "272f6a8a87a2fa15",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "designator": "C2",
+          "name": "={Value}",
+          "uniqueId": "",
+          "manufacturer": "YAGEO(国巨)",
+          "manufacturerId": "CC0603KRX7R9BB104",
+          "supplier": "LCSC",
+          "supplierId": "C14663",
+          "otherProperty": {
+            "LCSC Part Name": "100nF ±10% 50V",
+            "Supplier Footprint": "0603",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+            "Value": "100nF",
+            "Tolerance": "±10%",
+            "Voltage Rating": "50V",
+            "Temperature Coefficient": "X7R",
+            "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 559.9999999999999,
+            "y": 580.0000000000001,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 270,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "74d03250bc8df52f-e1",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 559.9999999999999,
+            "y": 620.0000000000001,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 90,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "74d03250bc8df52f-e7",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 551.4999999999999,
+          "maxX": 568.4999999999999,
+          "minY": 589.5000000000001,
+          "maxY": 610.5000000000001
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "700f53e99a27bf7c",
+          "componentType": "part",
+          "x": 750,
+          "y": 700,
+          "subPartName": "pid8a0e77bacb214e",
+          "rotation": 0,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "aace98304b56d1df",
+            "name": "AMS1117-3.3_C6186"
+          },
+          "symbol": {
+            "uuid": "dff4243c09a73712",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "AMS1117-3.3"
+          },
+          "footprint": {
+            "uuid": "3a9b09a87c41bfd0",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+          },
+          "designator": "U1",
+          "name": "={Manufacturer Part}",
+          "uniqueId": "",
+          "manufacturer": "Advanced Monolithic Systems",
+          "manufacturerId": "AMS1117-3.3",
+          "supplier": "LCSC",
+          "supplierId": "C6186",
+          "otherProperty": {
+            "LCSC Part Name": "3.3V 1A 15V",
+            "Supplier Footprint": "SOT-223",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/AMS1117-3.3/6652.html",
+            "Output Configuration": "正极",
+            "Voltage - Supply": "15V",
+            "Output Voltage": "3.3V",
+            "Output Current": "1A",
+            "Power Supply Rejection Ratio (PSRR)": "72dB@(120Hz)",
+            "Voltage Dropout": "1.1V@(800mA)",
+            "standby current": "5mA",
+            "Noise": "0.003%Vout",
+            "Features": "短路保护；热关断；过流保护",
+            "Operating Temperature": "-40℃~+125℃",
+            "Output Type": "固定",
+            "Number of Outputs": "1",
+            "Description": "输出极性:正极;工作电压:15V;输出电压:3.3V;输出电流:1A;电源纹波抑制比(PSRR):72dB@(120Hz);输出类型:固定;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 705,
+            "y": 710,
+            "pinNumber": "1",
+            "pinName": "GND",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "700f53e99a27bf7c-e2",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 705,
+            "y": 700,
+            "pinNumber": "2",
+            "pinName": "VOUT",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "700f53e99a27bf7c-e6",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 705,
+            "y": 690,
+            "pinNumber": "3",
+            "pinName": "VIN",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "700f53e99a27bf7c-e10",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 795,
+            "y": 700,
+            "pinNumber": "4",
+            "pinName": "VOUT",
+            "rotation": 0,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "700f53e99a27bf7c-e14",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 714.5,
+          "maxX": 785.5,
+          "minY": 679.5,
+          "maxY": 720.5
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "1dd75ba57f8eee92",
+          "componentType": "part",
+          "x": 999.9999999999999,
+          "y": 600.0000000000001,
+          "subPartName": "T491B226K010AT.1",
+          "rotation": 90,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "9cf5528261ee9068",
+            "name": "T491B226K010AT"
+          },
+          "symbol": {
+            "uuid": "58651d016c199531",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "T491B226K010AT"
+          },
+          "footprint": {
+            "uuid": "e3fb07fe2f97bf12",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "CAP-SMD_L3.5-W2.8-R-RD"
+          },
+          "designator": "C3",
+          "name": "={Value}",
+          "uniqueId": "",
+          "manufacturer": "KEMET(基美)",
+          "manufacturerId": "T491B226K010AT",
+          "supplier": "LCSC",
+          "supplierId": "C117030",
+          "otherProperty": {
+            "LCSC Part Name": "22uF ±10% 10V",
+            "Supplier Footprint": "CASE-B-3528-21(mm)",
+            "JLCPCB Part Class": "Extended Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/T491B226K010AT/118288.html",
+            "Value": "22uF",
+            "Tolerance": "±10%",
+            "Voltage Rating": "10V",
+            "Equivalent Series Resistance(ESR)": "2Ω@100kHz",
+            "Operating Temperature": "-55℃~+125℃",
+            "Description": "容值:22uF;精度:±10%;额定电压:10V;等效串联电阻(ESR):2Ω@100kHz;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 999.9999999999999,
+            "y": 585.0000000000001,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 270,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "IN",
+            "primitiveId": "1dd75ba57f8eee92-e4",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 999.9999999999999,
+            "y": 615.0000000000001,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 90,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "IN",
+            "primitiveId": "1dd75ba57f8eee92-e8",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 991.4999999999999,
+          "maxX": 1008.4999999999999,
+          "minY": 589.5000000000001,
+          "maxY": 605.5000000000001
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "18bb9175cd0fa5aa",
+          "componentType": "part",
+          "x": 1150,
+          "y": 600.0000000000001,
+          "subPartName": "CC0603KRX7R9BB104.1",
+          "rotation": 90,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "de1160ca79d32a08",
+            "name": "CC0603KRX7R9BB104"
+          },
+          "symbol": {
+            "uuid": "991f0d242ef44f4b",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "CC0603KRX7R9BB104"
+          },
+          "footprint": {
+            "uuid": "272f6a8a87a2fa15",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "designator": "C4",
+          "name": "={Value}",
+          "uniqueId": "",
+          "manufacturer": "YAGEO(国巨)",
+          "manufacturerId": "CC0603KRX7R9BB104",
+          "supplier": "LCSC",
+          "supplierId": "C14663",
+          "otherProperty": {
+            "LCSC Part Name": "100nF ±10% 50V",
+            "Supplier Footprint": "0603",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+            "Value": "100nF",
+            "Tolerance": "±10%",
+            "Voltage Rating": "50V",
+            "Temperature Coefficient": "X7R",
+            "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1150,
+            "y": 580.0000000000001,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 270,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "18bb9175cd0fa5aa-e1",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1150,
+            "y": 620.0000000000001,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 90,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "18bb9175cd0fa5aa-e7",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 1141.5,
+          "maxX": 1158.5,
+          "minY": 589.5000000000001,
+          "maxY": 610.5000000000001
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "483fcc950aa98592",
+          "componentType": "part",
+          "x": 1490,
+          "y": 700,
+          "subPartName": "210S-1*2P L=11.6MMGold-plated black.1",
+          "rotation": 0,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "7caf64c9dd126d1b",
+            "name": "B-2100S02P-A110"
+          },
+          "symbol": {
+            "uuid": "0be9011a300688b7",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "210S-1*2P L=11.6MMGold-plated black"
+          },
+          "footprint": {
+            "uuid": "8a65267b832be694",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_2P-P2.54-V-M-1"
+          },
+          "designator": "J2",
+          "name": "={Manufacturer Part}",
+          "uniqueId": "",
+          "manufacturer": "Ckmtw(灿科盟)",
+          "manufacturerId": "B-2100S02P-A110",
+          "supplier": "LCSC",
+          "supplierId": "C124375",
+          "otherProperty": {
+            "LCSC Part Name": "1x2P 间距:2.54mm 方针 直插",
+            "Supplier Footprint": "插件,P=2.54mm",
+            "JLCPCB Part Class": "Extended Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/B-2100S02P-A110/125650.html",
+            "Pin Structure": "1x2P",
+            "Pitch": "2.54mm",
+            "Row Spacing": "-",
+            "Circluar Pins/Square Pins": "方针",
+            "Mounting Type": "直插",
+            "Number of Rows": "单排",
+            "Number of Pins": "2P",
+            "Current Rating": "3A",
+            "Voltage Rating (Max)": "-",
+            "Length of Mating Pin": "6mm",
+            "Insulation Height": "2.54mm",
+            "Length of End Connection Pin": "3mm",
+            "Contact Material": "黄铜",
+            "Contact Plating": "金",
+            "Operating Temperature": "-40℃~+105℃",
+            "Color": "黑色",
+            "Description": "插针结构:1x2P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:2P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1470,
+            "y": 705,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "483fcc950aa98592-e5",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1470,
+            "y": 695,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "483fcc950aa98592-e9",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 1479.5,
+          "maxX": 1510.5,
+          "minY": 684.5,
+          "maxY": 715.5
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "7c98d6f8c5531d13",
+          "componentType": "part",
+          "x": 1320,
+          "y": 560,
+          "subPartName": "0603WAF1001T5E.1",
+          "rotation": 0,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "dae4d2500c03f196",
+            "name": "0603WAF1001T5E"
+          },
+          "symbol": {
+            "uuid": "96ea5a6f6ee37762",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "bbb7703721638b8a",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "designator": "R1",
+          "name": "={Value}",
+          "uniqueId": "",
+          "manufacturer": "UNI-ROYAL(厚声)",
+          "manufacturerId": "0603WAF1001T5E",
+          "supplier": "LCSC",
+          "supplierId": "C21190",
+          "otherProperty": {
+            "LCSC Part Name": "1kΩ ±1% 100mW 厚膜电阻",
+            "Supplier Footprint": "0603",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1001T5E/21904.html",
+            "Type": "厚膜电阻",
+            "Value": "1kΩ",
+            "Tolerance": "±1%",
+            "Power(Watts)": "100mW",
+            "Voltage-Supply(Max)": "75V",
+            "Temperature Coefficient": "±100ppm/℃",
+            "Operating Temperature": "-55℃~+155℃",
+            "Description": "电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1340,
+            "y": 560,
+            "pinNumber": "2",
+            "pinName": "2",
+            "rotation": 0,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "IN",
+            "primitiveId": "7c98d6f8c5531d13-e3",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1300,
+            "y": 560,
+            "pinNumber": "1",
+            "pinName": "1",
+            "rotation": 180,
+            "pinLength": 10,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "IN",
+            "primitiveId": "7c98d6f8c5531d13-e7",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 1309.5,
+          "maxX": 1330.5,
+          "minY": 555.5,
+          "maxY": 564.5
+        }
+      },
+      {
+        "component": {
+          "async": true,
+          "primitiveType": "Component",
+          "primitiveId": "58d04db35b79075e",
+          "componentType": "part",
+          "x": 1320,
+          "y": 419.99999999999994,
+          "subPartName": "KT-0603R.1",
+          "rotation": 90,
+          "mirror": false,
+          "addIntoBom": true,
+          "addIntoPcb": true,
+          "net": "",
+          "component": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "87f630a6e49999f1",
+            "name": "KT-0603R"
+          },
+          "symbol": {
+            "uuid": "68ba1016fd73ad3c",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "KT-0603R"
+          },
+          "footprint": {
+            "uuid": "ebaf98d2603563c7",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "LED-SMD_L1.6-W0.8-R-RD"
+          },
+          "designator": "D1",
+          "name": "={Manufacturer Part}",
+          "uniqueId": "",
+          "manufacturer": "KENTO",
+          "manufacturerId": "KT-0603R",
+          "supplier": "LCSC",
+          "supplierId": "C2286",
+          "otherProperty": {
+            "LCSC Part Name": "0603 红灯 高亮",
+            "Supplier Footprint": "0603",
+            "JLCPCB Part Class": "Basic Part",
+            "Datasheet": "https://item.szlcsc.com/datasheet/KT-0603R/2659.html",
+            "Lamp Holder Type": "1.6mmx0.8mm方形灯头",
+            "Illumination Color": "红色",
+            "Voltage - Forward(Vf)": "1.8V~2.4V",
+            "Power(Watts)": "40mW",
+            "Forward Current": "20mA",
+            "Wavelength - Dominant": "615nm~630nm",
+            "Peak Wavelength": "645nm",
+            "Diode Configuration": "独立二极管",
+            "Lens Color": "无色透明透镜",
+            "Color Temperature": "-",
+            "Luminous Intensity": "300mcd",
+            "Viewing Angle": "120°",
+            "Mounting Style": "-",
+            "Operating Temperature": "-40℃~+85℃",
+            "Description": "灯头类型:1.6mmx0.8mm方形灯头;发光颜色:红色;正向压降(Vf):1.8V~2.4V;功率:40mW;正向电流:20mA;波长:615nm~630nm;二极管配置:独立二极管;透镜颜色:无色透明透镜;色温:-;发光强度:300mcd;发光角度:120°;载带方式:-;工作温度:-40℃~+85℃;"
+          }
+        },
+        "pins": [
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1320,
+            "y": 399.99999999999994,
+            "pinNumber": "2",
+            "pinName": "K",
+            "rotation": 270,
+            "pinLength": 15,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "58d04db35b79075e-e5",
+            "noConnected": false
+          },
+          {
+            "async": true,
+            "primitiveType": "ComponentPin",
+            "x": 1320,
+            "y": 439.99999999999994,
+            "pinNumber": "1",
+            "pinName": "A",
+            "rotation": 90,
+            "pinLength": 15,
+            "pinColor": null,
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "58d04db35b79075e-e11",
+            "noConnected": false
+          }
+        ],
+        "bbox": {
+          "minX": 1302.5,
+          "maxX": 1328.5,
+          "minY": 404.49999999999994,
+          "maxY": 425.49999999999994
+        }
+      }
+    ]
+  },
+  "windowId": "72983aeb-262d-4053-8e2c-559c96969711"
+}

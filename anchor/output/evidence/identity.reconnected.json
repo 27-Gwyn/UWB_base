@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "result": {
+    "version": "3.2.149.88089769",
+    "projectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+    "doc": {
+      "documentType": 1,
+      "uuid": "a2ae37ea91715ac4",
+      "tabId": "a2ae37ea91715ac4@2ceff1de2cdb41d6a9101840f44c2b87",
+      "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+    },
+    "boards": [
+      {
+        "pcb": {
+          "itemType": "PCB",
+          "uuid": "a456c9db5ecb73a6",
+          "name": "PCB1",
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Tag"
+        },
+        "uuid": "7e4e5a7583645aed",
+        "name": "Tag",
+        "zIndex": 1,
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "d17e44ae3e07a7d0",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "9964ccdae00bdeb6",
+              "name": "p1",
+              "parentSchematicUuid": "d17e44ae3e07a7d0",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Tag",
+          "name": "schematic1"
+        },
+        "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+      },
+      {
+        "pcb": {
+          "itemType": "PCB",
+          "uuid": "4073973915e05746",
+          "name": "PCB2",
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Anchor"
+        },
+        "uuid": "972ce89fb0e827ad",
+        "name": "Anchor",
+        "zIndex": 3,
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "fff8ecc88c1d6f03",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "a2ae37ea91715ac4",
+              "name": "anchor",
+              "parentSchematicUuid": "fff8ecc88c1d6f03",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87",
+          "parentBoardName": "Anchor",
+          "name": "schematic2"
+        },
+        "parentProjectUuid": "2ceff1de2cdb41d6a9101840f44c2b87"
+      }
+    ]
+  },
+  "windowId": "140dbe58-557a-4c51-9302-8ce58effb02e"
+}

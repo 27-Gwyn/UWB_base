@@ -1,0 +1,4 @@
+interface:
+  display_name: "理想原理图风格"
+  short_description: "依据个人参考原理图，在嘉立创 EDA 专业版中组织布局、连线与标注"
+  default_prompt: "使用 $ideal-schematic-style，在嘉立创 EDA 专业版中按我的已确认偏好绘制或重排原理图，并交付实际预览及分项验证结果。"

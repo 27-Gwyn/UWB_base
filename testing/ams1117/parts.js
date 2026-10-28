@@ -1,0 +1,1 @@
+const ids=['C6186','C15850','C14663','C21190','C2286','C117030','C124376'];const o={};for(const id of ids)o[id]=await eda.lib_Device.getByLcscIds(id,undefined,true);return o;

@@ -1,0 +1,1 @@
+const t=await eda.lib_Footprint.openInEditor('20c29e37a9b84b4197418483096f9c05','0819f05c4eef4c71ace90d822a990e87');await new Promise(r=>setTimeout(r,1200));return {tab:t,doc:await eda.dmt_SelectControl.getCurrentDocumentInfo(),source:await eda.sys_FileManager.getDocumentSource()};

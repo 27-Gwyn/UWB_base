@@ -1,0 +1,78 @@
+{
+  "schema": "pcba-program-state-v1",
+  "project_id": "UWB/Anchor/2ceff1de2cdb41d6a9101840f44c2b87",
+  "updated_at": "2026-10-28T14:19:35.345251+00:00",
+  "stages": {
+    "product_definition": {
+      "status": "PASS",
+      "evidence": [
+        "product-brief.yaml",
+        "User scope and explicit DRAFT decisions"
+      ]
+    },
+    "sourcing": {
+      "status": "BLOCKED",
+      "evidence": []
+    },
+    "circuit": {
+      "status": "BLOCKED",
+      "evidence": [
+        "output/final-checks.json",
+        "circuit-review.md"
+      ],
+      "reason": "Antenna, crystal qualification and power margins remain unresolved; not a fabrication release"
+    },
+    "schematic_visual": {
+      "status": "PASS",
+      "evidence": [
+        "output/visual-audit.json",
+        "output/Anchor_DRAFT_A3.pdf"
+      ]
+    },
+    "placement": {
+      "status": "BLOCKED",
+      "evidence": []
+    },
+    "routing": {
+      "status": "BLOCKED",
+      "evidence": []
+    },
+    "manufacturing_release": {
+      "status": "BLOCKED",
+      "evidence": []
+    },
+    "assembly_placement": {
+      "status": "BLOCKED",
+      "evidence": []
+    },
+    "order": {
+      "status": "BLOCKED",
+      "evidence": []
+    }
+  },
+  "artifacts": {
+    "native_project": "eda/UWB_Anchor_DRAFT.epro2",
+    "schematic": "output/Anchor_DRAFT_A3.pdf",
+    "checks": "output/final-checks.json"
+  },
+  "risks": [
+    "Antenna geometry/matching not designed",
+    "Crystal ESR conflict; Y1 DNP",
+    "USB/AMS1117 current, thermal and transient validation pending",
+    "BOM sourcing not frozen"
+  ],
+  "approvals": {
+    "design_critical_substitution": "PENDING",
+    "assembly_placement": "PENDING",
+    "final_price": "PENDING",
+    "payment": "PENDING"
+  },
+  "approval_evidence": {
+    "design_critical_substitution": [],
+    "assembly_placement": [],
+    "final_price": [],
+    "payment": []
+  },
+  "manual_browser_edits_present": false,
+  "invalidation_log": []
+}
